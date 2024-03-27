@@ -16,6 +16,9 @@ const router = createRouter({
         { path: 'courseList', name: 'CourseList', component: () => import('@/views/manager/CourseList.vue')},
         { path: 'studentCourse', name: 'StudentCourse', component: () => import('@/views/manager/StudentCourse.vue')},
         { path: 'grade', name: 'Grade', component: () => import('@/views/manager/Grade.vue')},
+        { path: 'templateListForStu', name: 'TemplateListForStu', component: () => import('@/views/manager/TemplateListForStu.vue')},
+        { path: 'templateListForTea', name: 'TemplateListForTea', component: () => import('@/views/manager/TemplateListForTea.vue')},
+        {path: 'templateInfoForStu', name: 'TemplateInfoForStu', component: () => import('@/views/manager/TemplateInfoForStu.vue')},
       ]
     },
     { path: '/login', name: 'Login', component: () => import('@/views/Login.vue'),},

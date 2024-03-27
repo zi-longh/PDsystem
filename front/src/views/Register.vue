@@ -10,11 +10,19 @@
           <el-form-item prop="password">
             <el-input show-password prefix-icon="Lock" v-model="data.form.password"  placeholder="请输入密码" />
           </el-form-item>
+          <el-form-item prop="role">
+            <el-select style="width: 100%" v-model="data.form.role" placeholder="请选择账号类型" >
+              <el-option value="STUDENT" label="学生"></el-option>
+              <el-option value="TEACHER" label="教师"></el-option>
+            </el-select>
+          </el-form-item>
+
           <el-form-item>
             <el-button type="primary" style="width: 100%" @click="register">注 册</el-button>
           </el-form-item>
+
         </el-form>
-        <div style="margin-top: 30px; text-align: right">
+        <div style="margin-top: 30px; font-size: small; text-align: center">
           已有账号？请 <a href="/login">登录</a>
         </div>
       </div>
@@ -28,9 +36,9 @@ import request from "@/utils/request";
 import {ElMessage} from "element-plus";
 import router from "@/router";
 
-
 const data = reactive({
-  form: {}
+  form: {
+  }
 })
 
 const rules = reactive({
@@ -49,8 +57,12 @@ const register = () => {
     if (valid) {
       request.post('/register', data.form).then(res => {
         if (res.code === '200') {
-          ElMessage.success('注册成功')
-          router.push('/login') // 跳转到主页
+          ElMessage.success('成功注册账号：' + data.form.username)
+          localStorage.setItem('account-user', JSON.stringify(data.form))
+          console.log(res.data)
+
+
+          router.push('/login') // 跳转到登录页面
         } else {
           ElMessage.error(res.msg)
         }
@@ -67,13 +79,14 @@ const register = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("@/assets/imgs/bg1.jpg");
-  background-size: cover;
+  background-color: #f0f2f5;
+  //background-image: url("@/assets/imgs/bg1.jpg");
+  //background-size: cover;
 }
 .login-box {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 </style>

@@ -59,7 +59,7 @@ const login = () => {
     if (valid) {
       request.post('/login', data.form).then(res => {
         if (res.code === '200') {
-          localStorage.setItem('student-user', JSON.stringify(res.data))
+          localStorage.setItem('account-user', JSON.stringify(res.data))  // 保存用户信息
           ElMessage.success('登录成功')
           console.log(res.data)
           router.push('/home') // 跳转到主页

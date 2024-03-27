@@ -53,7 +53,7 @@ const data = reactive({
   total: 0,
   pageNum: 1,  // 当前的页码
   pageSize: 5,  // 每页的个数
-  student: JSON.parse(localStorage.getItem('student-user') || '{}')
+  student: JSON.parse(localStorage.getItem('account-user') || '{}')
 })
 
 const load = () => {

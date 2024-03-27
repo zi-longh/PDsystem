@@ -70,7 +70,7 @@ const data = reactive({
   total: 0,
   pageNum: 1,  // 当前的页码
   pageSize: 5,  // 每页的个数
-  user: JSON.parse(localStorage.getItem('student-user') || '{}'),
+  user: JSON.parse(localStorage.getItem('account-user') || '{}'),
   gradeForm: {},
   formVisible: false
 })

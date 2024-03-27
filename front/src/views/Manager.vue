@@ -3,8 +3,8 @@
     <div style="height: 60px; background-color: #fff; display: flex; align-items: center; border-bottom: 1px solid #ddd">
       <div style="flex: 1">
         <div style="padding-left: 20px; display: flex; align-items: center">
-          <img src="@/assets/imgs/logo.png" alt="" style="width: 40px">
-          <div style="font-weight: bold; font-size: 24px; margin-left: 5px">学生成绩管理系统</div>
+          <img src="@/assets/imgs/jnuLogo.png" alt="" style="width: 40px">
+          <div style="font-weight: bold; font-size: 24px; margin-left: 5px">论文格式检测</div>
         </div>
       </div>
       <div style="width: fit-content; padding-right: 10px; display: flex; align-items: center;">
@@ -28,8 +28,16 @@
           <el-sub-menu index="2">
             <template #title>
               <el-icon><Memo /></el-icon>
-              <span>课程管理</span>
+              <span>论文检测</span>
             </template>
+            <el-menu-item index="/templateListForStu" v-if="user.role === 'STUDENT'">
+              <el-icon><Document /></el-icon>
+              <span>论文模板信息</span>
+            </el-menu-item>
+            <el-menu-item index="/templateInfoForStu" v-if="user.role === 'STUDENT'">
+              <el-icon><Document /></el-icon>
+              <span>模板详情信息</span>
+            </el-menu-item>
             <el-menu-item index="/course" v-if="user.role === 'ADMIN'">
               <el-icon><Document /></el-icon>
               <span>课程信息</span>
@@ -71,6 +79,7 @@
             <el-icon><SwitchButton /></el-icon>
             <span>退出系统</span>
           </el-menu-item>
+
         </el-menu>
       </div>
 
@@ -85,10 +94,10 @@
 <script setup>
 import { useRoute } from 'vue-router'
 const $route = useRoute()
-const user = JSON.parse(localStorage.getItem('student-user') || '{}')
+const user = JSON.parse(localStorage.getItem('account-user') || '{}')
 
 const logout = () => {
-  localStorage.removeItem('student-user')
+  localStorage.removeItem('account-user')
 }
 </script>
 
@@ -101,5 +110,9 @@ const logout = () => {
 }
 :deep(th)  {
   color: #333;
+}
+
+span {
+  font-weight: bold;
 }
 </style>

@@ -51,7 +51,7 @@ import router from "@/router";
 import {Plus} from "@element-plus/icons-vue"
 
 const data = reactive({
-  form: JSON.parse(localStorage.getItem('student-user') || "{}")
+  form: JSON.parse(localStorage.getItem('account-user') || "{}")
 })
 
 const handleImgUploadSuccess = (res) => {
