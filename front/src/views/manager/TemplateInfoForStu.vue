@@ -18,7 +18,7 @@
               :value="item.templateName"
           />
         </el-select>
-        <el-button type="primary" style="margin-left: 10px" @click="load">查看</el-button>
+        <el-button type="primary" style="margin-left: 10px" @click="loadTemplateData">查看</el-button>
 
         <span style="margin-left: 15px">当前查看的模板名称：{{value}}</span>
       </p>
@@ -33,12 +33,12 @@
                 <h2>页面页眉页脚设置</h2>
               </template>
               <el-descriptions direction="vertical" column="9" border >
-                <el-descriptions-item label="正文前的页眉内容" span="3">暨南大学本科毕业设计（论文）</el-descriptions-item>
-                <el-descriptions-item label="正文和正文后的页眉内容" span="3">[你的论文标题]</el-descriptions-item>
+                <el-descriptions-item label="正文前的页眉内容" span="3">{{ templateData.pagesettingHeadercontent1 }}</el-descriptions-item>
+                <el-descriptions-item label="正文和正文后的页眉内容" span="3">{{ templateData.pagesettingHeadercontent2 }}</el-descriptions-item>
                 <el-descriptions-item label="页眉页脚字体类别" span="1">宋体</el-descriptions-item>
                 <el-descriptions-item label="页眉页脚字体大小" span="1">小五</el-descriptions-item>
                 <el-descriptions-item label="页眉内容位置" span="1">居中</el-descriptions-item>
-                <el-descriptions-item label="页上边距">2.5cm</el-descriptions-item>
+                <el-descriptions-item label="页上边距">{{ templateData.pagesettingTopmargin }}</el-descriptions-item>
                 <el-descriptions-item label="页下边距">2.5cm</el-descriptions-item>
                 <el-descriptions-item label="页左边距">2.5cm</el-descriptions-item>
                 <el-descriptions-item label="页右边距">2.5cm</el-descriptions-item>
@@ -69,6 +69,8 @@
                 <h2>诚信说明</h2>
               </template>
               <el-descriptions direction="vertical" column="9" border>
+                <el-descriptions-item label="诚信说明正文内容" span="9" >即“诚信说明”标题格式</el-descriptions-item>
+
                 <el-descriptions-item label="标题要求" width="300px" >即“诚信说明”标题格式</el-descriptions-item>
                 <el-descriptions-item label="中文字体">宋体</el-descriptions-item>
                 <el-descriptions-item label="英文字体">Times New Roman</el-descriptions-item>
@@ -309,7 +311,6 @@
 <script setup lang="ts">
 import {computed, reactive, ref} from "vue";
 import request from "@/utils/request";
-
 interface Template {
   templateId: string;
   templateName: string;
@@ -320,11 +321,11 @@ interface Template {
   description: string;
 }
 
-const value = ref('') // 设置默认值
+const value = ref("") // 设置默认值
 const options = reactive({
   templates: []
 })
-const templateData = reactive([]) // 模板数据
+let templateData = reactive([]) // 模板数据
 
 
 const activeNames = ref(['9', '10', '1','2','3','4','5']) // 控制展示框的默认展开项
@@ -336,14 +337,23 @@ const load = () => {
   request.get('/getTemplateListForStudent').then(res => {
     options.templates = res.data.filter((template: Template) => template.status === 1);
   });
+
+
 };
 
+load();  // 页面加载时加载数据
+
 const loadTemplateData = () => {
-  request.get('/getTemplateDataById').then(res => {
+  let x = value.value.split("-")[0].toString();
+  request.get('/getTemplateInfoById', {
+    params: {
+      template_id: x
+    }
+  }).then(res => {
     templateData = res.data;
   });
 };
 
-load();  // 页面加载时加载数据
+
 
 </script>
