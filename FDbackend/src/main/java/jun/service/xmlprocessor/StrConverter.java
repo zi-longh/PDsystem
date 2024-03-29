@@ -1,4 +1,4 @@
-package jnu.service.xmlprocessor;
+package jun.service.xmlprocessor;
 
 public class StrConverter {
     /**
@@ -158,4 +158,17 @@ public class StrConverter {
         }
         return readableString;
     }
+
+    public static String marginToReadableString(String margin){
+        // 1cm = 567
+        String readableString;
+        double marginDouble = Double.parseDouble(margin);
+        double marginCm = marginDouble / 567;
+        // 保留一位小数
+        String marginCmStr = String.format("%.1f", marginCm);
+        readableString = marginCmStr + "厘米";
+        return readableString;
+    }
+
+
 }

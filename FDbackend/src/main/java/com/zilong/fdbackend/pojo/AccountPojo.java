@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @TableName(value = "account")
-public class Account {
+public class AccountPojo {
 
     @TableId(value = "username")
     private String username;

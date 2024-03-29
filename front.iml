@@ -2,7 +2,14 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/front" />
+    <content url="file://$MODULE_DIR$/front">
+      <excludeFolder url="file://$MODULE_DIR$/front/node_modules/@element-plus" />
+    </content>
+    <content url="file://$MODULE_DIR$/front/node_modules/@element-plus" />
+    <content url="file://$MODULE_DIR$/front/node_modules/unplugin-vue-components" />
+    <content url="file://$MODULE_DIR$/front/node_modules/vite" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="element-plus" level="application" />
+    <orderEntry type="library" name="vue" level="application" />
   </component>
 </module>

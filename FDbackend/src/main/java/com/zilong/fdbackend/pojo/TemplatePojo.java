@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @TableName(value = "template")
-public class Template {
+public class TemplatePojo {
 
     @TableId(value = "template_id")
     private String templateId;

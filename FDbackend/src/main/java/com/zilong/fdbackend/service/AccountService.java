@@ -2,7 +2,7 @@ package com.zilong.fdbackend.service;
 
 import com.zilong.fdbackend.exception.CustomException;
 import com.zilong.fdbackend.mapper.AccountMapper;
-import com.zilong.fdbackend.pojo.Account;
+import com.zilong.fdbackend.pojo.AccountPojo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,19 +12,31 @@ public class AccountService {
     @Autowired
     AccountMapper accountMapper;
 
-    public Account login(Account account) {
-        Account dbAccount = accountMapper.selectById(account.getUsername());
-        if (dbAccount == null) {
+    public AccountPojo login(AccountPojo accountPojo) {
+        AccountPojo dbAccountPojo = accountMapper.selectById(accountPojo.getUsername());
+        if (dbAccountPojo == null) {
             throw new CustomException("账号不存在！");
         }
-        if (!account.getPassword().equals(dbAccount.getPassword())) {
+        if (!accountPojo.getPassword().equals(dbAccountPojo.getPassword())) {
             throw new CustomException("账号密码错误！");
         }
-        return dbAccount;
+        if (!accountPojo.getRole().equals(dbAccountPojo.getRole())) {
+            throw new CustomException("账号类型错误！");
+        }
+        return dbAccountPojo;
+    }
+
+    public AccountPojo register(AccountPojo accountPojo) {
+        AccountPojo dbAccountPojo = accountMapper.selectById(accountPojo.getUsername());
+        if (dbAccountPojo != null) {
+            throw new CustomException("账号已存在！");
+        }
+        accountMapper.insert(accountPojo);
+        return accountPojo;
     }
 
     public void addAccount(String username, String password, String accountType) {
-        accountMapper.insert(new Account(username, password, accountType));
+        accountMapper.insert(new AccountPojo(username, password, accountType));
     }
 
     public void deleteAccount(String username) {

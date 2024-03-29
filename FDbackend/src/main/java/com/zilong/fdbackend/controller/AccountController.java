@@ -1,7 +1,8 @@
 package com.zilong.fdbackend.controller;
 
 import com.zilong.fdbackend.common.Result;
-import com.zilong.fdbackend.pojo.Account;
+import com.zilong.fdbackend.exception.CustomException;
+import com.zilong.fdbackend.pojo.AccountPojo;
 import com.zilong.fdbackend.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,9 +17,24 @@ public class AccountController {
     AccountService accountService;
 
     @RequestMapping(value = "login", method = RequestMethod.POST)
-    public Result login(@RequestBody Account account){
-        Account dbAccount = accountService.login(account);
-        return Result.success(dbAccount);
+    public Result login(@RequestBody AccountPojo accountPojo){
+        AccountPojo dbAccountPojo;
+        try{
+            dbAccountPojo = accountService.login(accountPojo);
+            return Result.success(dbAccountPojo);
+        } catch (CustomException e) {
+            return Result.error(e.getMsg());
+        }
+    }
+
+    @RequestMapping(value = "register", method = RequestMethod.POST)
+    public Result register(@RequestBody AccountPojo accountPojo){
+        try{
+            accountService.register(accountPojo);
+            return Result.success();
+        } catch (CustomException e) {
+            return Result.error(e.getMsg());
+        }
     }
 
 
