@@ -1,13 +1,11 @@
 <template>
   <div>
     <div class="card" style="margin-bottom: 10px">
-      <h2>
-        论文模板信息
-        <el-button type="primary" style="margin-left: 10px" @click="load">刷新</el-button>
-      </h2>
-      <p>
-        学生请仔细阅读论文模板信息，选择正确的模板进行论文格式检测，模板详细信息请见模板详情页。
+      <p style="margin: 5px;">
+        <span style="font-size: 24px; font-weight: bold">论文模板信息 </span>
+        <el-button type="primary" style="margin-left: 10px; margin-bottom: 10px" @click="load">刷新</el-button>
       </p>
+      <p style="margin: 5px;">学生请仔细阅读论文模板信息，选择正确的模板进行论文格式检测，模板详细信息请见模板详情页。</p>
     </div>
 
     <div class="card" style="margin-bottom: 10px">
