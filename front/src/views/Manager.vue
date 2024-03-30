@@ -38,6 +38,14 @@
               <el-icon><Document /></el-icon>
               <span>模板详情信息</span>
             </el-menu-item>
+            <el-menu-item index="/paperDetection" >
+              <el-icon><Document /></el-icon>
+              <span>论文检测</span>
+            </el-menu-item>
+            <el-menu-item index="/history" >
+              <el-icon><Document /></el-icon>
+              <span>检测历史</span>
+            </el-menu-item>
             <el-menu-item index="/course" v-if="user.role === 'ADMIN'">
               <el-icon><Document /></el-icon>
               <span>课程信息</span>
@@ -71,7 +79,7 @@
               <span>学生信息</span>
             </el-menu-item>
           </el-sub-menu>
-          <el-menu-item index="/person" v-if="user.role === 'STUDENT'">
+          <el-menu-item index="/personInfoForStu" v-if="user.role === 'STUDENT'">
             <el-icon><User /></el-icon>
             <span>个人资料</span>
           </el-menu-item>

@@ -20,6 +20,11 @@
           <el-table-column prop="createTime" label="创建时间" sortable/>
           <el-table-column prop="updateTime" label="最近更新时间" sortable/>
           <el-table-column prop="description" label="模板描述"/>
+          <el-table-column label="操作" width="150">
+            <template #default="scope">
+              <el-button type="primary" @click="selectTemplate(scope)">查看详情</el-button>
+            </template>
+          </el-table-column>
         </el-table>
       </div>
 
@@ -31,6 +36,7 @@
 <script lang="ts" setup>
 import {reactive} from "vue";
 import request from "@/utils/request";
+import router from "@/router";
 
 interface Template {
   templateId: string;
@@ -53,5 +59,16 @@ const load = () => {
 };
 
 load();  // 页面加载时加载数据
+
+const selectTemplate = (scope) => {
+
+  // 保存选中的模板id和模板名称
+  localStorage.setItem('templateId', scope.row.templateId);
+  localStorage.setItem('templateName', scope.row.templateName);
+
+  // 跳转到论文检测页面
+  router.push('/templateInfoForStu')
+};
+
 
 </script>

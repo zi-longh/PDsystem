@@ -1,4 +1,4 @@
-package jun.service.xmlprocessor;
+package jnu.service.xmlprocessor;
 
 public class StrConverter {
     /**
@@ -169,6 +169,4 @@ public class StrConverter {
         readableString = marginCmStr + "厘米";
         return readableString;
     }
-
-
 }
