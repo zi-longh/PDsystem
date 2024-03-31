@@ -14,18 +14,26 @@
             :data="data.records"
             :default-sort="{ prop: 'update_time', order: 'descending' }"
             style="width: 100%" height="620">
-          <el-table-column prop="paperName" label="论文中文标题" sortable />
+          <el-table-column prop="paperName" label="论文中文标题" sortable/>
           <el-table-column prop="paperEnglishName" label="论文英文标题" sortable/>
           <el-table-column prop="templateId" label="检测模板" sortable/>
           <el-table-column prop="detectTime" label="检测时间" sortable/>
-          <el-table-column prop="status" label="检测结果" sortable/>
-          <el-table-column prop="isSentToTeacher" label="发送导师"/>
-          <el-table-column label="删除记录">
+          <el-table-column prop="status" label="检测结果" sortable>
             <template #default="scope">
-              <el-button type="primary" @click="selectTemplate(scope)">删除</el-button>
+              <el-tag >{{ scope.row.status }}</el-tag>
             </template>
           </el-table-column>
-          <el-table-column label="下载检测报告">
+          <el-table-column prop="isSendToTeacher" label="发送导师">
+            <template #default="scope">
+              <el-tag>{{ scope.row.isSendToTeacher }}</el-tag>
+            </template>
+          </el-table-column>
+          <el-table-column label="删除记录">
+            <template #default="scope">
+              <el-button type="primary" @click="deleteRecord(scope)">删除</el-button>
+            </template>
+          </el-table-column>
+          <el-table-column label="下载检测报告" width="230">
             <template #default="scope">
               <el-button type="primary" @click="selectTemplate(scope)">下载docx</el-button>
               <el-button type="primary" @click="selectTemplate(scope)">下载pdf</el-button>
@@ -42,7 +50,7 @@
 <script lang="ts" setup>
 import {reactive} from "vue";
 import request from "@/utils/request";
-import router from "@/router";
+import {ElMessage} from "element-plus";
 
 interface DetectRecord {
   recordId: string
@@ -54,7 +62,7 @@ interface DetectRecord {
   paperEnglishName: string
   resultFileName: string
   resultPDF: string
-  isSentToTeacher: string
+  isSendToTeacher: string
 
 }
 
@@ -63,14 +71,33 @@ const data = reactive({
 });
 
 const load = () => {
-  request.get('/getHistory').then(res => {
+  const account = localStorage.getItem('account-user');
+  const username = JSON.parse(account).username;
+  request.get('/getHistoryByUsername', {
+    params: {
+      username: username
+    }
+  }).then(res => {
+    data.records = res.data;
+  });
+
+};
+load();  // 页面加载时加载数据
+
+const deleteRecord = (scope: any) => {
+  request.post('/deleteRecordById', scope.row.recordId
+  ).then(res => {
+    if(res.code === '200') {
+      // 删除成功
+      console.log('删除成功');
+      ElMessage.success('删除成功')
+      load();
+    }else{
+      ElMessage.error('删除失败')
+    }
 
   });
 };
-
-load();  // 页面加载时加载数据
-
-
 
 
 </script>

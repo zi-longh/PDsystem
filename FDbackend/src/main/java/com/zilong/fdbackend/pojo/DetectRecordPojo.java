@@ -16,14 +16,31 @@ public class DetectRecordPojo {
     @TableId(value = "record_id")
     private String recordId;
 
-    private String name;
+    @TableField(value = "username")
+    private String username;
 
-    @TableField(value = "student_id")
-    private String studentId;
+    @TableField(value = "template_id")
+    private String templateId;
 
-    private String grade;
-    private String major;
-    private String department;
-    private String instructor;
+    @TableField(value = "detect_time")
+    private String detectTime;
+
+    @TableField(value = "status")
+    private String status;
+
+    @TableField(value = "paperName")
+    private String paperName;
+
+    @TableField(value = "paperEnglishName")
+    private String paperEnglishName;
+
+    @TableField(value = "resultFileName")
+    private String resultFileName;
+
+    @TableField(value = "resultPDF")
+    private String resultPDF;
+
+    @TableField(value = "isSendToTeacher")
+    private String isSendToTeacher;
 
 }

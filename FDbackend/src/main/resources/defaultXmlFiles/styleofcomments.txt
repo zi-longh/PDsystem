@@ -1,0 +1,82 @@
+<w:style w:type="paragraph" w:default="1" w:styleId="p">
+    <w:name w:val="detection normal" />
+    <w:autoRedefine />
+    <w:qFormat />
+    <w:pPr>
+        <w:widowControl w:val="0" />
+        <w:jc w:val="both" />
+    </w:pPr>
+    <w:rPr>
+        <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia"
+                  w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi" />
+        <w:sz w:val="21" />
+        <w:szCs w:val="22" />
+    </w:rPr>
+</w:style>
+
+<w:style w:type="character" w:default="1" w:styleId="p0">
+<w:name w:val="detection default font" />
+<w:uiPriority w:val="1" />
+<w:semiHidden />
+<w:unhideWhenUsed />
+</w:style>
+
+<w:style w:type="character" w:styleId="p3">
+<w:name w:val="annotation reference" />
+<w:basedOn w:val="p0" />
+<w:rsid w:val="003E7903" />
+<w:rPr>
+    <w:sz w:val="21" />
+    <w:szCs w:val="21" />
+</w:rPr>
+</w:style>
+
+<w:style w:type="paragraph" w:styleId="p4">
+<w:name w:val="annotation text" />
+<w:basedOn w:val="p" />
+<w:link w:val="p5" />
+<w:rsid w:val="003E7903" />
+<w:pPr>
+    <w:jc w:val="left" />
+</w:pPr>
+</w:style>
+
+<w:style w:type="character" w:customStyle="1" w:styleId="p5">
+<w:name w:val="批注文字 字符" />
+<w:basedOn w:val="p0" />
+<w:link w:val="p4" />
+<w:rsid w:val="003E7903" />
+<w:rPr>
+    <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia"
+              w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi" />
+    <w:sz w:val="21" />
+    <w:szCs w:val="22" />
+</w:rPr>
+</w:style>
+
+<w:style w:type="paragraph" w:styleId="p6">
+<w:name w:val="annotation subject" />
+<w:basedOn w:val="p4" />
+<w:next w:val="p4" />
+<w:link w:val="p7" />
+<w:rsid w:val="003E7903" />
+<w:rPr>
+    <w:b />
+    <w:bCs />
+</w:rPr>
+</w:style>
+
+<w:style w:type="character" w:customStyle="1" w:styleId="p7">
+<w:name w:val="批注主题 字符" />
+<w:basedOn w:val="p5" />
+<w:link w:val="p6" />
+<w:rsid w:val="003E7903" />
+<w:rPr>
+    <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia"
+              w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi" />
+    <w:b />
+    <w:bCs />
+    <w:sz w:val="21" />
+    <w:szCs w:val="22" />
+</w:rPr>
+</w:style>

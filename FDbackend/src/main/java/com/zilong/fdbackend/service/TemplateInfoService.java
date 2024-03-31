@@ -1,7 +1,7 @@
 package com.zilong.fdbackend.service;
 
 import com.zilong.fdbackend.mapper.TemplateInfoMapper;
-import com.zilong.fdbackend.pojo.TemplateInfoForStr;
+import com.zilong.fdbackend.pojo.forStr.TemplateInfoForStr;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

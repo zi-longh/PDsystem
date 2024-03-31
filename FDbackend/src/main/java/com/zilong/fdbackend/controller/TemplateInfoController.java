@@ -1,7 +1,7 @@
 package com.zilong.fdbackend.controller;
 
 import com.zilong.fdbackend.common.Result;
-import com.zilong.fdbackend.pojo.TemplateInfoForStr;
+import com.zilong.fdbackend.pojo.forStr.TemplateInfoForStr;
 import com.zilong.fdbackend.service.TemplateInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
