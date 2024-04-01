@@ -10,6 +10,7 @@ import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+import static com.zilong.fdbackend.controller.FileController.ROOT_PATH;
 import static jnu.service.xmlprocessor.CommentOperation.clearComment;
 
 /**
@@ -25,7 +26,7 @@ public class DocxUtils {
      */
     public static String backUpDocxToSrcFileRecord(@NotNull Path docxPath) {
         String srcFileName = docxPath.getFileName().toString();
-        String newFilePath = "src/main/resources/srcFileRecord/" + srcFileName.substring(0, srcFileName.lastIndexOf(".")) + "_" + LocalDateTime.now().toString().replace(":", "-") + ".docx";
+        String newFilePath = ROOT_PATH + "/srcFileRecord/" + srcFileName.substring(0, srcFileName.lastIndexOf(".")) + "_" + LocalDateTime.now().toString().replace(":", "-") + ".docx";
         try {
             if (docxPath.toString().endsWith(".doc")) {
                 Document doc = new Document(docxPath.toString());
@@ -72,7 +73,7 @@ public class DocxUtils {
         // step2: 解压docx文件到xmlProcess文件夹
         Path path = Paths.get(newFilePath);
         String fileName = path.getFileName().toString().substring(0, path.getFileName().toString().lastIndexOf("."));
-        String destDirectory = "src/main/resources/xmlProcess/" + fileName;
+        String destDirectory = "files/xmlProcess/" + fileName;
         try {
             ZipUtil.unZipFile(newFilePath, destDirectory);
         } catch (Exception e) {
@@ -98,13 +99,13 @@ public class DocxUtils {
 
         String status;
         if (paperDtcResult == 0) {
-            status = "[检测通过]";
+            status = "(检测通过)";
         } else if (paperDtcResult == 1) {
-            status = "[检测通过(有修改建议)]";
+            status = "(检测通过但有修改建议)";
         } else {
-            status = "[待修改]";
+            status = "(待修改)";
         }
-        String filePath = "src/main/resources/outputFileRecord/" + status + fileName + ".docx";
+        String filePath = ROOT_PATH + "/outputFileRecord/" + status + fileName + ".docx";
         ZipUtil.zipDirectory(targetDocxDirectory, filePath);
         System.out.println("压缩成功，压缩后的文件路径为：" + filePath);
 
@@ -134,13 +135,13 @@ public class DocxUtils {
      * 将docx文件转换为pdf文件，且不包含批注
      * 先把docx文件的批注删除，然后再转换为pdf文件
      * */
-    public static void docxToPdf(String xmlDirectory, int docxEndCommentNum) {
+    public static String docxToPdf(String xmlDirectory, int docxEndCommentNum) {
         String fileName = Paths.get(xmlDirectory).getFileName().toString();
         clearComment(xmlDirectory, docxEndCommentNum);  //删除批注
         // 将清楚批注后的xml文件压缩为docx文件，再将docx文件转换为pdf文件，最后删除docx文件
-        String docxPath = "src/main/resources/pdf/" + fileName + ".docx";
+        String docxPath = ROOT_PATH + "/pdf/" + fileName + ".docx";
         ZipUtil.zipDirectory(xmlDirectory, docxPath);
-        String pdfPath = "src/main/resources/pdf/" + fileName + ".pdf";
+        String pdfPath = ROOT_PATH + "/pdf/" + fileName + ".pdf";
         long old = System.currentTimeMillis();
         try {
             FileOutputStream os = new FileOutputStream(pdfPath);
@@ -154,8 +155,7 @@ public class DocxUtils {
             e.printStackTrace();
             System.err.println("转换pdf文件失败");
         }
-
-
+        return fileName + ".pdf";
     }
 
 

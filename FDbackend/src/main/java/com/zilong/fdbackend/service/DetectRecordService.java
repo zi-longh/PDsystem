@@ -26,7 +26,7 @@ public class DetectRecordService {
         return Result.success(recordListForStr);
     }
 
-    public Result deleteRecordById(String recordId) {
+    public Result deleteRecordById(int recordId) {
         if (detectRecordMapper.deleteById(recordId) == 1) {
             return Result.success();
         } else {
@@ -34,6 +34,9 @@ public class DetectRecordService {
         }
     }
 
+    public void addRecord(DetectRecordPojo record) {
+        detectRecordMapper.insert(record);
+    }
 
 
 }

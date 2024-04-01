@@ -6,7 +6,8 @@
       </p>
       <p style="margin-left: 4px">
         <span style="margin-left: 5px">选择检测模板：</span>
-        <el-select v-model="value" clearable placeholder="请选择您要使用的检测模板" style="width: 400px;">
+        <el-select v-model="inputData.templateValue" clearable placeholder="请选择您要使用的检测模板"
+                   style="width: 400px;">
           <el-option
               v-for="item in options.templates"
               :key="item.templateId"
@@ -17,24 +18,29 @@
       </p>
       <p style="margin-left: 4px">
         <span style="margin-left: 5px">输入您的论文中文标题：</span>
-        <el-input v-model="inputForChinese" style="width: 335px" placeholder="请输入论文中文标题" clearable/>
+        <el-input v-model="inputData.inputForChinese" style="width: 335px" placeholder="请输入论文中文标题" clearable/>
       </p>
       <p style="margin-left: 4px">
         <span style="margin-left: 5px">输入您的论文英文标题：</span>
-        <el-input v-model="inputForEnglish" style="width: 335px" placeholder="Please input paper name" clearable/>
+        <el-input v-model="inputData.inputForEnglish" style="width: 335px" placeholder="Please input paper name"
+                  clearable/>
       </p>
       <p style="margin-left: 4px">
         <span style="margin-left: 5px">若检测通过则提交到指导老师：</span>
-        <el-switch v-model="sendToTeacher"/>
+        <el-switch v-model="inputData.sendToTeacher"/>
       </p>
       <p style="margin-left: 4px">
         <el-upload
-            ref="upload"
+            ref="uploadFile"
+            v-model:file-list="fileList"
             class="upload-demo"
-            action="https://run.mocky.io/v3/9d059bf9-4660-45f2-925d-ce80ad6c4d15"
+            action="http://localhost:9090/files/upload"
             :limit="1"
             :on-exceed="handleExceed"
             :auto-upload="false"
+            :on-success="handleSuccess"
+
+
         >
           <template #trigger>
             <el-button type="primary">选择上传论文</el-button>
@@ -45,7 +51,7 @@
             </div>
           </template>
 
-          <el-button class="ml-3" type="primary" color="#626aef" @click="submitUpload"
+          <el-button class="ml-3" type="primary" color="#626aef" @click="submitAndDetect(inputData)"
                      style="margin-left: 20px; height: 33px; inline-size: auto">
             开始论文格式检测
           </el-button>
@@ -54,7 +60,7 @@
       </p>
     </div>
 
-    <div class="card" style="height: 400px"> <!--v-if="data.isHaveNewData"-->
+    <div class="card" style="height: 400px" v-if = "data.isHaveNewData" > <!---->
 
       <el-descriptions class="margin-top" :column="5" :size="size" border>
         <template #title>
@@ -63,18 +69,37 @@
         <template #extra>
           <el-button type="primary" @click="moveToHistory">查看更多检测记录</el-button>
         </template>
+
         <el-descriptions-item>
+          <template #label><div class="cell-item"><el-icon :style="iconStyle"><user/></el-icon>Username</div></template>
+          {{ data.newDetectData.username }}
+        </el-descriptions-item>
+
+        <el-descriptions-item span="2">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
-                <user/>
+                <tickets/>
               </el-icon>
-              Username
+              论文中文名称
             </div>
           </template>
-          kooriookami
+          {{ data.newDetectData.paperName }}
         </el-descriptions-item>
-        <el-descriptions-item>
+
+        <el-descriptions-item span="2">
+          <template #label>
+            <div class="cell-item">
+              <el-icon :style="iconStyle">
+                <tickets/>
+              </el-icon>
+              论文英文名称
+            </div>
+          </template>
+          {{ data.newDetectData.paperEnglishName }}
+        </el-descriptions-item>
+
+        <el-descriptions-item >
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -83,8 +108,9 @@
               检测时间
             </div>
           </template>
-          2024年3月30日14:33:09
+          {{ data.newDetectData.detectTime }}
         </el-descriptions-item>
+
         <el-descriptions-item>
           <template #label>
             <div class="cell-item">
@@ -94,8 +120,9 @@
               选择的模板
             </div>
           </template>
-          202020-模板
+          {{data.newDetectData.templateId}}
         </el-descriptions-item>
+
         <el-descriptions-item>
           <template #label>
             <div class="cell-item">
@@ -105,8 +132,9 @@
               检测结果
             </div>
           </template>
-          <el-tag size="small">检测通过</el-tag>
+          <el-tag size="small">{{ data.newDetectData.status }}</el-tag>
         </el-descriptions-item>
+
         <el-descriptions-item>
           <template #label>
             <div class="cell-item">
@@ -116,30 +144,10 @@
               发送导师
             </div>
           </template>
-          <el-tag size="small">否</el-tag>
+          <el-tag size="small">{{ data.newDetectData.isSendToTeacher }}</el-tag>
         </el-descriptions-item>
-        <el-descriptions-item>
-          <template #label>
-            <div class="cell-item">
-              <el-icon :style="iconStyle">
-                <tickets/>
-              </el-icon>
-              论文中文名称
-            </div>
-          </template>
-          论文中文名称
-        </el-descriptions-item>
-        <el-descriptions-item>
-          <template #label>
-            <div class="cell-item">
-              <el-icon :style="iconStyle">
-                <tickets/>
-              </el-icon>
-              论文英文名称
-            </div>
-          </template>
-          论文英文名称
-        </el-descriptions-item>
+
+
 
         <el-descriptions-item>
           <template #label>
@@ -147,14 +155,25 @@
               <el-icon :style="iconStyle">
                 <Download/>
               </el-icon>
-
               下载检测报告
             </div>
           </template>
-          检测结果下载，pdf下载
+          <el-button type="primary" @click="downloadDocx" v-if = "data.newDetectData.status != '未知状态'">下载检测报告</el-button>
+          <el-button type="primary" @click="downloadPDF" v-if = "data.newDetectData.status === '检测通过(可修改)' || data.newDetectData.status === '检测通过'">下载PDF</el-button>
         </el-descriptions-item>
       </el-descriptions>
-      <p>抱歉，您的论文并未通过检测，请下载检测报告，根据批注提示修改论文格式。</p>
+      <p v-if = "data.newDetectData.status === '检测通过'">
+        恭喜你，您的论文已通过检测！
+      </p>
+      <p v-if = "data.newDetectData.status === '检测通过(可修改)'">
+        您的论文已通过检测，但仍存在可以优化的地方，建议您下载检测报告，根据批注提示修改论文格式。
+      </p>
+      <p v-if = "data.newDetectData.status === '不通过'">
+        抱歉，您的论文并未通过检测，请下载检测报告，根据批注提示修改论文格式。
+      </p>
+      <p v-if = "data.newDetectData.status === '未知状态'">
+        论文检测状态未知，请联系管理员。
+      </p>
     </div>
 
 
@@ -180,9 +199,9 @@
 <script setup lang="ts">
 import {computed, reactive, ref} from "vue";
 import request from "@/utils/request";
-import type {UploadInstance, UploadProps, UploadRawFile} from 'element-plus'
-import {genFileId} from 'element-plus'
+import {ElMessage, genFileId, UploadInstance, UploadProps, UploadRawFile, UploadUserFile} from 'element-plus'
 import router from "@/router";
+
 
 interface Template {
   templateId: string;
@@ -194,10 +213,12 @@ interface Template {
   description: string;
 }
 
-const value = ref("") // 设置论文模板选择框默认值
-const inputForChinese = ref("") // 设置论文标题输入框默认值
-const inputForEnglish = ref("") // 设置论文标题输入框默认值
-const sendToTeacher = ref(false) // 设置是否提交到指导老师默认值
+const inputData = reactive({
+  templateValue: "",
+  inputForChinese: "",
+  inputForEnglish: "",
+  sendToTeacher: false
+})
 const data = reactive({
   isHaveNewData: false,
   newDetectData: {
@@ -210,7 +231,7 @@ const data = reactive({
     paperEnglishName: '',
     resultFileName: '',
     resultPDF: '',
-    isSentToTeacher: ''
+    isSendToTeacher: ''
   }
 })
 const size = ref('default')
@@ -225,13 +246,9 @@ const iconStyle = computed(() => {
     marginRight: marginMap[size.value] || marginMap.default,
   }
 })
-
-
 const options = reactive({
   templates: []
 })
-// let templateData:{ TemplateInfo: string } = {
-// };
 
 
 const load = () => {
@@ -247,17 +264,89 @@ const init = () => {
 }
 init()
 
-const upload = ref<UploadInstance>()
+const uploadFile = ref<UploadInstance>()
+
+const fileList = ref<UploadUserFile[]>([])
+
 const handleExceed: UploadProps['onExceed'] = (files) => {
-  upload.value!.clearFiles()
+  ElMessage.error('最多只能上传一个文件！')
+  // 清空已上传的文件
+
+  uploadFile.value!.clearFiles()
   const file = files[0] as UploadRawFile
   file.uid = genFileId()
-  upload.value!.handleStart(file)
+  uploadFile.value!.handleStart(file)
+
+}
+const submitAndDetect = (inputData) => {
+
+  // 若有未填写的信息，则提示用户
+  if (!inputData.templateValue){
+    ElMessage.error("请选择检测模板！")
+    return
+  }
+  if (!inputData.inputForChinese){
+    ElMessage.error("请输入论文中文标题！")
+    return
+  }
+  if (!inputData.inputForEnglish){
+    ElMessage.error("请输入论文英文标题！")
+    return
+  }
+
+  // 如果没有选择文件，则提示用户
+  if (fileList.value.length == 0) {
+    ElMessage.error("请上传您的论文文件！")
+    return
+  }
+  /* 提交并检测论文 */
+  uploadFile.value.submit()
+  // 这里不能过快删除文件
 }
 
-const submitUpload = () => {
-  upload.value!.submit()
+const handleSuccess = (res, file) => {
+  let filePath = ref('')
+  let accountData = JSON.parse(localStorage.getItem('account-user') || "{}")
+  if (res.code === '200') {
+    ElMessage.success("文件上传成功！")
+    filePath = res.data.filePath
+    request.post('/files/detect',{
+      username: accountData.username,
+      templateId: inputData.templateValue.split('-')[0],
+      paperName: inputData.inputForChinese,
+      paperEnglishName: inputData.inputForEnglish,
+      docFilePath:  filePath,
+      sendToTeacher: inputData.sendToTeacher
+    }).then(res => {
+      if (res.code === '200') {
+        ElMessage.success("文件检测成功！")
+        data.isHaveNewData = true
+        data.newDetectData = res.data
+      } else {
+        ElMessage.error(res.msg)
+      }
+    })
+
+  } else {
+    ElMessage.error(res.msg)
+  }
+  uploadFile.value!.clearFiles()
+
 }
+
+const downloadDocx = () => {
+  // 下载docx文件
+  // 在新窗口打开下载链接
+  window.open('http://localhost:9090/files/download?fileName=' + data.newDetectData.resultFileName)
+  // window.open('http://localhost:9090/files/download?fileName=(待修改)wps测试论文2_2024-04-01T17-33-30.863999.docx')
+}
+
+const downloadPDF = () => {
+  // 下载pdf文件
+  // 在新窗口打开下载链接
+  window.open('http://localhost:9090/files/downloadPDF?fileName=' + data.newDetectData.resultPDF)
+}
+
 
 const moveToHistory = () => {
   /* 跳转到历史记录 */

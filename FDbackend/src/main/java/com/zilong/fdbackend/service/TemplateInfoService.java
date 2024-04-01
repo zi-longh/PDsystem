@@ -12,7 +12,7 @@ public class TemplateInfoService {
     TemplateInfoMapper templateInfoMapper;
 
     public TemplateInfoForStr getTemplateInfoById(String template_id) {
-        System.out.println("template_id: " + template_id);
+//        System.out.println("template_id: " + template_id);
         return new TemplateInfoForStr(templateInfoMapper.selectById(template_id));
     }
 

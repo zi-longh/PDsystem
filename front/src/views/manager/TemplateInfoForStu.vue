@@ -20,7 +20,7 @@
         </el-select>
         <el-button type="primary" style="margin-left: 10px" @click="loadTemplateData">查看</el-button>
 
-        <span style="margin-left: 15px">当前查看的模板名称：{{ value }}</span>
+        <span style="margin-left: 15px">当前查看的模板名称：{{ newValue }}</span>
       </p>
     </div>
 
@@ -595,6 +595,7 @@ interface TemplateInfo {
 }
 
 const value = ref("") // 设置默认值
+const newValue = ref("") // 当前查看的论文模板
 const options = reactive({
   templates: []
 })
@@ -630,8 +631,8 @@ const loadTemplateData = () => {
   }).then(res => {
     data.templateData = res.data;
   });
-
   activeNames.value = ['9', '10', '1', '2', '3', '4', '5', '6', '7', '8'];
+  newValue.value = value.value;
 };
 
 const init = () => {

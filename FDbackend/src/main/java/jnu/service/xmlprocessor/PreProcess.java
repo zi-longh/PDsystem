@@ -14,6 +14,8 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Objects;
 
+import static com.zilong.fdbackend.controller.FileController.ROOT_PATH;
+
 /**
  * 预处理
  * */
@@ -115,31 +117,31 @@ public class PreProcess {
         if (Files.exists(commentsPath)) {
             Files.delete(commentsPath);
         }
-        Files.copy(Paths.get("src/main/resources/defaultXmlFiles/comments.xml"), commentsPath);
+        Files.copy(Paths.get(ROOT_PATH+"/defaultXmlFiles/comments.xml"), commentsPath);
 
         Path header1Path = Paths.get(xmlDirectory + "/word/header1.xml");
         if (Files.exists(header1Path)) {
             Files.delete(header1Path);
         }
-        Files.copy(Paths.get("src/main/resources/defaultXmlFiles/header1.xml"), header1Path);
+        Files.copy(Paths.get(ROOT_PATH+"/defaultXmlFiles/header1.xml"), header1Path);
 
         Path header2Path = Paths.get(xmlDirectory + "/word/header2.xml");
         if (Files.exists(header2Path)) {
             Files.delete(header2Path);
         }
-        Files.copy(Paths.get("src/main/resources/defaultXmlFiles/header2.xml"), header2Path);
+        Files.copy(Paths.get(ROOT_PATH+"/defaultXmlFiles/header2.xml"), header2Path);
 
         Path footer1Path = Paths.get(xmlDirectory + "/word/footer1.xml");
         if (Files.exists(footer1Path)) {
             Files.delete(footer1Path);
         }
-        Files.copy(Paths.get("src/main/resources/defaultXmlFiles/footer1.xml"), footer1Path);
+        Files.copy(Paths.get(ROOT_PATH+"/defaultXmlFiles/footer1.xml"), footer1Path);
 
         Path footer2Path = Paths.get(xmlDirectory + "/word/footer2.xml");
         if (Files.exists(footer2Path)) {
             Files.delete(footer2Path);
         }
-        Files.copy(Paths.get("src/main/resources/defaultXmlFiles/footer2.xml"), footer2Path);
+        Files.copy(Paths.get(ROOT_PATH+"/defaultXmlFiles/footer2.xml"), footer2Path);
 
 
         SAXReader saxReader = new SAXReader();
@@ -267,7 +269,7 @@ public class PreProcess {
 
         /* 如果存在numbering设置，则在numbering中添加默认设置，并且在各级标题的样式设置中（即style.xml文件）设置编号 */
         if (isExistNumbering) {
-            String defaultStyleOfNumberingPath = "src/main/resources/defaultXmlFiles/numbering.txt";
+            String defaultStyleOfNumberingPath = ROOT_PATH+"/defaultXmlFiles/numbering.txt";
             String fileContent = new String(Files.readAllBytes(Paths.get(defaultStyleOfNumberingPath))); // 读取文件内容到字符串
             Document documentNumbering = saxReader.read(xmlDirectory + "/word/numbering.xml");
             // 把默认的编号样式添加到numbering.xml文件中
@@ -344,7 +346,7 @@ public class PreProcess {
 
         /*
         // 3.3在style.xml文件中添加批注样式，默认的批注样式在defaultXmlFiles文件夹下的styleofcomments.txt文件中
-        String defaultStyleOfCommentsPath = "src/main/resources/defaultXmlFiles/styleofcomments.txt";
+        String defaultStyleOfCommentsPath = ROOT_PATH+"/defaultXmlFiles/styleofcomments.txt";
         String fileContent = new String(Files.readAllBytes(Paths.get(defaultStyleOfCommentsPath))); // 读取文件内容到字符串
         Document documentStyle = saxReader.read(xmlDirectory + "/word/styles.xml");
         // 把默认的批注样式添加到style.xml文件中

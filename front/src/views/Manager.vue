@@ -46,29 +46,9 @@
               <el-icon><Document /></el-icon>
               <span>检测历史</span>
             </el-menu-item>
-            <el-menu-item index="/course" v-if="user.role === 'ADMIN'">
-              <el-icon><Document /></el-icon>
-              <span>课程信息</span>
-            </el-menu-item>
-            <el-menu-item index="/courseList" v-if="user.role === 'STUDENT'">
-              <el-icon><Document /></el-icon>
-              <span>学生选课</span>
-            </el-menu-item>
-            <el-menu-item index="/studentCourse">
-              <el-icon><Document /></el-icon>
-              <span>选课记录</span>
-            </el-menu-item>
+
           </el-sub-menu>
-          <el-sub-menu index="3">
-            <template #title>
-              <el-icon><Memo /></el-icon>
-              <span>成绩信息</span>
-            </template>
-            <el-menu-item index="/grade">
-              <el-icon><Document /></el-icon>
-              <span>学生成绩</span>
-            </el-menu-item>
-          </el-sub-menu>
+
           <el-sub-menu index="4" v-if="user.role === 'ADMIN'">
             <template #title>
               <el-icon><User /></el-icon>

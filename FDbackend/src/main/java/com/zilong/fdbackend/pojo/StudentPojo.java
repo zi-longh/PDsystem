@@ -16,17 +16,22 @@ public class StudentPojo {
     @TableId(value = "username")
     private String username;
 
+    @TableField(value = "name")
     private String name;
 
     @TableField(value = "student_id")
     private String studentId;
 
-    private String major;
-
+    @TableField(value = "grade")
     private String grade;
 
+    @TableField(value = "major")
+    private String major;
+
+    @TableField(value = "department")
     private String department;
 
+    @TableField(value = "instructor")
     private String instructor;
 
 }

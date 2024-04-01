@@ -18,25 +18,25 @@
           <el-table-column prop="paperEnglishName" label="论文英文标题" sortable/>
           <el-table-column prop="templateId" label="检测模板" sortable/>
           <el-table-column prop="detectTime" label="检测时间" sortable/>
-          <el-table-column prop="status" label="检测结果" sortable>
+          <el-table-column prop="status" label="检测结果" sortable width="110px">
             <template #default="scope">
               <el-tag >{{ scope.row.status }}</el-tag>
             </template>
           </el-table-column>
-          <el-table-column prop="isSendToTeacher" label="发送导师">
+          <el-table-column prop="isSendToTeacher" label="发送导师" width="100px">
             <template #default="scope">
               <el-tag>{{ scope.row.isSendToTeacher }}</el-tag>
             </template>
           </el-table-column>
-          <el-table-column label="删除记录">
+          <el-table-column label="删除记录" width="100px">
             <template #default="scope">
               <el-button type="primary" @click="deleteRecord(scope)">删除</el-button>
             </template>
           </el-table-column>
           <el-table-column label="下载检测报告" width="230">
             <template #default="scope">
-              <el-button type="primary" @click="selectTemplate(scope)">下载docx</el-button>
-              <el-button type="primary" @click="selectTemplate(scope)">下载pdf</el-button>
+              <el-button type="primary" @click="downloadDocx(scope)" v-if = "scope.row.status != '未知状态'">下载检测报告</el-button>
+              <el-button type="primary" @click="downloadPDF(scope)" v-if = "scope.row.status === '检测通过(可修改)' || scope.row.status === '检测通过'">下载PDF</el-button>
             </template>
           </el-table-column>
         </el-table>
@@ -98,6 +98,21 @@ const deleteRecord = (scope: any) => {
 
   });
 };
+
+const downloadDocx = (scope) => {
+  // 下载docx文件
+  // 在新窗口打开下载链接
+  window.open('http://localhost:9090/files/download?fileName=' + scope.row.resultFileName)
+  // window.open('http://localhost:9090/files/download?fileName=(待修改)wps测试论文2_2024-04-01T17-33-30.863999.docx')
+}
+
+const downloadPDF = (scope) => {
+  // 下载pdf文件
+  // 在新窗口打开下载链接
+  window.open('http://localhost:9090/files/downloadPDF?fileName=' + scope.row.resultPDF)
+}
+
+
 
 
 </script>

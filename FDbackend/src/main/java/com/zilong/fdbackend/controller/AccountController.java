@@ -37,6 +37,11 @@ public class AccountController {
         }
     }
 
+    @RequestMapping(value = "updatePassword", method = RequestMethod.POST)
+    public Result updatePassword(@RequestBody AccountPojo accountPojo){
+        return accountService.updatePassword(accountPojo);
+    }
+
 
 
 

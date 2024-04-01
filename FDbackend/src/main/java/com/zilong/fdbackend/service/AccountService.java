@@ -1,5 +1,7 @@
 package com.zilong.fdbackend.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.zilong.fdbackend.common.Result;
 import com.zilong.fdbackend.exception.CustomException;
 import com.zilong.fdbackend.mapper.AccountMapper;
 import com.zilong.fdbackend.pojo.AccountPojo;
@@ -41,6 +43,22 @@ public class AccountService {
 
     public void deleteAccount(String username) {
         accountMapper.deleteById(username);
+    }
+
+    public Result updatePassword(AccountPojo accountPojo) {
+        AccountPojo dbAccountPojo = accountMapper.selectById(accountPojo.getUsername());
+        if (dbAccountPojo == null) {
+            return Result.error("账号不存在！");
+        }
+        accountPojo.setRole(dbAccountPojo.getRole());
+        if (accountPojo.getPassword().equals(dbAccountPojo.getPassword())) {
+            return Result.error("新密码不能与旧密码相同！");
+        }
+        if (accountPojo.getPassword().length() < 1) {
+            return Result.error("密码不能为空！");
+        }
+        accountMapper.update(accountPojo, new QueryWrapper<AccountPojo>().eq("username", accountPojo.getUsername()));
+        return Result.success(accountPojo);
     }
 
 

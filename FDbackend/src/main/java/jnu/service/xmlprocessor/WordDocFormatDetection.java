@@ -2,6 +2,8 @@ package jnu.service.xmlprocessor;
 
 import jnu.template.*;
 import jnu.utils.DocxUtils;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.dom4j.*;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
@@ -10,6 +12,7 @@ import org.dom4j.io.XMLWriter;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -19,10 +22,11 @@ import static jnu.service.xmlprocessor.ElementCreator.*;
 import static jnu.service.xmlprocessor.ReferencesDetect.isReferenceValid;
 import static jnu.service.xmlprocessor.Utils.*;
 import static jnu.utils.DocxUtils.docxToPdf;
-
 /**
  * word文档处理类
  */
+@AllArgsConstructor
+@NoArgsConstructor
 public class WordDocFormatDetection {
     private Integer commentsNum; // 记录添加的批注数量，在开始检测时初始化为1, 0留给概述批注
     private Integer commentsNumOf1; // 记录自动修改的批注数量
@@ -33,21 +37,57 @@ public class WordDocFormatDetection {
     private String paperEnglishName; //论文英文名称
     private String templateId; // 模板id，若为空或“0”则表示使用默认模板
     private int paperDtcResult = -1; // 论文格式检测结果。 0检测通过，1通过但可修改，2不通过。 默认值为-1，表示未检测。
-    private String resultDocPath; // 处理后的文件路径，仅当paperDtcResult不为-1时有效。
+    private String resultDocxName; // 处理后的docx文件名，仅当paperDtcResult不为-1时有效。
+    private String resultPDFName; // 处理后的pdf文件名，仅当paperDtcResult=0时有效。
     private int docxEndCommentNum; // 记录文档末尾的批注数量
 
     private List<String> outlineList; // 记录论文的大纲，用于检测论文的目录是否符合要求
 
+    private String username; // 用户名
+
+    private String isSendToTeacher; // 是否发送给老师
+
 
     {
         /* 初始化块 */
-        this.commentsNum = 1;
+        commentsNum = 1;
         docxEndCommentNum = 0;
         outlineList = new ArrayList<>();
         commentsNumOf1 = 0;
         commentsNumOf2 = 0;
         commentsNumOf3 = 0;
 
+    }
+
+    public void init() {
+        commentsNum = 1;
+        docxEndCommentNum = 0;
+        outlineList = new ArrayList<>();
+        commentsNumOf1 = 0;
+        commentsNumOf2 = 0;
+        commentsNumOf3 = 0;
+        paperDtcResult = -1;
+        resultDocxName = null;
+        resultPDFName = null;
+    }
+
+    @Override
+    public String toString() {
+        return "WordDocFormatDetection{" +
+                "commentsNum=" + commentsNum +
+                ", commentsNumOf1=" + commentsNumOf1 +
+                ", commentsNumOf2=" + commentsNumOf2 +
+                ", commentsNumOf3=" + commentsNumOf3 +
+                ", docFilePath='" + docFilePath + '\'' +
+                ", paperName='" + paperName + '\'' +
+                ", paperEnglishName='" + paperEnglishName + '\'' +
+                ", templateId='" + templateId + '\'' +
+                ", paperDtcResult=" + paperDtcResult +
+                ", resultDocxName='" + resultDocxName + '\'' +
+                ", resultPDFName='" + resultPDFName + '\'' +
+                ", docxEndCommentNum=" + docxEndCommentNum +
+                ", outlineList=" + outlineList +
+                '}';
     }
 
     /* 其他方法 */
@@ -517,7 +557,7 @@ public class WordDocFormatDetection {
                                     }}, "建议修改批注", "整段");
                         }
 
-                        if(contentLength < AOCReq.getRecommendedMinContentLength() && AOCReq.getRecommendedMinContentLength() != 0) {
+                        if (contentLength < AOCReq.getRecommendedMinContentLength() && AOCReq.getRecommendedMinContentLength() != 0) {
                             // 添加建议修改批注
                             addComment(xmlDirectory, pElement,
                                     new ArrayList<String>() {{
@@ -547,7 +587,7 @@ public class WordDocFormatDetection {
                                     }}, "建议修改批注", "整段");
                         }
 
-                        if(keyWordNum < AOCReq.getRecommendedMinKeywordsCount() && AOCReq.getRecommendedMinKeywordsCount() != 0) {
+                        if (keyWordNum < AOCReq.getRecommendedMinKeywordsCount() && AOCReq.getRecommendedMinKeywordsCount() != 0) {
                             // 添加建议修改批注
                             addComment(xmlDirectory, pElement,
                                     new ArrayList<String>() {{
@@ -1603,8 +1643,7 @@ public class WordDocFormatDetection {
                         } else {
                             detectParagraphStyle(xmlDirectory, pElement, MainBody.contentName, req.getParagraphRep());
                         }
-                    }
-                    else {
+                    } else {
                         // 删除存在的编号设置，即<w:numPr>标签
                         Element pPrElement = pElement.element("pPr");
                         Element numPrElement = pPrElement.element("numPr");
@@ -2423,7 +2462,7 @@ public class WordDocFormatDetection {
         this.commentsNum = 1;
         String xmlDirectory = DocxUtils.unZipDocx(docFilePath);
         if (xmlDirectory == null) {
-            System.out.println("导入文件不是docx文件或doc文件，或已经损坏，请重新导入!");
+            System.out.println("startDetection: 文件不存在，或导入文件不是docx文件或doc文件，或已经损坏，请重新导入!");
             return;
         }
 
@@ -2444,7 +2483,6 @@ public class WordDocFormatDetection {
             throw new RuntimeException(e);
         }
 
-
         // step3: 对解压后的xml文件进行格式检测
         // 3.1 读取document.xml文件，识别出论文的各个部分，用特定的标记标签标识每个部分，以便之后分模块检测。即进行分块和内容定位。
         try {
@@ -2453,7 +2491,6 @@ public class WordDocFormatDetection {
             System.err.println("内容定位出错: " + e.getMessage());
             throw new RuntimeException(e);
         }
-
 
         // 3.2 检测论文的各个部分是否符合要求
         // 1. 检测“诚信声明”部分
@@ -2505,12 +2542,13 @@ public class WordDocFormatDetection {
         paperDtcResult = generateSummaryComment(xmlDirectory);
 
         // 将处理后的xml文件重新打包成docx文件
-        resultDocPath = DocxUtils.zipDocx(xmlDirectory, paperDtcResult);
-
+        String absolutePath = DocxUtils.zipDocx(xmlDirectory, paperDtcResult);
+        resultDocxName = Path.of(absolutePath).getFileName().toString();
+        System.out.println("处理后的docx：" + resultDocxName);
 
         // 如果没有问题，则给出pdf
         if (paperDtcResult == 0) {
-            docxToPdf(resultDocPath, docxEndCommentNum);
+        resultPDFName = docxToPdf(xmlDirectory, docxEndCommentNum);
         }
     }
 
@@ -2525,12 +2563,12 @@ public class WordDocFormatDetection {
      * @param paperName   论文名称
      * @param templateId  模板id
      */
-    public WordDocFormatDetection(String docFilePath, String paperName, String paperEnglishName, String templateId) {
+    public WordDocFormatDetection(String docFilePath, String paperName, String paperEnglishName, String templateId, String username) {
         this.docFilePath = docFilePath;
         this.paperName = paperName;
         this.templateId = templateId;
         this.paperEnglishName = paperEnglishName;
-        this.commentsNum = 0;
+        this.username = username;
     }
 
     /**
@@ -2615,8 +2653,8 @@ public class WordDocFormatDetection {
      *
      * @return 处理后的文件路径
      */
-    public String getResultDocPath() {
-        return resultDocPath;
+    public String getResultDocxName() {
+        return resultDocxName;
     }
 
     /**
@@ -2624,8 +2662,8 @@ public class WordDocFormatDetection {
      *
      * @param resultDocPath 处理后的文件路径
      */
-    public void setResultDocPath(String resultDocPath) {
-        this.resultDocPath = resultDocPath;
+    public void setResultDocxName(String resultDocPath) {
+        this.resultDocxName = resultDocPath;
     }
 
 
@@ -2662,5 +2700,29 @@ public class WordDocFormatDetection {
 
     public void setCommentsNum(Integer commentsNum) {
         this.commentsNum = commentsNum;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getResultPDFName() {
+        return resultPDFName;
+    }
+
+    public void setResultPDFName(String resultPDFName) {
+        this.resultPDFName = resultPDFName;
+    }
+
+    public String getIsSendToTeacher() {
+        return isSendToTeacher;
+    }
+
+    public void setIsSendToTeacher(String isSendToTeacher) {
+        this.isSendToTeacher = isSendToTeacher;
     }
 }
