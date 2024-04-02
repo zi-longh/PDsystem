@@ -20,10 +20,10 @@
           <el-table-column prop="detectTime" label="检测时间" sortable/>
           <el-table-column prop="status" label="检测结果" sortable width="110px">
             <template #default="scope">
-              <el-tag >{{ scope.row.status }}</el-tag>
+              <el-tag>{{ scope.row.status }}</el-tag>
             </template>
           </el-table-column>
-          <el-table-column prop="isSendToTeacher" label="发送导师" width="100px">
+          <el-table-column prop="isSendToTeacher" label="发送导师" width="100px" v-if="user.role === 'STUDENT'">
             <template #default="scope">
               <el-tag>{{ scope.row.isSendToTeacher }}</el-tag>
             </template>
@@ -35,8 +35,12 @@
           </el-table-column>
           <el-table-column label="下载检测报告" width="230">
             <template #default="scope">
-              <el-button type="primary" @click="downloadDocx(scope)" v-if = "scope.row.status != '未知状态'">下载检测报告</el-button>
-              <el-button type="primary" @click="downloadPDF(scope)" v-if = "scope.row.status === '检测通过(可修改)' || scope.row.status === '检测通过'">下载PDF</el-button>
+              <el-button type="primary" @click="downloadDocx(scope)" v-if="scope.row.status != '未知状态'">
+                下载检测报告
+              </el-button>
+              <el-button type="primary" @click="downloadPDF(scope)"
+                         v-if="scope.row.status === '检测通过(可修改)' || scope.row.status === '检测通过'">下载PDF
+              </el-button>
             </template>
           </el-table-column>
         </el-table>
@@ -63,16 +67,15 @@ interface DetectRecord {
   resultFileName: string
   resultPDF: string
   isSendToTeacher: string
-
+  teacherUsername: string
 }
 
 const data = reactive({
-  records: []
+  records: [],
 });
-
+const user = JSON.parse(localStorage.getItem('account-user') || '{}')
 const load = () => {
-  const account = localStorage.getItem('account-user');
-  const username = JSON.parse(account).username;
+  const username = user.username;
   request.get('/getHistoryByUsername', {
     params: {
       username: username
@@ -80,19 +83,18 @@ const load = () => {
   }).then(res => {
     data.records = res.data;
   });
-
 };
 load();  // 页面加载时加载数据
 
 const deleteRecord = (scope: any) => {
   request.post('/deleteRecordById', scope.row.recordId
   ).then(res => {
-    if(res.code === '200') {
+    if (res.code === '200') {
       // 删除成功
       console.log('删除成功');
       ElMessage.success('删除成功')
       load();
-    }else{
+    } else {
       ElMessage.error('删除失败')
     }
 
@@ -111,8 +113,6 @@ const downloadPDF = (scope) => {
   // 在新窗口打开下载链接
   window.open('http://localhost:9090/files/downloadPDF?fileName=' + scope.row.resultPDF)
 }
-
-
 
 
 </script>

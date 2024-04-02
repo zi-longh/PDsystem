@@ -44,4 +44,7 @@ public class DetectRecordPojo {
     @TableField(value = "isSendToTeacher")
     private String isSendToTeacher;
 
+    @TableField(value = "teacher_username")
+    private String teacherUsername;
+
 }

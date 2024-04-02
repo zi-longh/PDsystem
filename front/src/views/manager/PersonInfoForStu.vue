@@ -55,7 +55,6 @@ import {ref} from "vue";
 
 
 const data = reactive({
-  // teacherName: '',
   form: {
     username: '',
     password: '',
@@ -109,22 +108,17 @@ const loadInfo = () => {
       ElMessage.error("没有找到该学生信息！")
     }
   })
-
-
-
-
-
 }
 
 const reset = () => {
   loadInfo()
+  data.form.password = user.password
 }
 
+const user = JSON.parse(localStorage.getItem('account-user') || "{}")
 function init() {
-  let accountData = JSON.parse(localStorage.getItem('account-user') || "{}")
-  data.form.username = accountData.username
-  data.form.password = accountData.password
-
+  data.form.username = user.username
+  data.form.password = user.password
   request.get('getAllTeacher').then(res => {
     if (res.code !== '200') {
       ElMessage.error(res.msg)
@@ -133,7 +127,6 @@ function init() {
     data.teacherData = res.data
     ElMessage.success("已成功加载指导老师数据！")
   })
-
   loadInfo()
 }
 

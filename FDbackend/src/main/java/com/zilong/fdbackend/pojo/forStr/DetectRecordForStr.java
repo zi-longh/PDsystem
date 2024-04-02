@@ -46,6 +46,7 @@ public class DetectRecordForStr {
         this.resultFileName = detectRecordPojo.getResultFileName();
         this.resultPDF = detectRecordPojo.getResultPDF();
         this.isSendToTeacher = Objects.equals(detectRecordPojo.getIsSendToTeacher(), "1") ? "是" : "否";
+        this.teacherUsername = detectRecordPojo.getTeacherUsername();
     }
 
     private String recordId;
@@ -67,4 +68,6 @@ public class DetectRecordForStr {
     private String resultPDF;
 
     private String isSendToTeacher;
+
+    private String teacherUsername;
 }

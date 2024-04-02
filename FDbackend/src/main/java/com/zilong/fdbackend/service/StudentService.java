@@ -30,5 +30,9 @@ public class StudentService {
         }
     }
 
-    
+    public Result getAllStudentsInfo() {
+        return Result.success(studentMapper.selectList(null));
+    }
+
+
 }

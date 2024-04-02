@@ -120,11 +120,13 @@ public class FileController {
         detectRecordPojo.setStatus(Integer.toString(detector.getPaperDtcResult()));
         detectRecordPojo.setResultFileName(detector.getResultDocxName());
         detectRecordPojo.setResultPDF(detector.getResultPDFName());
-        if (detector.getPaperDtcResult() == 0 && Objects.equals(detector.getIsSendToTeacher(), "1")) {
+        if (detector.getPaperDtcResult() != 2 && Objects.equals(detector.getIsSendToTeacher(), "1")) {
             detectRecordPojo.setIsSendToTeacher("1");
+            detectRecordPojo.setTeacherUsername(detector.getTeacherUsername());
         } else {
             detectRecordPojo.setIsSendToTeacher("0");
         }
+
 
         detectRecordService.addRecord(detectRecordPojo);
         return Result.success(new DetectRecordForStr(detectRecordPojo));

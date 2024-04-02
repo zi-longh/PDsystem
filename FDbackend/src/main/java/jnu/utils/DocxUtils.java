@@ -150,7 +150,7 @@ public class DocxUtils {
             os.close();
             long now = System.currentTimeMillis();
             System.out.println("转化pdf共耗时：" + ((now - old) / 1000.0) + "秒");  //转化用时
-            Files.deleteIfExists(Paths.get(docxPath));  //删除docx文件
+//            Files.deleteIfExists(Paths.get(docxPath));  //删除docx文件
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("转换pdf文件失败");

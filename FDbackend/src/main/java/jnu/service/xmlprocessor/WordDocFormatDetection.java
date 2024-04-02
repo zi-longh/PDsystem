@@ -40,12 +40,10 @@ public class WordDocFormatDetection {
     private String resultDocxName; // 处理后的docx文件名，仅当paperDtcResult不为-1时有效。
     private String resultPDFName; // 处理后的pdf文件名，仅当paperDtcResult=0时有效。
     private int docxEndCommentNum; // 记录文档末尾的批注数量
-
     private List<String> outlineList; // 记录论文的大纲，用于检测论文的目录是否符合要求
-
     private String username; // 用户名
-
     private String isSendToTeacher; // 是否发送给老师
+    private String teacherUsername; // 老师用户名
 
 
     {
@@ -1340,7 +1338,7 @@ public class WordDocFormatDetection {
                         }},
                         "待修改批注",
                         "整段");
-            } else if (referenceContentStr.charAt(referenceContent.length() - 1) != '.') {
+            } else if (referenceContent.length() > 0 && referenceContentStr.charAt(referenceContent.length() - 1) != '.') {
                 addComment(
                         xmlDirectory,
                         pElement,
@@ -2547,7 +2545,7 @@ public class WordDocFormatDetection {
         System.out.println("处理后的docx：" + resultDocxName);
 
         // 如果没有问题，则给出pdf
-        if (paperDtcResult == 0) {
+        if (paperDtcResult == 0 || paperDtcResult == 1) {
         resultPDFName = docxToPdf(xmlDirectory, docxEndCommentNum);
         }
     }
@@ -2724,5 +2722,13 @@ public class WordDocFormatDetection {
 
     public void setIsSendToTeacher(String isSendToTeacher) {
         this.isSendToTeacher = isSendToTeacher;
+    }
+
+    public String getTeacherUsername() {
+        return teacherUsername;
+    }
+
+    public void setTeacherUsername(String teacherUsername) {
+        this.teacherUsername = teacherUsername;
     }
 }

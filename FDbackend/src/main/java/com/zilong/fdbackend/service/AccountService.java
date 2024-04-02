@@ -51,9 +51,9 @@ public class AccountService {
             return Result.error("账号不存在！");
         }
         accountPojo.setRole(dbAccountPojo.getRole());
-        if (accountPojo.getPassword().equals(dbAccountPojo.getPassword())) {
-            return Result.error("新密码不能与旧密码相同！");
-        }
+//        if (accountPojo.getPassword().equals(dbAccountPojo.getPassword())) {
+//            return Result.error("新密码不能与旧密码相同！");
+//        }
         if (accountPojo.getPassword().length() < 1) {
             return Result.error("密码不能为空！");
         }

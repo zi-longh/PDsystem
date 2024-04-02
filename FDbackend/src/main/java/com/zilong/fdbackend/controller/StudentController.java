@@ -19,11 +19,6 @@ public class StudentController {
     @RequestMapping(value = "/getStudentInfoByUsername", method = RequestMethod.POST)
     public Result getStudentInfoByUsername(@RequestBody StudentPojo stu) {
         String username = stu.getUsername();
-
-        System.out.println("-----------------getStudentInfoByUsername");
-        System.out.println("username: " + username);
-        System.out.println("-----------------getStudentInfoByUsername");
-
         return studentService.getStudentInfoByUsername(username);
     }
 
@@ -36,6 +31,11 @@ public class StudentController {
         stu.setInstructor(teacherUsername);
         // 更新学生信息
         return studentService.updateStudent(stu);
+    }
+
+    @RequestMapping(value = "/getAllStudentsInfo",method = RequestMethod.GET)
+    public Result getAllStudentsInfo(){
+        return studentService.getAllStudentsInfo();
     }
 
 

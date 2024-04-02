@@ -13,6 +13,7 @@ const router = createRouter({
         { path: 'course', name: 'Course', component: () => import('@/views/manager/Course.vue')},
         { path: 'student', name: 'Student', component: () => import('@/views/manager/Student.vue')},
         { path: 'personInfoForStu', name: 'PersonInfoForStu', component: () => import('@/views/manager/PersonInfoForStu.vue')},
+        { path: 'personInfoForTea', name: 'PersonInfoForTea', component: () => import('@/views/manager/PersonInfoForTea.vue')},
         { path: 'courseList', name: 'CourseList', component: () => import('@/views/manager/CourseList.vue')},
         { path: 'studentCourse', name: 'StudentCourse', component: () => import('@/views/manager/StudentCourse.vue')},
         { path: 'grade', name: 'Grade', component: () => import('@/views/manager/Grade.vue')},
@@ -21,6 +22,7 @@ const router = createRouter({
         {path: 'templateInfoForStu', name: 'TemplateInfoForStu', component: () => import('@/views/manager/TemplateInfoForStu.vue')},
         {path: 'paperDetection', name: 'PaperDetection', component: () => import('@/views/manager/PaperDetection.vue')},
         {path:'history',name:'History',component:()=>import('@/views/manager/History.vue')},
+        {path:'papersOfStu', name:'PapersOfStu', component:()=>import('@/views/manager/PapersOfStu.vue')},
       ]
     },
     { path: '/login', name: 'Login', component: () => import('@/views/Login.vue'),},

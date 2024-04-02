@@ -38,5 +38,14 @@ public class DetectRecordService {
         detectRecordMapper.insert(record);
     }
 
+    public Result getPapersOfStu(String username){
+        List<DetectRecordPojo> recordList = detectRecordMapper.selectList(new QueryWrapper<DetectRecordPojo>().eq("teacher_username", username));
+        List<DetectRecordForStr> recordListForStr = new ArrayList<>();
+        for (DetectRecordPojo record : recordList) {
+            recordListForStr.add(new DetectRecordForStr(record));
+        }
+        return Result.success(recordListForStr);
+    }
+
 
 }

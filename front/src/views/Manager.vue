@@ -28,7 +28,7 @@
           <el-sub-menu index="2">
             <template #title>
               <el-icon><Memo /></el-icon>
-              <span>论文检测</span>
+              <span>查看论文模板</span>
             </template>
             <el-menu-item index="/templateListForStu" v-if="user.role === 'STUDENT'">
               <el-icon><Document /></el-icon>
@@ -38,6 +38,13 @@
               <el-icon><Document /></el-icon>
               <span>模板详情信息</span>
             </el-menu-item>
+          </el-sub-menu>
+
+          <el-sub-menu index="3">
+            <template #title>
+              <el-icon><Memo /></el-icon>
+              <span>论文检测</span>
+            </template>
             <el-menu-item index="/paperDetection" >
               <el-icon><Document /></el-icon>
               <span>论文检测</span>
@@ -46,7 +53,6 @@
               <el-icon><Document /></el-icon>
               <span>检测历史</span>
             </el-menu-item>
-
           </el-sub-menu>
 
           <el-sub-menu index="4" v-if="user.role === 'ADMIN'">
@@ -63,11 +69,21 @@
             <el-icon><User /></el-icon>
             <span>个人资料</span>
           </el-menu-item>
+          <el-menu-item index="/papersOfStu" v-if="user.role === 'TEACHER'">
+            <el-icon><User /></el-icon>
+            <span>学生论文</span>
+          </el-menu-item>
+
+          <el-menu-item index="/personInfoForTea" v-if="user.role === 'TEACHER'">
+            <el-icon><User /></el-icon>
+            <span>个人资料</span>
+          </el-menu-item>
+
+
           <el-menu-item index="login" @click="logout">
             <el-icon><SwitchButton /></el-icon>
             <span>退出系统</span>
           </el-menu-item>
-
         </el-menu>
       </div>
 

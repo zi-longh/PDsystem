@@ -25,9 +25,10 @@
         <el-input v-model="inputData.inputForEnglish" style="width: 335px" placeholder="Please input paper name"
                   clearable/>
       </p>
-      <p style="margin-left: 4px">
+      <p style="margin-left: 4px" v-if = "user.role === 'STUDENT'">
         <span style="margin-left: 5px">若检测通过则提交到指导老师：</span>
         <el-switch v-model="inputData.sendToTeacher"/>
+          <span style="margin-left: 15px; font-style: italic; color: #888; font-size: small" > 提示：若没有绑定指导老师，请先到个人资料里绑定指导老师 </span>
       </p>
       <p style="margin-left: 4px">
         <el-upload
@@ -39,8 +40,6 @@
             :on-exceed="handleExceed"
             :auto-upload="false"
             :on-success="handleSuccess"
-
-
         >
           <template #trigger>
             <el-button type="primary">选择上传论文</el-button>
@@ -60,7 +59,7 @@
       </p>
     </div>
 
-    <div class="card" style="height: 400px" v-if = "data.isHaveNewData" > <!---->
+    <div class="card" style="height: 400px" v-if="data.isHaveNewData">
 
       <el-descriptions class="margin-top" :column="5" :size="size" border>
         <template #title>
@@ -71,7 +70,14 @@
         </template>
 
         <el-descriptions-item>
-          <template #label><div class="cell-item"><el-icon :style="iconStyle"><user/></el-icon>Username</div></template>
+          <template #label>
+            <div class="cell-item">
+              <el-icon :style="iconStyle">
+                <user/>
+              </el-icon>
+              Username
+            </div>
+          </template>
           {{ data.newDetectData.username }}
         </el-descriptions-item>
 
@@ -99,7 +105,7 @@
           {{ data.newDetectData.paperEnglishName }}
         </el-descriptions-item>
 
-        <el-descriptions-item >
+        <el-descriptions-item>
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -120,7 +126,7 @@
               选择的模板
             </div>
           </template>
-          {{data.newDetectData.templateId}}
+          {{ data.newDetectData.templateId }}
         </el-descriptions-item>
 
         <el-descriptions-item>
@@ -135,7 +141,7 @@
           <el-tag size="small">{{ data.newDetectData.status }}</el-tag>
         </el-descriptions-item>
 
-        <el-descriptions-item>
+        <el-descriptions-item v-if = "user.role === 'STUDENT'">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -147,8 +153,6 @@
           <el-tag size="small">{{ data.newDetectData.isSendToTeacher }}</el-tag>
         </el-descriptions-item>
 
-
-
         <el-descriptions-item>
           <template #label>
             <div class="cell-item">
@@ -158,20 +162,24 @@
               下载检测报告
             </div>
           </template>
-          <el-button type="primary" @click="downloadDocx" v-if = "data.newDetectData.status != '未知状态'">下载检测报告</el-button>
-          <el-button type="primary" @click="downloadPDF" v-if = "data.newDetectData.status === '检测通过(可修改)' || data.newDetectData.status === '检测通过'">下载PDF</el-button>
+          <el-button type="primary" @click="downloadDocx" v-if="data.newDetectData.status != '未知状态'">下载检测报告
+          </el-button>
+          <el-button type="primary" @click="downloadPDF"
+                     v-if="data.newDetectData.status === '检测通过(可修改)' || data.newDetectData.status === '检测通过'">
+            下载PDF
+          </el-button>
         </el-descriptions-item>
       </el-descriptions>
-      <p v-if = "data.newDetectData.status === '检测通过'">
+      <p v-if="data.newDetectData.status === '检测通过'">
         恭喜你，您的论文已通过检测！
       </p>
-      <p v-if = "data.newDetectData.status === '检测通过(可修改)'">
+      <p v-if="data.newDetectData.status === '检测通过(可修改)'">
         您的论文已通过检测，但仍存在可以优化的地方，建议您下载检测报告，根据批注提示修改论文格式。
       </p>
-      <p v-if = "data.newDetectData.status === '不通过'">
+      <p v-if="data.newDetectData.status === '不通过'">
         抱歉，您的论文并未通过检测，请下载检测报告，根据批注提示修改论文格式。
       </p>
-      <p v-if = "data.newDetectData.status === '未知状态'">
+      <p v-if="data.newDetectData.status === '未知状态'">
         论文检测状态未知，请联系管理员。
       </p>
     </div>
@@ -212,7 +220,6 @@ interface Template {
   status: number;
   description: string;
 }
-
 const inputData = reactive({
   templateValue: "",
   inputForChinese: "",
@@ -220,6 +227,8 @@ const inputData = reactive({
   sendToTeacher: false
 })
 const data = reactive({
+  isHaveTeacher: false,
+  teacherUsername: '',
   isHaveNewData: false,
   newDetectData: {
     recordId: '',
@@ -231,7 +240,8 @@ const data = reactive({
     paperEnglishName: '',
     resultFileName: '',
     resultPDF: '',
-    isSendToTeacher: ''
+    isSendToTeacher: '',
+    teacherUsername: ''
   }
 })
 const size = ref('default')
@@ -249,14 +259,29 @@ const iconStyle = computed(() => {
 const options = reactive({
   templates: []
 })
-
+const uploadFile = ref<UploadInstance>()
+const fileList = ref<UploadUserFile[]>([])
+const user = JSON.parse(localStorage.getItem('account-user') || "{}")
 
 const load = () => {
   request.get('/getTemplateListForStudent').then(res => {
     options.templates = res.data.filter((template: Template) => template.status === 1);
   });
-};
 
+  if (user.role == 'STUDENT') {
+    request.post('/getStudentInfoByUsername', {
+          username: user.username
+        }
+    ).then(res => {
+      if (res.data.instructor !== null && res.data.instructor !== '') {
+        data.isHaveTeacher = true
+        data.teacherUsername = res.data.instructor
+      }
+    })
+
+  }
+
+};
 
 const init = () => {
   load();  // 页面加载时加载数据
@@ -264,9 +289,6 @@ const init = () => {
 }
 init()
 
-const uploadFile = ref<UploadInstance>()
-
-const fileList = ref<UploadUserFile[]>([])
 
 const handleExceed: UploadProps['onExceed'] = (files) => {
   ElMessage.error('最多只能上传一个文件！')
@@ -279,18 +301,22 @@ const handleExceed: UploadProps['onExceed'] = (files) => {
 
 }
 const submitAndDetect = (inputData) => {
-
   // 若有未填写的信息，则提示用户
-  if (!inputData.templateValue){
+  if (!inputData.templateValue) {
     ElMessage.error("请选择检测模板！")
     return
   }
-  if (!inputData.inputForChinese){
+  if (!inputData.inputForChinese) {
     ElMessage.error("请输入论文中文标题！")
     return
   }
-  if (!inputData.inputForEnglish){
+  if (!inputData.inputForEnglish) {
     ElMessage.error("请输入论文英文标题！")
+    return
+  }
+  // 如果勾选了发送给指导老师，但是没有绑定指导老师，则提示用户
+  if (inputData.sendToTeacher && !data.isHaveTeacher) {
+    ElMessage.error("您还没有绑定指导老师，请先到个人资料里绑定指导老师！")
     return
   }
 
@@ -299,6 +325,7 @@ const submitAndDetect = (inputData) => {
     ElMessage.error("请上传您的论文文件！")
     return
   }
+
   /* 提交并检测论文 */
   uploadFile.value.submit()
   // 这里不能过快删除文件
@@ -310,13 +337,14 @@ const handleSuccess = (res, file) => {
   if (res.code === '200') {
     ElMessage.success("文件上传成功！")
     filePath = res.data.filePath
-    request.post('/files/detect',{
+    request.post('/files/detect', {
       username: accountData.username,
       templateId: inputData.templateValue.split('-')[0],
       paperName: inputData.inputForChinese,
       paperEnglishName: inputData.inputForEnglish,
-      docFilePath:  filePath,
-      sendToTeacher: inputData.sendToTeacher
+      docFilePath: filePath,
+      sendToTeacher: inputData.sendToTeacher,
+      teacherUsername: data.teacherUsername
     }).then(res => {
       if (res.code === '200') {
         ElMessage.success("文件检测成功！")
@@ -326,12 +354,10 @@ const handleSuccess = (res, file) => {
         ElMessage.error(res.msg)
       }
     })
-
   } else {
     ElMessage.error(res.msg)
   }
   uploadFile.value!.clearFiles()
-
 }
 
 const downloadDocx = () => {
@@ -346,7 +372,6 @@ const downloadPDF = () => {
   // 在新窗口打开下载链接
   window.open('http://localhost:9090/files/downloadPDF?fileName=' + data.newDetectData.resultPDF)
 }
-
 
 const moveToHistory = () => {
   /* 跳转到历史记录 */
