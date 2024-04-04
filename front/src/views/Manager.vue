@@ -38,6 +38,16 @@
               <el-icon><Document /></el-icon>
               <span>模板详情信息</span>
             </el-menu-item>
+            <el-menu-item index="/templateListForTea" v-if="user.role === 'TEACHER'">
+              <el-icon><Document /></el-icon>
+              <span>模板列表</span>
+            </el-menu-item>
+            <el-menu-item index="/templateInfoForTea" v-if="user.role === 'TEACHER'">
+              <el-icon><Document /></el-icon>
+              <span>模板详情信息</span>
+            </el-menu-item>
+
+
           </el-sub-menu>
 
           <el-sub-menu index="3">

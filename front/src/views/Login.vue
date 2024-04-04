@@ -60,6 +60,8 @@ const login = () => {
       request.post('/login', data.form).then(res => {
         if (res.code === '200') {
           localStorage.setItem('account-user', JSON.stringify(res.data))  // 保存用户信息
+          // 清空内容存储的templateId内容
+          localStorage.removeItem('templateId')
           ElMessage.success('登录成功')
           console.log(res.data)
           router.push('/home') // 跳转到主页

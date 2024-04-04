@@ -20,6 +20,7 @@ const router = createRouter({
         { path: 'templateListForStu', name: 'TemplateListForStu', component: () => import('@/views/manager/TemplateListForStu.vue')},
         { path: 'templateListForTea', name: 'TemplateListForTea', component: () => import('@/views/manager/TemplateListForTea.vue')},
         {path: 'templateInfoForStu', name: 'TemplateInfoForStu', component: () => import('@/views/manager/TemplateInfoForStu.vue')},
+        {path: 'templateInfoForTea', name: 'TemplateInfoForTea', component: () => import('@/views/manager/TemplateInfoForTea.vue')},
         {path: 'paperDetection', name: 'PaperDetection', component: () => import('@/views/manager/PaperDetection.vue')},
         {path:'history',name:'History',component:()=>import('@/views/manager/History.vue')},
         {path:'papersOfStu', name:'PapersOfStu', component:()=>import('@/views/manager/PapersOfStu.vue')},
