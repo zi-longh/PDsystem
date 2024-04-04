@@ -58,5 +58,33 @@ public class TemplateService {
         }
     }
 
+    public Result addTemplate(TemplatePojo templatePojo) {
+        int ret = templateMapper.insert(templatePojo);
+        if (ret == 1) {
+            return Result.success(templatePojo);
+        } else {
+            return Result.error("添加失败");
+        }
+    }
+
+    public Result getTemplateById(TemplatePojo templatePojo) {
+        TemplatePojo templatePojo1 = templateMapper.selectById(templatePojo.getTemplateId());
+        return Result.success(templatePojo1);
+    }
+
+    public Result updateTemplate(TemplatePojo templatePojo) {
+        TemplatePojo templatePojo1 = templateMapper.selectById(templatePojo.getTemplateId());
+        if (templatePojo1 == null) {
+            return Result.error("模板不存在");
+        }
+        templatePojo.setCreateTime(templatePojo1.getCreateTime());
+        int ret = templateMapper.updateById(templatePojo);
+        if (ret == 1) {
+            return Result.success(templatePojo);
+        } else {
+            return Result.error("更新失败");
+        }
+    }
+
 
 }

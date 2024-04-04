@@ -24,6 +24,8 @@ const router = createRouter({
         {path: 'paperDetection', name: 'PaperDetection', component: () => import('@/views/manager/PaperDetection.vue')},
         {path:'history',name:'History',component:()=>import('@/views/manager/History.vue')},
         {path:'papersOfStu', name:'PapersOfStu', component:()=>import('@/views/manager/PapersOfStu.vue')},
+        {path:'createTemplate', name:'CreateTemplate', component:()=>import('@/views/manager/CreateTemplate.vue')},
+        {path:'modifyTemplate', name:'ModifyTemplate', component:()=>import('@/views/manager/ModifyTemplate.vue')},
       ]
     },
     { path: '/login', name: 'Login', component: () => import('@/views/Login.vue'),},

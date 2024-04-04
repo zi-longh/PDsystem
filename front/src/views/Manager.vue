@@ -46,6 +46,16 @@
               <el-icon><Document /></el-icon>
               <span>模板详情信息</span>
             </el-menu-item>
+            <el-menu-item index="/modifyTemplate" v-if="user.role === 'TEACHER'">
+              <el-icon><Document /></el-icon>
+              <span>修改模板</span>
+            </el-menu-item>
+            <el-menu-item index="/createTemplate" v-if="user.role === 'TEACHER'">
+              <el-icon><Document /></el-icon>
+              <span>创建新模板</span>
+            </el-menu-item>
+
+
 
 
           </el-sub-menu>

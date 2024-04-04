@@ -37,7 +37,7 @@
           <el-table-column label="操作" width="200">
             <template #default="scope">
               <el-button type="primary" @click="selectTemplate(scope)">查看详情</el-button>
-              <el-button type="primary" @click="selectTemplate(scope)" v-if="scope.row.creator === user.username">修改
+              <el-button type="primary" @click="modifyTemplate(scope)" v-if="scope.row.creator === user.username">修改
               </el-button>
               <i class="el-icon-info" title="您不能修改他人的模板" style="margin-left: 12px">
                 <el-button type="primary" disabled v-if="scope.row.creator != user.username"
@@ -129,13 +129,19 @@ const load = () => {
 load();  // 页面加载时加载数据
 
 const selectTemplate = (scope) => {
-
   // 保存选中的模板id和模板名称
   localStorage.setItem('templateId', scope.row.templateId);
   localStorage.setItem('templateName', scope.row.templateName + '-' + "已上线");
-
   // 跳转到论文检测页面
   router.push('/templateInfoForTea')
+};
+
+const modifyTemplate = (scope) => {
+  // 保存选中的模板id和模板名称
+  localStorage.setItem('templateId-my', scope.row.templateId);
+  localStorage.setItem('templateName-my', scope.row.templateName + '-' + "已上线");
+  // 跳转到论文检测页面
+  router.push('/modifyTemplate')
 };
 
 
