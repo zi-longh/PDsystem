@@ -1,8 +1,15 @@
 package jnu.template;
 
+import cn.hutool.extra.spring.SpringUtil;
+import com.zilong.fdbackend.mapper.TemplateMapper;
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * 论文"诚信声明"的模板规范，会提供默认要求。
  */
+@Setter
+@Getter
 public class StatementOfHonesty {
     public static final String contentName = "诚信声明"; // 标识本类描述的论文内容的名称。
     public static final String markWord = "诚信声明"; // 诚信说明的标记词，用于在论文中定位诚信说明的位置。
@@ -40,43 +47,12 @@ public class StatementOfHonesty {
         );
     }
 
+
     // 构造函数
     public StatementOfHonesty(Integer sequence, String content, HeadingRep headingRep, ParagraphRep paragraphRep) {
         this.sequence = sequence;
         this.content = content;
         this.headingRep = headingRep;
-        this.paragraphRep = paragraphRep;
-    }
-
-    public Integer getSequence() {
-        return sequence;
-    }
-
-    public void setSequence(Integer sequence) {
-        this.sequence = sequence;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    public HeadingRep getHeadingRep() {
-        return headingRep;
-    }
-
-    public void setHeadingRep(HeadingRep headingRep) {
-        this.headingRep = headingRep;
-    }
-
-    public ParagraphRep getParagraphRep() {
-        return paragraphRep;
-    }
-
-    public void setParagraphRep(ParagraphRep paragraphRep) {
         this.paragraphRep = paragraphRep;
     }
 
