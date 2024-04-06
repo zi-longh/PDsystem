@@ -70,7 +70,7 @@ public class WordDocFormatDetection {
         paperDtcResult = -1;
         resultDocxName = null;
         resultPDFName = null;
-        templateInfo = new TemplateInfo(templateId);
+        templateInfo = new TemplateInfo(templateId, paperName);
     }
 
     @Override

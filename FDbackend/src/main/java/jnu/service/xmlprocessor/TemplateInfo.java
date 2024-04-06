@@ -28,7 +28,7 @@ public class TemplateInfo {
     private TemplateInfoPojo templateInfoPojo;
     private boolean isTemplateValid = true;
 
-    public TemplateInfo(String templateId) {
+    public TemplateInfo(String templateId, String paperName) {
         TemplateInfoMapper templateInfoMapper = SpringUtil.getBean(TemplateInfoMapper.class);
         TemplateInfoPojo infoPojo = templateInfoMapper.selectById(templateId);
         this.templateInfoPojo = infoPojo;
@@ -36,6 +36,7 @@ public class TemplateInfo {
             System.out.println("模板不存在！自动使用默认模板。");
             isTemplateValid = false;
             pageSetting = PageSetting.getDefaultInstance();
+            pageSetting.setHeaderContent2(paperName);
             caption = Caption.getDefaultInstance();
             statementOfHonesty = StatementOfHonesty.getDefaultInstance();
             abstractOfChinese = AbstractOfChinese.getDefaultInstance();
@@ -59,6 +60,9 @@ public class TemplateInfo {
                 infoPojo.getPagesettingHeadermargin(),
                 infoPojo.getPagesettingFootermargin()
         );
+        if(pageSetting.getHeaderContent2().equals("defaultPaperName")) {
+            pageSetting.setHeaderContent2(paperName);
+        }
 
         caption = new Caption(
                 infoPojo.getCaptionFontname(),

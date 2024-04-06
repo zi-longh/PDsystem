@@ -27,7 +27,7 @@
             </template>
           </el-table-column>
           <el-table-column prop="createTime" label="创建时间" sortable/>
-          <el-table-column label="状态" sortable>
+          <el-table-column label="状态" width="80px" sortable>
             <template #default="scope">
               {{ scope.row.status === 1 ? "已上线" : "未上线" }}
             </template>

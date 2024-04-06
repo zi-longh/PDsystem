@@ -30,10 +30,10 @@
           </el-table-column>
           <el-table-column label="删除记录" width="100px">
             <template #default="scope">
-              <el-button type="primary" @click="deleteRecord(scope)">删除</el-button>
+              <el-button type="danger" @click="deleteRecord(scope)">删除</el-button>
             </template>
           </el-table-column>
-          <el-table-column label="下载检测报告" width="230">
+          <el-table-column label="下载检测报告" width="240">
             <template #default="scope">
               <el-button type="primary" @click="downloadDocx(scope)" v-if="scope.row.status != '未知状态'">
                 下载检测报告

@@ -69,11 +69,11 @@
           <el-button type="primary" @click="moveToHistory">查看更多检测记录</el-button>
         </template>
 
-        <el-descriptions-item>
+        <el-descriptions-item width="150px">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
-                <user/>
+                <User/>
               </el-icon>
               Username
             </div>
@@ -81,7 +81,7 @@
           {{ data.newDetectData.username }}
         </el-descriptions-item>
 
-        <el-descriptions-item span="2">
+        <el-descriptions-item span="2" width="180px">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -93,7 +93,7 @@
           {{ data.newDetectData.paperName }}
         </el-descriptions-item>
 
-        <el-descriptions-item span="2">
+        <el-descriptions-item span="2" width="180px">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -117,7 +117,7 @@
           {{ data.newDetectData.detectTime }}
         </el-descriptions-item>
 
-        <el-descriptions-item>
+        <el-descriptions-item width="150px" span="2">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -129,7 +129,7 @@
           {{ data.newDetectData.templateId }}
         </el-descriptions-item>
 
-        <el-descriptions-item>
+        <el-descriptions-item width="75px" span="2">
           <template #label>
             <div class="cell-item">
               <el-icon :style="iconStyle">
@@ -343,7 +343,7 @@ const handleSuccess = (res, file) => {
       paperName: inputData.inputForChinese,
       paperEnglishName: inputData.inputForEnglish,
       docFilePath: filePath,
-      sendToTeacher: inputData.sendToTeacher,
+      isSendToTeacher: inputData.sendToTeacher? '1': '0',
       teacherUsername: data.teacherUsername
     }).then(res => {
       if (res.code === '200') {
