@@ -3,7 +3,9 @@ package jnu.service.xmlprocessor;
 import jnu.template.*;
 import jnu.utils.DocxUtils;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.dom4j.*;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
@@ -35,7 +37,7 @@ public class WordDocFormatDetection {
     private String docFilePath; // 要处理的文件路径
     private String paperName; // 论文名称
     private String paperEnglishName; //论文英文名称
-    private String templateId; // 模板id，若为空或“0”则表示使用默认模板
+    private String templateId; // 模板id，若无法识别该id则会使用默认模板
     private int paperDtcResult = -1; // 论文格式检测结果。 0检测通过，1通过但可修改，2不通过。 默认值为-1，表示未检测。
     private String resultDocxName; // 处理后的docx文件名，仅当paperDtcResult不为-1时有效。
     private String resultPDFName; // 处理后的pdf文件名，仅当paperDtcResult=0时有效。
@@ -44,6 +46,7 @@ public class WordDocFormatDetection {
     private String username; // 用户名
     private String isSendToTeacher; // 是否发送给老师
     private String teacherUsername; // 老师用户名
+    private TemplateInfo templateInfo; // 模板信息
 
 
     {
@@ -67,6 +70,7 @@ public class WordDocFormatDetection {
         paperDtcResult = -1;
         resultDocxName = null;
         resultPDFName = null;
+        templateInfo = new TemplateInfo(templateId);
     }
 
     @Override
@@ -241,8 +245,8 @@ public class WordDocFormatDetection {
      */
     public void detectSOH(String xmlDirectory, ArrayList<String> sectionOrder) {
         // 获取论文的“诚信声明”部分的模板要求
-        // TODO: 需要从数据库中获取论文的“诚信声明”部分的模板要求，暂时使用默认模板
-        StatementOfHonesty sohReq = StatementOfHonesty.getDefaultInstance(); // 获取默认模板
+        StatementOfHonesty sohReq = templateInfo.getStatementOfHonesty();
+
         // 获取次序要求和诚信声明的次序id
         int sohIndex = sectionOrder.indexOf("诚信声明");
 
@@ -423,7 +427,8 @@ public class WordDocFormatDetection {
     public void detectAbstractOfChinese(String xmlDirectory, ArrayList<String> sectionOrder) {
 
         // 获取论文的“中文摘要”部分的模板要求
-        AbstractOfChinese AOCReq = AbstractOfChinese.getDefaultInstance(); // 获取默认模板
+        AbstractOfChinese AOCReq = templateInfo.getAbstractOfChinese();
+
         // 获取次序要求和次序id
         int aocIndex = sectionOrder.indexOf(AbstractOfChinese.contentName);
 
@@ -621,7 +626,7 @@ public class WordDocFormatDetection {
      */
     public void detectAbstractOfEnglish(String xmlDirectory, ArrayList<String> sectionOrder) {
         // 获取论文的“英文摘要”部分的模板要求
-        AbstractOfEnglish AOEReq = AbstractOfEnglish.getDefaultInstance(); // 获取默认模板
+        AbstractOfEnglish AOEReq = templateInfo.getAbstractOfEnglish();
         // 获取次序要求和次序id
         int aocIndex = sectionOrder.indexOf(AbstractOfEnglish.contentName);
 
@@ -752,6 +757,15 @@ public class WordDocFormatDetection {
                                         add("摘要正文内容字数已经达到" + contentLength + "个单词，超过了推荐字数：" + AOEReq.getRecommendedMaxContentLength() + "字, 建议适当删减。");
                                     }}, "建议修改批注", "整段");
                         }
+
+                        if (contentLength < AOEReq.getRecommendedMinContentLength() && AOEReq.getRecommendedMinContentLength() != 0) {
+                            // 添加建议修改批注
+                            addComment(xmlDirectory, pElement,
+                                    new ArrayList<String>() {{
+                                        add("摘要正文内容字数为" + contentLength + "个单词，低于了推荐字数：" + AOEReq.getRecommendedMinContentLength() + "字, 建议适当补充。");
+                                    }}, "建议修改批注", "整段");
+                        }
+
                         continue;
                     }
                     /* 关键词内容检查 */
@@ -772,6 +786,14 @@ public class WordDocFormatDetection {
                             addComment(xmlDirectory, pElement,
                                     new ArrayList<String>() {{
                                         add("关键词数量已经达到" + keyWordNum + "个，超过了推荐数量：" + AOEReq.getRecommendedMaxKeywordsCount() + "个, 建议适当删减。");
+                                    }}, "建议修改批注", "整段");
+                        }
+
+                        if (keyWordNum < AOEReq.getRecommendedMinKeywordsCount() && AOEReq.getRecommendedMinKeywordsCount() != 0) {
+                            // 添加建议修改批注
+                            addComment(xmlDirectory, pElement,
+                                    new ArrayList<String>() {{
+                                        add("关键词数量为" + keyWordNum + "个，低于了推荐数量：" + AOEReq.getRecommendedMinKeywordsCount() + "个, 建议适当补充。");
                                     }}, "建议修改批注", "整段");
                         }
                         break;
@@ -803,7 +825,7 @@ public class WordDocFormatDetection {
      * */
     public void detectConclusion(String xmlDirectory, ArrayList<String> sectionOrder) {
         // 获取论文的“结论”部分的模板要求
-        Conclusion conclusionReq = Conclusion.getDefaultInstance(); // 获取默认模板
+        Conclusion conclusionReq = templateInfo.getConclusion();
         // 获取次序id
         int conclusionIndex = sectionOrder.indexOf(Conclusion.contentName);
 
@@ -907,7 +929,7 @@ public class WordDocFormatDetection {
      * */
     public void detectThanks(String xmlDirectory, ArrayList<String> sectionOrder) {
         // 获取论文的“致谢”部分的模板要求
-        Thanks thanksReq = Thanks.getDefaultInstance(); // 获取默认模板
+        Thanks thanksReq = templateInfo.getThanks();
         // 获取次序id
         int index = sectionOrder.indexOf(Thanks.contentName);
 
@@ -1009,7 +1031,7 @@ public class WordDocFormatDetection {
      * */
     public void detectReferences(String xmlDirectory, ArrayList<String> sectionOrder) {
         // 获取论文的“参考文献”部分的模板要求
-        References referencesReq = References.getDefaultInstance(); // 获取默认模板
+        References referencesReq = templateInfo.getReferences();
         // 获取次序id
         int index = sectionOrder.indexOf(References.contentName);
 
@@ -1384,8 +1406,8 @@ public class WordDocFormatDetection {
      * 这个方法只涉及到标题和段落样式的检测，不涉及图表和公式的检测
      */
     public void detectMainBody(String xmlDirectory, ArrayList<String> sectionOrder) {
-        MainBody req = MainBody.createDefaultIntroductionAndMainBody();
-        Caption captionReq = Caption.getDefaultInstance();
+        MainBody req = templateInfo.getMainBody();
+        Caption captionReq = templateInfo.getCaption();
         int index = sectionOrder.indexOf(MainBody.contentName);
 
         // 获取标题样式id列表，图注表注样式id
@@ -1658,7 +1680,6 @@ public class WordDocFormatDetection {
                             detectHeadingStyle(xmlDirectory, pElement, MainBody.contentName, req.getHeadingRepLevel3());
                         }
                     }
-
 
                 }
                 // 删除空段落
@@ -2223,8 +2244,8 @@ public class WordDocFormatDetection {
                 Document document = reader.read(xmlDirectory + "/word/document.xml");
                 Element root = document.getRootElement();
 
-                // 获取页眉设置模板信息 TODO: 应当根据templateId获取,暂时使用默认模板
-                PageSetting rep = PageSetting.getDefaultInstance();
+                // 获取页眉设置模板信息
+                PageSetting rep = templateInfo.getPageSetting();
 
                 // 设置页眉页脚header.xml, footer.xml的样式id
                 DocxInfo.setStyleId(xmlDirectory, docxInfo.getHeaderStyleId(), "header1.xml", rep.getHeaderContent1());
@@ -2335,7 +2356,7 @@ public class WordDocFormatDetection {
      * */
     public void detectCatalogue(String xmlDirectory, ArrayList<String> sectionOrder) {
         // 获取论文的“目录”部分的模板要求
-        Catalogue req = Catalogue.getDefaultCatalogue();
+        Catalogue req = templateInfo.getCatalogue();
 
         int CatalogueIndex = sectionOrder.indexOf(Catalogue.contentName);
         if (CatalogueIndex == -1) {
@@ -2456,6 +2477,11 @@ public class WordDocFormatDetection {
      * stepN: 给paperDtcResult, resultDocPath赋值
      */
     public void startDetection() {
+        // step1: 确定已经获取了论文模板信息
+        if (templateInfo == null){
+            init();
+        }
+
         // step1: 解压docx文件并备份，和一些初始化
         this.commentsNum = 1;
         String xmlDirectory = DocxUtils.unZipDocx(docFilePath);
@@ -2463,7 +2489,6 @@ public class WordDocFormatDetection {
             System.out.println("startDetection: 文件不存在，或导入文件不是docx文件或doc文件，或已经损坏，请重新导入!");
             return;
         }
-
         ArrayList<String> orderList = getPaperSectionOrder(templateId);
         DocxInfo docxInfo = new DocxInfo();
 
@@ -2529,9 +2554,6 @@ public class WordDocFormatDetection {
         // 4. 公式的格式
 
 
-        // stepN: 给paperDtcResult, resultDocPath赋值
-        // TODO: 暂时作为测试，paperDtcResult都赋值为1
-
 
         // 清理定位标签
         ContentLocation.clearLocationElement(xmlDirectory);
@@ -2569,20 +2591,12 @@ public class WordDocFormatDetection {
         this.username = username;
     }
 
-    /**
-     * get方法，获取要处理的文件路径
-     *
-     * @return 文件路径
-     */
+
     public String getDocFilePath() {
         return docFilePath;
     }
 
-    /**
-     * set方法，设置要处理的文件路径
-     *
-     * @param docFilePath 文件路径
-     */
+
     public void setDocFilePath(String docFilePath) {
         // 判断文件是否存在
         File file = new File(docFilePath);
@@ -2592,109 +2606,60 @@ public class WordDocFormatDetection {
         this.docFilePath = docFilePath;
     }
 
-    /**
-     * get方法，获取论文名称
-     *
-     * @return 论文名称
-     */
     public String getPaperName() {
         return paperName;
     }
 
-    /**
-     * set方法，设置论文名称
-     *
-     * @param paperName 论文名称
-     */
+
     public void setPaperName(String paperName) {
         this.paperName = paperName;
     }
 
-    /**
-     * get方法，获取模板id
-     *
-     * @return 模板id
-     */
+
     public String getTemplateId() {
         return templateId;
     }
 
-    /**
-     * set方法，设置模板id
-     *
-     * @param templateId 模板id
-     */
+
     public void setTemplateId(String templateId) {
         this.templateId = templateId;
     }
 
-    /**
-     * get方法，获取论文格式检测结果
-     *
-     * @return 论文格式检测结果
-     */
+
     public int getPaperDtcResult() {
         return paperDtcResult;
     }
 
-    /**
-     * set方法，设置论文格式检测结果
-     *
-     * @param paperDtcResult 论文格式检测结果
-     */
+
     public void setPaperDtcResult(int paperDtcResult) {
         this.paperDtcResult = paperDtcResult;
     }
 
-    /**
-     * get方法，获取处理后的文件路径
-     *
-     * @return 处理后的文件路径
-     */
+
     public String getResultDocxName() {
         return resultDocxName;
     }
 
-    /**
-     * set方法，设置处理后的文件路径
-     *
-     * @param resultDocPath 处理后的文件路径
-     */
+
     public void setResultDocxName(String resultDocPath) {
         this.resultDocxName = resultDocPath;
     }
 
 
-    /**
-     * get方法，获取论文英文名称
-     *
-     * @return 论文英文名称
-     */
+
     public String getPaperEnglishName() {
         return paperEnglishName;
     }
 
-    /**
-     * set方法，设置论文英文名称
-     *
-     * @param paperEnglishName 论文英文名称
-     */
     public void setPaperEnglishName(String paperEnglishName) {
         this.paperEnglishName = paperEnglishName;
     }
 
-    /**
-     * get方法，获取添加的批注数量
-     * @return 添加的批注数量
-     * */
+
     public Integer getCommentsNum() {
         return commentsNum;
     }
 
-    /**
-     * set方法，设置添加的批注数量
-     * @param commentsNum 添加的批注数量
-     */
 
     public void setCommentsNum(Integer commentsNum) {
         this.commentsNum = commentsNum;

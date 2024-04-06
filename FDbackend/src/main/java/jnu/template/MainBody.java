@@ -19,7 +19,7 @@ public class MainBody {
     /**
      * 工厂方法，用于创建一个默认的IntroductionAndMainBody对象。
      * */
-    public static MainBody createDefaultIntroductionAndMainBody() {
+    public static MainBody getDefaultInstance() {
         return new MainBody(
                 new HeadingRep(
                         "宋体",

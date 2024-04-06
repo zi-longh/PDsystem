@@ -118,7 +118,7 @@ public class ContentLocation {
                     waitToInsertElements.add(locationElement);
                     waitToInsertIndex.add(index);
                     System.out.println("已插入<location id=中文摘要 place=abstract>");
-                } else if (pText.contains(AbstractOfChinese.markWord2)) {
+                } else if (pText.replaceAll(" ","").contains(AbstractOfChinese.markWord2)) {
                     Element locationElement = createLocationElement("中文摘要", "end");
                     waitToInsertElements.add(locationElement);
                     waitToInsertIndex.add(index + 1);

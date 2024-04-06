@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### others ###
+files/outputFileRecord/*
+files/xmlProcess/*
+files/srcFileRecord/*
+

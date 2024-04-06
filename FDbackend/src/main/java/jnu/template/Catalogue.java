@@ -12,7 +12,7 @@ public class Catalogue {
 
     private HeadingRep headingRep; // 标题的规范要求
 
-    public static Catalogue getDefaultCatalogue() {
+    public static Catalogue getDefaultInstance() {
         return new Catalogue(
                 new HeadingRep(
                         "宋体",

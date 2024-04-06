@@ -1,5 +1,6 @@
 package org.example;
 
+import jnu.service.xmlprocessor.TemplateInfo;
 import jnu.service.xmlprocessor.WordDocFormatDetection;
 
 import static com.zilong.fdbackend.controller.FileController.ROOT_PATH;
@@ -15,8 +16,6 @@ public class App {
         String paperEnglishName = "Paper detection and correction system based on OOXML standard";
         String templateId = "0";
         WordDocFormatDetection wordDocFormatDetection = new WordDocFormatDetection(docFilePath, paperName, paperEnglishName, templateId, "student1");
-
         wordDocFormatDetection.startDetection();
-
     }
 }

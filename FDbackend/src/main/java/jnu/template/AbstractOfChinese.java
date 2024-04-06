@@ -28,6 +28,8 @@ public class AbstractOfChinese {
                 1,
                 300,
                 5,
+                100,
+                2,
                 new HeadingRep(
                         "宋体",
                         "Times New Roman",
@@ -47,11 +49,13 @@ public class AbstractOfChinese {
         );
     }
 
-    public AbstractOfChinese (String prefixFont, int isPrefixBold, int recommendedMaxContentLength, int recommendedMaxKeywordsCount, HeadingRep headingRep, ParagraphRep paragraphRep) {
+    public AbstractOfChinese (String prefixFont, int isPrefixBold, int recommendedMaxContentLength, int recommendedMaxKeywordsCount, int recommendedMinContentLength, int recommendedMinKeywordsCount, HeadingRep headingRep, ParagraphRep paragraphRep) {
         this.prefixFont = prefixFont;
         this.isPrefixBold = isPrefixBold;
         this.recommendedMaxContentLength = recommendedMaxContentLength;
         this.recommendedMaxKeywordsCount = recommendedMaxKeywordsCount;
+        this.recommendedMinContentLength = recommendedMinContentLength;
+        this.recommendedMinKeywordsCount = recommendedMinKeywordsCount;
         this.headingRep = headingRep;
         this.paragraphRep = paragraphRep;
     }

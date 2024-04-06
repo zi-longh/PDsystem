@@ -76,11 +76,13 @@ public class Utils {
         XPath xpathDrawing = DocumentHelper.createXPath("descendant::w:drawing");
         xpathDrawing.setNamespaceURIs(nsMap);
 
+        XPath xpathObject = DocumentHelper.createXPath("descendant::w:object");
+
         XPath xpathGraphicData = DocumentHelper.createXPath("descendant::pic:pic");
         xpathGraphicData.setNamespaceURIs(nsMap);
 
-        XPath xpathchart = DocumentHelper.createXPath("descendant::c:chart");
-        xpathchart.setNamespaceURIs(nsMap);
+        XPath xpathChart = DocumentHelper.createXPath("descendant::c:chart");
+        xpathChart.setNamespaceURIs(nsMap);
 
         XPath xpathVShape = DocumentHelper.createXPath("descendant::v:shape");
         xpathVShape.setNamespaceURIs(nsMap);
@@ -93,10 +95,17 @@ public class Utils {
                 ret = true;
             }
             // 含有chart标签
-            if (!xpathchart.selectNodes(pElement).isEmpty()) {
+            if (!xpathChart.selectNodes(pElement).isEmpty()) {
                 ret = true;
             }
         }
+
+        // 含有object标签则肯定不是图片
+        if(!xpathObject.selectNodes(pElement).isEmpty()){
+            ret = false;
+            return ret;
+        }
+
 
         // 如果是doc转化过来的docx，则图片的标签为v:shape，且id含有“图片”
         if (!xpathVShape.selectNodes(pElement).isEmpty()) {
@@ -104,7 +113,7 @@ public class Utils {
             for (Node vShape : vShapeList) {
                 Element vShapeElement = (Element) vShape;
                 String id = vShapeElement.attributeValue("id");
-                if (id.contains("图片")) {
+                if (!id.contains("文本框")) {
                     ret = true;
                 }
             }
