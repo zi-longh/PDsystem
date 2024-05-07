@@ -13,6 +13,7 @@ import org.dom4j.io.XMLWriter;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -226,6 +227,14 @@ public class WordDocFormatDetection {
             contentList.add("另外有" + docxEndCommentNum + "处文档末尾的批注。");
             contentList.add("请作者根据批注内容进行修改。");
             addComment(xmlDirectory, firstP, contentList, "概述批注", "段首");
+
+            // 保存document.xml文件
+            OutputFormat format = OutputFormat.createPrettyPrint();// 指定XML编码
+            format.setEncoding("UTF-8");
+            XMLWriter xmlwriter = new XMLWriter(Files.newOutputStream(Paths.get(xmlDirectory + "/word/document.xml")), format);
+            xmlwriter.write(document);
+            xmlwriter.close();
+
             if (commentsNumOf1 != 0) {
                 return 2;
             } else if (commentsNumOf3 != 0) {
@@ -234,6 +243,10 @@ public class WordDocFormatDetection {
                 return 0;
             }
         } catch (DocumentException e) {
+            throw new RuntimeException(e);
+        } catch (UnsupportedEncodingException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
@@ -541,6 +554,10 @@ public class WordDocFormatDetection {
                     /* 摘要正文内容 */
                     // 处理方法是统一处理，先读取所有数据再按要求生成
                     if (i == abstractIndex + 1) {
+                        System.out.println("---------------------");
+                        System.out.println("AOCReq.isPrefixBold() = " + AOCReq.isPrefixBold());
+                        System.out.println("---------------------");
+
                         int contentLength = convertToStdAbstract(
                                 pElement,
                                 AOCReq.getParagraphRep(),

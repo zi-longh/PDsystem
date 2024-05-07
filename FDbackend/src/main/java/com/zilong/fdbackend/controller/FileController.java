@@ -38,22 +38,18 @@ public class FileController {
         if (file == null || file.isEmpty()) {
             return Result.error("文件为空");
         }
-
         String fileName = file.getOriginalFilename();  // 获取到原始的文件名 docx, doc
-        System.out.println("捕获到到文件名：" + fileName);
-
         // 检查是否存在同名文件，若存在则删除源文件
         File file1 = new File(ROOT_PATH + "/paperFile/" + fileName);
         if (file1.exists()) {
             file1.delete();
         }
-
         // 检查文件类型，如果不是docx或doc则返回错误
         if (!fileName.endsWith(".docx") && !fileName.endsWith(".doc")) {
             return Result.error("文件类型错误，目前支持传入docx或doc文件");
         }
-
-        File finalFilePath = new File(ROOT_PATH + "/paperFile/" + fileName);  // 最终存到磁盘的文件对象
+        File finalFilePath = new File(ROOT_PATH + "/paperFile/" + fileName);
+        // 最终存到磁盘的文件对象
         if (!finalFilePath.getParentFile().exists()) {  // 如果父级目录不存在 就得创建
             finalFilePath.getParentFile().mkdirs();
         }
@@ -103,8 +99,6 @@ public class FileController {
         LocalDateTime now = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String formattedDateTime = now.format(formatter);
-
-
         detector.init();
         System.out.println(detector);
         detector.startDetection();
@@ -126,8 +120,6 @@ public class FileController {
         } else {
             detectRecordPojo.setIsSendToTeacher("0");
         }
-
-
         detectRecordService.addRecord(detectRecordPojo);
         return Result.success(new DetectRecordForStr(detectRecordPojo));
     }

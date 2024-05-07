@@ -57,7 +57,6 @@ const load = () => {
     data.templates = res.data.filter((template: Template) => template.status === 1);
   });
 };
-
 load();  // 页面加载时加载数据
 
 const selectTemplate = (scope) => {

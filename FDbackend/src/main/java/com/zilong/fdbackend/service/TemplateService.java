@@ -26,7 +26,6 @@ public class TemplateService {
      * 学生端获取模板的下拉框
      */
     public Result getTemplateListForStudent() {
-        // template表里status为1的模板
         List<TemplatePojo> templateList = templateMapper.selectList(new QueryWrapper<TemplatePojo>().eq("status", 1));
         for (TemplatePojo templatePojo : templateList) {
             templatePojo.setTemplateName(templatePojo.getTemplateId() + "-" + templatePojo.getTemplateName());

@@ -1,5 +1,4 @@
 <w:abstractNum w:abstractNumId="99" w15:restartNumberingAfterBreak="0">
-
     <w:multiLevelType w:val="multilevel" />
     <w:tmpl w:val="AFB2F6E2" />
     <w:lvl w:ilvl="0">

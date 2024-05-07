@@ -101,7 +101,7 @@ public class TemplateInfo {
 
         abstractOfChinese = new AbstractOfChinese(
                 infoPojo.getAocPrefixfont(),
-                infoPojo.getAocHBold(),
+                infoPojo.getAocIsprefixbold(),
                 infoPojo.getAocRecommendedmaxcontentlength(),
                 infoPojo.getAocRecommendedmaxkeywordscount(),
                 infoPojo.getAocRecommendedmincontentlength(),
@@ -128,7 +128,7 @@ public class TemplateInfo {
 
         abstractOfEnglish = new AbstractOfEnglish(
                 infoPojo.getAoePrefixfont(),
-                infoPojo.getAoeHBold(),
+                infoPojo.getAoeIsprefixbold(),
                 infoPojo.getAoeRecommendedmaxcontentlength(),
                 infoPojo.getAoeRecommendedmaxkeywordscount(),
                 infoPojo.getAoeRecommendedmincontentlength(),

@@ -319,13 +319,11 @@ const submitAndDetect = (inputData) => {
     ElMessage.error("您还没有绑定指导老师，请先到个人资料里绑定指导老师！")
     return
   }
-
   // 如果没有选择文件，则提示用户
   if (fileList.value.length == 0) {
     ElMessage.error("请上传您的论文文件！")
     return
   }
-
   /* 提交并检测论文 */
   uploadFile.value.submit()
   // 这里不能过快删除文件

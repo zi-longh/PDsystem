@@ -29,8 +29,8 @@ public class DocxUtils {
         String newFilePath = ROOT_PATH + "/srcFileRecord/" + srcFileName.substring(0, srcFileName.lastIndexOf(".")) + "_" + LocalDateTime.now().toString().replace(":", "-") + ".docx";
         try {
             if (docxPath.toString().endsWith(".doc")) {
-                Document doc = new Document(docxPath.toString());
-                doc.save(newFilePath);
+                Document docx = new Document(docxPath.toString());
+                docx.save(newFilePath);
                 System.out.println("doc文件转换为docx文件成功，新文件路径为：" + newFilePath);
             } else if (docxPath.toString().endsWith(".docx")) {
                 Files.copy(docxPath, Paths.get(newFilePath));
@@ -62,13 +62,11 @@ public class DocxUtils {
             return null;
         }
         String newFilePath;
-        // 如果是docx文件，则备份docx文件到srcFileRecord文件夹
-
+        // 备份docx文件到srcFileRecord文件夹
         newFilePath = backUpDocxToSrcFileRecord(dPath); // 备份docx文件到srcFileRecord文件夹
         if (newFilePath == null) { // 文件类型有问题
             return null;
         }
-
 
         // step2: 解压docx文件到xmlProcess文件夹
         Path path = Paths.get(newFilePath);
@@ -96,7 +94,6 @@ public class DocxUtils {
     public static String zipDocx(String targetDocxDirectory, int paperDtcResult) {
         Path path = Paths.get(targetDocxDirectory);
         String fileName = path.getFileName().toString();
-
         String status;
         if (paperDtcResult == 0) {
             status = "(检测通过)";
@@ -108,14 +105,6 @@ public class DocxUtils {
         String filePath = ROOT_PATH + "/outputFileRecord/" + status + fileName + ".docx";
         ZipUtil.zipDirectory(targetDocxDirectory, filePath);
         System.out.println("压缩成功，压缩后的文件路径为：" + filePath);
-
-        // 删除xml文件夹，TODO:测试完成后取消注释
-/*        try {
-            Files.deleteIfExists(path);
-        } catch (Exception e) {
-            System.err.println("文件夹删除失败: " + e.getMessage());
-        }*/
-
         return filePath;
     }
 

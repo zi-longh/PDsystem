@@ -96,7 +96,7 @@ public class ElementCreator {
         initElement(pElement, pRep, isPrefixBold, prefixFont, prefixStr, contentStr);
 
         // 返回关键词个数，以分号为分隔符
-        return contentStr.split("；").length + 1;
+        return contentStr.split("；").length;
     }
 
 
@@ -114,7 +114,6 @@ public class ElementCreator {
         String contentStr = content.toString().replaceAll(" ", "");
         // 去除前缀词摘要
         contentStr = contentStr.replace("[摘要]", "");
-
 
         initElement(pElement, pRep, isPrefixBold, prefixFont, prefixStr, contentStr);
         return contentStr.length();
@@ -141,7 +140,7 @@ public class ElementCreator {
         contentStr = contentStr.trim().replaceAll("、", "；");
 
         initElement(pElement, pRep, isPrefixBold, prefixFont, prefixStr, contentStr);
-        return contentStr.split("；").length + 1;
+        return contentStr.split("；").length;
     }
 
     /**

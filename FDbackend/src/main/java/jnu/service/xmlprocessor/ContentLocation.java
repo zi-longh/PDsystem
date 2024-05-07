@@ -52,7 +52,6 @@ public class ContentLocation {
             System.out.println("函数名：clearLocationElement，清空location元素成功。");
         } catch (
                 DocumentException | IOException e) {
-            /*         System.err.println("当前函数：clearLocationElement，清空location元素出现异常，异常信息如下：" + e.getMessage());*/
             e.printStackTrace();
         }
     }
@@ -131,12 +130,12 @@ public class ContentLocation {
                     waitToInsertElements.add(locationElement);
                     waitToInsertIndex.add(index);
                     System.out.println("已插入<location id=英文摘要 place=start>");
-                } else if (pText.contains(AbstractOfEnglish.markWord1) || pText.contains("Keywords:")) {
+                } else if (pText.contains(AbstractOfEnglish.markWord1) || pText.contains("Abstract:")) {
                     Element locationElement = createLocationElement("英文摘要", "abstract");
                     waitToInsertElements.add(locationElement);
                     waitToInsertIndex.add(index);
                     System.out.println("已插入<location id=英文摘要 place=abstract>");
-                } else if (pText.contains(AbstractOfEnglish.markWord2) || pText.contains("Abstract:")) {
+                } else if (pText.contains(AbstractOfEnglish.markWord2) || pText.contains("Keywords:") ) {
                     Element locationElement = createLocationElement("英文摘要", "end");
                     waitToInsertElements.add(locationElement);
                     waitToInsertIndex.add(index + 1);

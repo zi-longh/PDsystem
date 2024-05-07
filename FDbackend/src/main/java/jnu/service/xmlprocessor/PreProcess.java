@@ -298,6 +298,29 @@ public class PreProcess {
             file.write(modifiedContent.getBytes());
             file.close();
 
+            // 再次读取numbering.xml文件，调整插入的编号样式的位置
+            documentNumbering = saxReader.read(xmlDirectory + "/word/numbering.xml");
+            rootElementNumbering = documentNumbering.getRootElement();
+            List<Element> elementList = rootElementNumbering.elements();
+            int numId = 0;
+            for (int i = 0; i < elementList.size(); i++) {
+                Element element = elementList.get(i);
+                if (element.getName().equals("num")) {
+                  numId = i;
+                  break;
+                }
+            }
+            Element temp = elementList.get(elementList.size() - 2);
+            elementList.remove(elementList.size() - 2);
+            elementList.add(numId, temp);
+
+            OutputFormat formatNumbering2 = OutputFormat.createPrettyPrint();// 指定XML编码
+            formatNumbering2.setEncoding("UTF-8");
+            XMLWriter xmlwriterNumbering2 = new XMLWriter(Files.newOutputStream(Paths.get(xmlDirectory + "/word/numbering.xml")), formatNumbering2);
+            xmlwriterNumbering2.write(documentNumbering);
+            xmlwriterNumbering2.close();
+
+
             // 读取styles.xml文件，设置编号样式
             Document documentStyle = saxReader.read(xmlDirectory + "/word/styles.xml");
             Element rootElementStyle = documentStyle.getRootElement();
@@ -310,10 +333,11 @@ public class PreProcess {
                 Element numPrElement = pPrElement.element("numPr");
                 if ( numPrElement != null){ // 如果已经存在numPr，则删除
                     numPrElement.detach();
+                    numPrElement = pPrElement.addElement("w:numPr");
+                    numPrElement.addElement("w:ilvl").addAttribute("w:val", "0");
+                    numPrElement.addElement("w:numId").addAttribute("w:val", "99");
                 }
-                numPrElement = pPrElement.addElement("w:numPr");
-                numPrElement.addElement("w:ilvl").addAttribute("w:val", "0");
-                numPrElement.addElement("w:numId").addAttribute("w:val", "99");
+
             }
             if (node2 != null) {
                 Element pPrElement = node2.getParent().element("pPr");

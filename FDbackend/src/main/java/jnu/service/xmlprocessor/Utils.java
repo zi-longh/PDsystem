@@ -75,18 +75,13 @@ public class Utils {
 
         XPath xpathDrawing = DocumentHelper.createXPath("descendant::w:drawing");
         xpathDrawing.setNamespaceURIs(nsMap);
-
         XPath xpathObject = DocumentHelper.createXPath("descendant::w:object");
-
         XPath xpathGraphicData = DocumentHelper.createXPath("descendant::pic:pic");
         xpathGraphicData.setNamespaceURIs(nsMap);
-
         XPath xpathChart = DocumentHelper.createXPath("descendant::c:chart");
         xpathChart.setNamespaceURIs(nsMap);
-
         XPath xpathVShape = DocumentHelper.createXPath("descendant::v:shape");
         xpathVShape.setNamespaceURIs(nsMap);
-
 
         boolean ret = false;
         if (!xpathDrawing.selectNodes(pElement).isEmpty()) { // 含有drawing标签
@@ -106,7 +101,6 @@ public class Utils {
             return ret;
         }
 
-
         // 如果是doc转化过来的docx，则图片的标签为v:shape，且id含有“图片”
         if (!xpathVShape.selectNodes(pElement).isEmpty()) {
             List<Node> vShapeList = xpathVShape.selectNodes(pElement);
@@ -117,10 +111,7 @@ public class Utils {
                     ret = true;
                 }
             }
-
         }
-
-
         return ret;
     }
 
