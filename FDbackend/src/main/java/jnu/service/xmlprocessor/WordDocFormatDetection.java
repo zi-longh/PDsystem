@@ -554,10 +554,6 @@ public class WordDocFormatDetection {
                     /* 摘要正文内容 */
                     // 处理方法是统一处理，先读取所有数据再按要求生成
                     if (i == abstractIndex + 1) {
-                        System.out.println("---------------------");
-                        System.out.println("AOCReq.isPrefixBold() = " + AOCReq.isPrefixBold());
-                        System.out.println("---------------------");
-
                         int contentLength = convertToStdAbstract(
                                 pElement,
                                 AOCReq.getParagraphRep(),
@@ -775,6 +771,9 @@ public class WordDocFormatDetection {
                                     }}, "建议修改批注", "整段");
                         }
 
+                        System.out.println("--------");
+                        System.out.println("摘要正文内容字数：" + contentLength + "个单词");
+                        System.out.println("--------");
                         if (contentLength < AOEReq.getRecommendedMinContentLength() && AOEReq.getRecommendedMinContentLength() != 0) {
                             // 添加建议修改批注
                             addComment(xmlDirectory, pElement,
@@ -1181,7 +1180,7 @@ public class WordDocFormatDetection {
                         for (Node node : rtNodes) {
                             String rText = node.getText().trim();
                             // 如果是有引用且没有右上角标的文献，那么就是不合规的引用
-                            if (rText.contains("[")) {
+                            if (rText.contains("[") && rText.contains("]") && !rText.contains("].") && !rText.contains("“]")) {
                                 Element rElement = (Element) node.getParent();
                                 if (rElement.element("rPr") == null
                                         || rElement.element("rPr").element("vertAlign") == null
@@ -1687,6 +1686,41 @@ public class WordDocFormatDetection {
                         if (numPrElement != null) {
                             pPrElement.remove(numPrElement);
                         }
+                        // 检查标题是否有手打前缀编号
+                        List<Node> wtElements = pElement.selectNodes("descendant::w:t");
+                        StringBuilder text = new StringBuilder();
+                        for (Node wtElement: wtElements){
+                            text.append(wtElement.getText());
+                        }
+                        String Str = text.toString();
+                        System.out.println("--------------");
+                        System.out.println("Str = " + Str);
+                        System.out.println("--------------");
+
+                        if (!Str.isEmpty()) {
+                            if (Str.matches("\\d+[.、].*")) {
+                                addComment(xmlDirectory, pElement, new ArrayList<String>() {{
+                                    add("标题不应有手打前缀编号，请删除！");
+                                }}, "待修改批注", "段首");
+                            }else if (Str.matches("[一二三四五六七八九十]+[.、].*")) {
+                                addComment(xmlDirectory, pElement, new ArrayList<String>() {{
+                                    add("标题不应有手打汉字前缀编号，请删除！");
+                                }}, "待修改批注", "段首");
+                            }else if(Str.matches("\\([一二三四五六七八九十]\\).*")){
+                                addComment(xmlDirectory, pElement, new ArrayList<String>() {{
+                                    add("标题不应有手打汉字前缀编号，请删除！");
+                                }}, "待修改批注", "段首");
+                            }else if(Str.matches("（[一二三四五六七八九十]）.*")) {
+                                addComment(xmlDirectory, pElement, new ArrayList<String>() {{
+                                    add("标题不应有手打汉字前缀编号，请删除！");
+                                }}, "待修改批注", "段首");
+                            }else if(Str.matches("（\\d+）.*")) {
+                                addComment(xmlDirectory, pElement, new ArrayList<String>() {{
+                                    add("标题不应有手打前缀编号，请删除！");
+                                }}, "待修改批注", "段首");
+                            }
+                        }
+
 
                         // 检查标题样式是否正确
                         if (j == 1) {
@@ -1839,6 +1873,22 @@ public class WordDocFormatDetection {
                         bElement.remove(bElement.attribute("val")); // 删除<w:b>标签的val属性
                     }
                 }
+
+                // 检查<w:i>标签，没有就不管，有则检测
+                Element iElement = rPrElement.element("i");
+                Element iCsElement = rPrElement.element("iCs");
+                if(!(iElement == null)){
+                    ArrayList<String> contentList = new ArrayList<>();
+                    contentList.add("此处段落“" + sectionName + "”的字体不应斜体，已自动修改。");
+                    commentListList.add(contentList);
+                    commentTypeList.add("自动修改批注");
+                    wrongRIndex.add(i);
+                    rPrElement.remove(iElement);
+                }
+                if(!(iCsElement == null)){
+                    rPrElement.remove(iCsElement);
+                }
+
             } else {
                 // 没有<w:rPr>标签，添加标准的<w:rPr>标签
                 ElementCreator.addStdParagraphRPr(rElement, paragraphRep);
@@ -1875,17 +1925,17 @@ public class WordDocFormatDetection {
                 String commentType = "自动修改批注";
                 addComment(xmlDirectory, pElement, contentList, commentType, "段尾");
             }
-            // 检查lineRule, afterLine, beforeLine, after, before
+            // 检查lineRule, afterLines, beforeLines, after, before
             if (spacingElement.attributeValue("lineRule") == null) {
                 spacingElement.addAttribute("w:lineRule", "auto");
             } else {
                 spacingElement.attribute("lineRule").setValue("auto");
             }
 
-            if (spacingElement.attributeValue("afterLine") != null)
-                spacingElement.remove(spacingElement.attribute("afterLine"));
-            if (spacingElement.attributeValue("beforeLine") != null)
-                spacingElement.remove(spacingElement.attribute("beforeLine"));
+            if (spacingElement.attributeValue("afterLines") != null)
+                spacingElement.remove(spacingElement.attribute("afterLines"));
+            if (spacingElement.attributeValue("beforeLines") != null)
+                spacingElement.remove(spacingElement.attribute("beforeLines"));
             if (spacingElement.attributeValue("after") != null)
                 spacingElement.remove(spacingElement.attribute("after"));
             if (spacingElement.attributeValue("before") != null)
@@ -2089,6 +2139,21 @@ public class WordDocFormatDetection {
                         bElement.remove(bElement.attribute("val")); // 删除<w:b>标签的val属性
                     }
                 }
+
+                // 检查<w:i>标签，没有就不管，有则检测
+                Element iElement = rPrElement.element("i");
+                Element iCsElement = rPrElement.element("iCs");
+                if(!(iElement == null)){
+                    ArrayList<String> contentList = new ArrayList<>();
+                    contentList.add("此处标题“" + sectionName + "”的字体不应斜体，已自动修改。");
+                    commentListList.add(contentList);
+                    commentTypeList.add("自动修改批注");
+                    wrongRIndex.add(i);
+                    rPrElement.remove(iElement);
+                }
+                if(!(iCsElement == null)){
+                    rPrElement.remove(iCsElement);
+                }
             } else {
                 // 没有<w:rPr>标签，添加标准的<w:rPr>标签
                 ElementCreator.addStdHeadingRPr(pElement, headingStyle);
@@ -2104,7 +2169,7 @@ public class WordDocFormatDetection {
 //            pPrElement = pElement.addElement("w:pPr");
             /*
                 <w:ind w:firstLine="" w:firstLineChars="" />
-                <w:spacing w:beforeLines="" w:afterLines="" w:line="" w:lineRule="auto" />
+                <w:spacing w:beforeLines="" w:afterLiness="" w:line="" w:lineRule="auto" />
                 <w:jc w:val="center" />  居中， left,right,both两端
             */
         }
@@ -2114,8 +2179,8 @@ public class WordDocFormatDetection {
             spacingElement = pPrElement.addElement("w:spacing");
             spacingElement.addAttribute("w:lineRule", "auto");
             spacingElement.addAttribute("w:line", headingStyle.getLine());
-            spacingElement.addAttribute("w:afterLine", headingStyle.getAfterLine());
-            spacingElement.addAttribute("w:beforeLine", headingStyle.getBeforeLine());
+            spacingElement.addAttribute("w:afterLines", headingStyle.getAfterLine());
+            spacingElement.addAttribute("w:beforeLines", headingStyle.getBeforeLine());
         } else {
             // 检查line
             if (spacingElement.attributeValue("line") == null) {
@@ -2135,30 +2200,34 @@ public class WordDocFormatDetection {
             } else {
                 spacingElement.attribute("lineRule").setValue("auto");
             }
-            // 检查段前行距beforeLine
-            if (spacingElement.attributeValue("beforeLine") == null) {
-                spacingElement.addAttribute("w:beforeLine", headingStyle.getBeforeLine());
-            } else if (!spacingElement.attributeValue("beforeLine").equals(headingStyle.getBeforeLine())) {
-                String wrongBeforeLine = spacingElement.attributeValue("beforeLine");
-                spacingElement.attribute("beforeLine").setValue(headingStyle.getBeforeLine()); // 自动修改段前行距
+            // 检查段前行距beforeLines
+            if (spacingElement.attributeValue("beforeLines") == null) {
+                spacingElement.addAttribute("w:beforeLines", headingStyle.getBeforeLine());
+            } else if (!spacingElement.attributeValue("beforeLines").equals(headingStyle.getBeforeLine())) {
+                String wrongBeforeLine = spacingElement.attributeValue("beforeLines");
+                spacingElement.attribute("beforeLines").setValue(headingStyle.getBeforeLine()); // 自动修改段前行距
                 // 发现了不符合要求的段前行距，添加批注
                 ArrayList<String> contentList = new ArrayList<>();
                 contentList.add("此处标题“" + sectionName + "”的段前行距不符合要求，应为" + StrConverter.beforeAfterLineToReadableString(headingStyle.getBeforeLine()) + "，但实际为" + StrConverter.beforeAfterLineToReadableString(wrongBeforeLine) + "。已自动修改。");
                 String commentType = "自动修改批注";
                 addComment(xmlDirectory, pElement, contentList, commentType, "段尾");
             }
-            // 检查段后行距afterLine
-            if (spacingElement.attributeValue("afterLine") == null) {
-                spacingElement.addAttribute("w:afterLine", headingStyle.getAfterLine());
-            } else if (!spacingElement.attributeValue("afterLine").equals(headingStyle.getAfterLine())) {
-                String wrongAfterLine = spacingElement.attributeValue("afterLine");
-                spacingElement.attribute("afterLine").setValue(headingStyle.getAfterLine()); // 自动修改段后行距
+            // 检查段后行距afterLines
+            if (spacingElement.attributeValue("afterLines") == null) {
+                spacingElement.addAttribute("w:afterLines", headingStyle.getAfterLine());
+            } else if (!spacingElement.attributeValue("afterLines").equals(headingStyle.getAfterLine())) {
+                String wrongAfterLine = spacingElement.attributeValue("afterLines");
+                spacingElement.attribute("afterLines").setValue(headingStyle.getAfterLine()); // 自动修改段后行距
                 // 发现了不符合要求的段后行距，添加批注
                 ArrayList<String> contentList = new ArrayList<>();
                 contentList.add("此处标题“" + sectionName + "”的段后行距不符合要求，应为" + StrConverter.beforeAfterLineToReadableString(headingStyle.getAfterLine()) + "，但实际为" + StrConverter.fontSizeToReadableString(wrongAfterLine) + "。已自动修改。");
                 String commentType = "自动修改批注";
                 addComment(xmlDirectory, pElement, contentList, commentType, "段尾");
             }
+
+            // 删除存在的after属性
+            if (spacingElement.attributeValue("after") != null)
+                spacingElement.remove(spacingElement.attribute("after"));
 
         }
         // 检查jc
@@ -2294,6 +2363,10 @@ public class WordDocFormatDetection {
                         Element evenAndOdd = settingsRoot.element("evenAndOddHeaders");
                         if (evenAndOdd == null) {
                             settingsRoot.addElement("w:evenAndOddHeaders");
+                        }
+                        Element mirrorMargin = settingsRoot.element("mirrorMargins");
+                        if (mirrorMargin == null) {
+                            settingsRoot.addElement("w:mirrorMargins");
                         }
 
                         // 保存
@@ -2439,19 +2512,16 @@ public class WordDocFormatDetection {
                     // 读取目录的内容
                     List<Node> tNodes = pElement.selectNodes("descendant::w:t");
                     for (Node node : tNodes) {
-                        content.append(node.getText().trim());
+                        content.append(node.getText().trim().replaceAll(" ","")); // 去两端空格
                     }
-
                 }
-
                 // 处理空段落
                 for (Element emptyElement : emptyElements) {
                     emptyElement.detach();
                 }
-
                 // 检查目录的内容是否有缺漏
                 Element headingElement = pElements.get(startIndex + 1);
-                for (int i = 0; i < CatalogueIndex; i++) {
+                for (int i = 0; i <= CatalogueIndex; i++) {
                     // 将目录之前出现的标题内容，在outlineList中删除
                     outlineList.remove(sectionOrder.get(i).replaceAll(" ", ""));
                 }

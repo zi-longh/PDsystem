@@ -1,0 +1,4757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16du wp14">  
+  <w:body> 
+    <w:p w14:paraId="17BF01E1" w14:textId="475C6742" w:rsidR="00F46B54" w:rsidRPr="000D7437" w:rsidRDefault="00000000" w:rsidP="000D7437"> 
+      <w:pPr> 
+        <w:pStyle w:val="a3"/>  
+        <w:tabs> 
+          <w:tab w:val="left" w:pos="960"/> 
+        </w:tabs>  
+        <w:spacing w:before="326" w:line="240" w:lineRule="auto" w:beforeLines="100" w:afterLines="200"/>  
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312"/>  
+          <w:sz w:val="44"/> 
+        </w:rPr>  
+        <w:jc w:val="center"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="0" w:name="_Toc153040565"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>诚</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>信</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>声</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312" w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="44"/>  
+          <w:szCs w:val="44"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>明</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="0"/> 
+    </w:p>  
+    <w:p w14:paraId="15B7C871" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="22"/>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLine="600" w:firstLineChars="200"/>  
+        <w:rPr> 
+          <w:rFonts w:ascii="宋体" w:eastAsia="楷体_GB2312" w:hAnsi="宋体"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/> 
+        </w:rPr>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>我声明，所呈交的毕业论文是本人在老师指导下进行的研究工作及取得的研究成果。据我查证，除了文中特别加以标注和致谢的地方外，论文中不包含其他人已经发表或撰写过的研究成果，也不包含为获得其他教育机构的学位或证书而使用过的材料。我承诺，论文中的所有内容均真实、可信。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="46915744" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00F46B54"> 
+      <w:pPr> 
+        <w:rPr> 
+          <w:rFonts w:ascii="宋体" w:eastAsia="楷体_GB2312" w:hAnsi="宋体"/> 
+        </w:rPr> 
+      </w:pPr> 
+    </w:p>  
+    <w:p w14:paraId="50CD98BB" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00F46B54"> 
+      <w:pPr> 
+        <w:rPr> 
+          <w:rFonts w:ascii="宋体" w:eastAsia="楷体_GB2312" w:hAnsi="宋体"/> 
+        </w:rPr> 
+      </w:pPr> 
+    </w:p>  
+    <w:p w14:paraId="7A690D48" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00F46B54"> 
+      <w:pPr> 
+        <w:rPr> 
+          <w:rFonts w:ascii="宋体" w:eastAsia="楷体_GB2312" w:hAnsi="宋体"/> 
+        </w:rPr> 
+      </w:pPr> 
+    </w:p>  
+    <w:p w14:paraId="2B2F6AB5" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00F46B54"> 
+      <w:pPr> 
+        <w:rPr> 
+          <w:rFonts w:ascii="宋体" w:eastAsia="楷体_GB2312" w:hAnsi="宋体"/> 
+        </w:rPr> 
+      </w:pPr> 
+    </w:p>  
+    <w:p w14:paraId="551D7CCA" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:rPr> 
+          <w:rFonts w:eastAsia="楷体_GB2312"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/> 
+        </w:rPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>毕业论文作者签名：</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">              </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>签名日期：</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">  </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>年</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">  </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>月</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">  </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="楷体_GB2312" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:sz w:val="30"/>  
+          <w:szCs w:val="30"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>日</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="674945D2" w14:textId="6818469A" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="a3"/>  
+        <w:spacing w:before="326" w:line="240" w:lineRule="auto" w:beforeLines="100" w:afterLines="200"/>  
+        <w:jc w:val="center"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:br w:type="page"/> 
+      </w:r>  
+      <w:r w:rsidR="000D7437"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>基于</w:t> 
+      </w:r>  
+      <w:r w:rsidR="000D7437"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>OOXML</w:t> 
+      </w:r>  
+      <w:r w:rsidR="000D7437"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>的毕业论文格式检测与校正系统</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+        <w:sz w:val="36"/>  
+        <w:szCs w:val="36"/>  
+        <w:b/> 
+      </w:rPr> 
+    </w:p>  
+    <w:p w14:paraId="73E1BC41" w14:textId="77777777" w:rsidR="000D7437" w:rsidRDefault="00000000" w:rsidP="000D7437"> 
+      <w:pPr> 
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="200"/>  
+        <w:jc w:val="both"/>  
+        <w:b w:val="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"><![CDATA[[摘 要] ]]></w:t>  
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:t>毕业论文的质量对学生和高校都至关重要，既是对学生科研能力的综合考察，也是高校教学能力和科研水平的展现。保证论文质量的重要手段便是保证论文的格式规范性。本文为了减轻人工调整论文格式的负担，让撰写论文时“重内容，轻格式”，留出更多精力在论文内容上，提高论文质量，设计和实现了基于OOXML的毕业论文格式检测与校正系统。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="35FFF6A3" w14:textId="77777777" w:rsidR="000D7437" w:rsidRDefault="000D7437" w:rsidP="000D7437"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本文首先分析论文检测技术的研究现状，总结当前论文检测系统常见的技术实现和存在的问题，随后分析高校学位论文格式的检测需求，再对</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>OOXML</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>规范中控制</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Word</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>的部分进行分析，理清</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Word</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文档底层的文件组织结构和内容组织结构，最后详细介绍系统的设计、实现和测试。通过测试，系统各模块符合设计要求，能实现毕业论文格式检测和自动校正的功能，是</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:t>一种可行的、可借鉴的论文格式检测方案，具有实用意义</w:t>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="797EDB42" w14:textId="46F7ED62" w:rsidR="00F46B54" w:rsidRDefault="000D7437" w:rsidP="000D7437"> 
+      <w:pPr> 
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="200"/>  
+        <w:jc w:val="both"/>  
+        <w:b w:val="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"><![CDATA[[关键词] ]]></w:t>  
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:t>格式检测；格式校正；OOXML</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="12AE63F9" w14:textId="514228A5" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="a3"/>  
+        <w:spacing w:before="326" w:line="240" w:lineRule="auto" w:beforeLines="100" w:afterLines="200"/>  
+        <w:jc w:val="center"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:br w:type="page"/> 
+      </w:r>  
+      <w:r w:rsidR="000D7437" w:rsidRPr="00450570"> 
+        <w:lastRenderedPageBreak/>  
+        <w:t>Graduation Thesis format detection and correction system based on OOXML</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+        <w:sz w:val="36"/>  
+        <w:szCs w:val="36"/>  
+        <w:b/> 
+      </w:rPr>  
+      <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+        <w:sz w:val="36"/>  
+        <w:szCs w:val="36"/>  
+        <w:b/> 
+      </w:rPr> 
+    </w:p>  
+    <w:p w14:paraId="69646BB5" w14:textId="77777777" w:rsidR="000D7437" w:rsidRDefault="00000000" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:snapToGrid w:val="0"/>  
+        <w:rPr> 
+          <w:bCs/> 
+        </w:rPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="200"/>  
+        <w:jc w:val="both"/>  
+        <w:b w:val="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">Abstract：</w:t>  
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:t>The quality of dissertation is very important to both students and universities, which is not only a comprehensive investigation of students' scientific research ability, but also a demonstration of university teaching ability and scientific research level. The important means to ensure the quality of the paper is to ensure the standardization of the format of the paper. In order to reduce the burden of manual adjustment of the paper format, let the writing of the paper "Focus on content, not format", leave more energy on the content of the paper, improve the quality of the paper, design and implement the OOXML thesis detection and correction system.</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="76F7D255" w14:textId="7225616E" w:rsidR="00F46B54" w:rsidRPr="000D7437" w:rsidRDefault="000D7437" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:snapToGrid w:val="0"/>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLine="434" w:firstLineChars="200"/>  
+        <w:rPr> 
+          <w:color w:val="FF0000"/> 
+        </w:rPr>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:bCs/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>This paper first analyzes the research status of thesis detection technology, summarizes the common technical implementation and existing problems of the current thesis detection system, then analyzes the detection needs of university dissertation format, and then analyzes the part controlling Word in OOXML specification to clarify the file organization structure and content organization structure of the bottom layer of Word document. Finally, the design, implementation and testing of the system are introduced in detail. The test shows that each module of the system meets the design requirements and can realize the function of thesis format detection and automatic correction. It is a feasible and referential thesis format detection scheme and has practical significance.</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="505477CD" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="200"/>  
+        <w:jc w:val="both"/>  
+        <w:b w:val="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">Keywords：</w:t>  
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:t>Format Detection；Format Correction；OOXML</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="21E34863" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="a3"/>  
+        <w:spacing w:before="326" w:line="480" w:lineRule="auto" w:beforeLines="50" w:afterLines="50"/>  
+        <w:jc w:val="center"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:br w:type="page"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>目</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve">     </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>录</w:t> 
+      </w:r>  
+      <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+        <w:sz w:val="36"/>  
+        <w:szCs w:val="36"/>  
+        <w:b/> 
+      </w:rPr> 
+    </w:p>  
+    <w:p w14:paraId="02FD4FEF" w14:textId="7CDEBF77" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/> 
+        </w:rPr>  
+        <w:fldChar w:fldCharType="begin"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/> 
+        </w:rPr>  
+        <w:instrText xml:space="preserve"> TOC \o "1-3" \h \z \u </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/> 
+        </w:rPr>  
+        <w:fldChar w:fldCharType="separate"/> 
+      </w:r>  
+      <w:hyperlink w:anchor="_Toc166601358" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">1 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>绪论</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601358 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>1</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="4AF0478F" w14:textId="4F2B9E8F" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC2"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:smallCaps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601359" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">1.1 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>研究背景及意义</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601359 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>1</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="7EF61A94" w14:textId="66F52BBB" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601360" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">1.1.1 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>研究背景</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601360 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>1</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="4266AA9C" w14:textId="52D58D8D" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601361" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">1.1.2 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>研究意义</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601361 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>1</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="77ABEC79" w14:textId="568A0A31" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601362" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">2 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>相关技术</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601362 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="199BDAF1" w14:textId="45C9E75A" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC2"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:smallCaps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601363" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">2.1 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>文档技术</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601363 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="0B2B0222" w14:textId="2FAAFEE8" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601364" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>2.1.1 XML</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601364 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="0BFD76C5" w14:textId="08467182" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601365" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>2.1.2 DOC/DOCX</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601365 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="15C221AF" w14:textId="279F3EA2" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC2"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:smallCaps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601366" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">2.2 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>开发技术</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601366 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="5393004E" w14:textId="603130FB" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601367" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>2.2.1 DOM4J</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601367 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="497F7FFC" w14:textId="7EA14040" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601368" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>2.2.2 Spring Boot</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601368 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="3B5DC39C" w14:textId="1FD20DED" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601369" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>2.2.3 MySql</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>与</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>Mybatis Plus</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601369 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>2</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="17260214" w14:textId="6402AA74" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601370" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">3 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>需求分析</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601370 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>3</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="282A7AE8" w14:textId="1F50E0B0" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601371" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">4 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>系统设计</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601371 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>5</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="00B9CE42" w14:textId="0D8755E4" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC2"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:smallCaps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601372" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">4.1 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>系统总体结构</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601372 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>5</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="732A6163" w14:textId="4A235CDD" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC2"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:smallCaps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601373" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">4.2 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>数据库设计</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601373 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>5</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="3BE701A3" w14:textId="3823719E" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601374" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">4.2.1 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>普通用户端</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601374 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>5</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="2836942C" w14:textId="3CCDB2D7" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC3"/>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:iCs w:val="0"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601375" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t xml:space="preserve">4.2.2 </w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/> 
+          </w:rPr>  
+          <w:t>教师端</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601375 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>6</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="50DF1A2D" w14:textId="667DABFF" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601376" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>结论</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601376 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>8</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="19FC010C" w14:textId="44F59555" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601377" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>致谢</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601377 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>9</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="73C0F4E2" w14:textId="7E96B6E9" w:rsidR="002D4190" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:rPr> 
+          <w:rFonts w:asciiTheme="minorHAnsi" w:eastAsiaTheme="minorEastAsia" w:hAnsiTheme="minorHAnsi" w:cstheme="minorBidi"/>  
+          <w:b w:val="0"/>  
+          <w:bCs w:val="0"/>  
+          <w:caps w:val="0"/>  
+          <w:noProof/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="22"/>  
+          <w14:ligatures w14:val="standardContextual"/> 
+        </w:rPr> 
+      </w:pPr>  
+      <w:hyperlink w:anchor="_Toc166601378" w:history="1"> 
+        <w:r w:rsidR="002D4190" w:rsidRPr="007E7983"> 
+          <w:rPr> 
+            <w:rStyle w:val="a9"/>  
+            <w:noProof/> 
+          </w:rPr>  
+          <w:t>参考文献</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:tab/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="begin"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:instrText xml:space="preserve"> PAGEREF _Toc166601378 \h </w:instrText> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="separate"/> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:t>10</w:t> 
+        </w:r>  
+        <w:r w:rsidR="002D4190"> 
+          <w:rPr> 
+            <w:noProof/>  
+            <w:webHidden/> 
+          </w:rPr>  
+          <w:fldChar w:fldCharType="end"/> 
+        </w:r> 
+      </w:hyperlink> 
+    </w:p>  
+    <w:p w14:paraId="59509AE9" w14:textId="4C7F85E6" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="TOC1"/>  
+        <w:tabs> 
+          <w:tab w:val="right" w:leader="dot" w:pos="9061"/> 
+        </w:tabs>  
+        <w:sectPr> 
+          <w:headerReference w:type="even" r:id="rId8"/>  
+          <w:headerReference w:type="odd" r:id="rId8"/>  
+          <w:pgSz w:w="11906" w:h="16838"/>  
+          <w:pgMar w:top="1418" w:right="1134" w:bottom="1418" w:left="1701" w:header="851" w:footer="992" w:gutter="0"/>  
+          <w:cols w:space="425"/>  
+          <w:docGrid w:type="lines" w:linePitch="312"/> 
+        </w:sectPr> 
+      </w:pPr>  
+      <w:r> 
+        <w:fldChar w:fldCharType="end"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia"/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="0453AFD2" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="1" w:name="_Toc153297493"/>  
+      <w:bookmarkStart w:id="2" w:name="_Toc153297714"/>  
+      <w:bookmarkStart w:id="3" w:name="_Toc166601358"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>绪论</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="1"/>  
+      <w:bookmarkEnd w:id="2"/>  
+      <w:bookmarkEnd w:id="3"/> 
+    </w:p>  
+    <w:p w14:paraId="09C61047" w14:textId="32DC18F3" w:rsidR="00067C82" w:rsidRDefault="00067C82" w:rsidP="00067C82"> 
+      <w:pPr> 
+        <w:pStyle w:val="20"/>  
+        <w:spacing w:lineRule="auto" w:line="360" w:afterLines="30" w:beforeLines="30"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="4" w:name="_Toc166601359"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>研究背景及意义</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="4"/> 
+    </w:p>  
+    <w:p w14:paraId="0A745DD6" w14:textId="0C202D9D" w:rsidR="00B71139" w:rsidRPr="00B71139" w:rsidRDefault="00B71139" w:rsidP="00B71139"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="5" w:name="_Toc166601360"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>研究背景</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="5"/> 
+    </w:p>  
+    <w:p w14:paraId="1130FEEE" w14:textId="476506E3" w:rsidR="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00C03AB4"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>测试标题和段落的基本格式。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="4170D787" w14:textId="6779465E" w:rsidR="00C03AB4" w:rsidRDefault="00C03AB4" w:rsidP="00C03AB4"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>学位论文是高校学生培养计划的关键环节，既是对学生在校期间所学知识、学术科研能力和独立思考能力的一次重要考察，决定是否授予学位的重要评判指标，也是对高校教学能力和科研水平的一次展现。因此，学位论文的质量对学生和高校都至关重要。其中，保证论文质量的一个重要手段便是保证论文的格式规范性。无论是对论文内容的精准表达，保证论文的学术性和严谨性，还是方便学者阅读交流和传播，都是建立在论文的格式规范性之上。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="60C6E5E8" w14:textId="77777777" w:rsidR="00C03AB4" w:rsidRDefault="00C03AB4" w:rsidP="00C03AB4"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="6" w:name="_Toc166409694"/>  
+      <w:bookmarkStart w:id="7" w:name="_Toc166601361"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>研究意义</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="6"/>  
+      <w:bookmarkEnd w:id="7"/> 
+    </w:p>  
+    <w:p w14:paraId="7C549D46" w14:textId="77777777" w:rsidR="00C03AB4" w:rsidRPr="00C03AB4" w:rsidRDefault="00C03AB4" w:rsidP="00C03AB4"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本文研究与实现基于</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>OOXML</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>的毕业论文格式检测和校正系统的意义主要有如下三点：</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="758AB05D" w14:textId="77777777" w:rsidR="00972B71" w:rsidRDefault="00C03AB4" w:rsidP="00972B71"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="74"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:jc w:val="both"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>极大程度减轻人工调整论文格式的负担，在撰写论文时回归“重内容，轻格式”，留出更多精力在论文内容上，提高论文质量。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="49359EEA" w14:textId="77777777" w:rsidR="00972B71" w:rsidRDefault="00C03AB4" w:rsidP="00972B71"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="74"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:jc w:val="both"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>深入研究文档底层的</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>OOXML</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>结构，充实了</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Word</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文档自动化处理领域的相关知识，并拓展了格式自动化处理的方法论。这些研究成果将为企业在进行文档自动化开发时提供了宝贵的参考。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="4468F3D0" w14:textId="02A32E58" w:rsidR="00C03AB4" w:rsidRPr="00C03AB4" w:rsidRDefault="00C03AB4" w:rsidP="00972B71"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="74"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:jc w:val="both"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00C03AB4"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>构建的一种对毕业论文的检测和自动校正的系统，能给学校、企业提供一种可行的、可借鉴的论文格式检测方案，具有实用意义。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="4579447A" w14:textId="0F79A0C9" w:rsidR="00F46B54" w:rsidRDefault="008678EF"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="8" w:name="_Toc166601362"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>相关</w:t> 
+      </w:r>  
+      <w:r w:rsidR="001D287E"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>技术</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="8"/> 
+    </w:p>  
+    <w:p w14:paraId="7BB087BA" w14:textId="1559F36E" w:rsidR="00F46B54" w:rsidRPr="00EA3472" w:rsidRDefault="001D287E" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:pStyle w:val="20"/>  
+        <w:rPr> 
+          <w:sz w:val="28"/> 
+        </w:rPr>  
+        <w:spacing w:lineRule="auto" w:line="360" w:afterLines="30" w:beforeLines="30"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="9" w:name="_Toc166601363"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>文档技术</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="9"/> 
+    </w:p>  
+    <w:p w14:paraId="3E53E9F3" w14:textId="08729DA8" w:rsidR="00F46B54" w:rsidRDefault="001D287E" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="10" w:name="_Toc166601364"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>XML</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="10"/> 
+    </w:p>  
+    <w:p w14:paraId="7543D379" w14:textId="1E5CC45C" w:rsidR="00F46B54" w:rsidRDefault="001D287E" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="11" w:name="_Toc166601365"/>  
+      <w:bookmarkStart w:id="12" w:name="_Ref153187706"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>DOC/DOCX</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="11"/> 
+    </w:p>  
+    <w:p w14:paraId="7527320A" w14:textId="7F2DCBA5" w:rsidR="001D287E" w:rsidRDefault="001D287E" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:pStyle w:val="20"/>  
+        <w:spacing w:lineRule="auto" w:line="360" w:afterLines="30" w:beforeLines="30"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="13" w:name="_Toc166601366"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>开发技术</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="13"/> 
+    </w:p>  
+    <w:p w14:paraId="1DE606AA" w14:textId="77777777" w:rsidR="001D287E" w:rsidRDefault="001D287E" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="14" w:name="_Toc166409704"/>  
+      <w:bookmarkStart w:id="15" w:name="_Toc166601367"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>DOM4J</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="14"/>  
+      <w:bookmarkEnd w:id="15"/> 
+    </w:p>  
+    <w:p w14:paraId="47DD7691" w14:textId="5D95DA07" w:rsidR="001D287E" w:rsidRDefault="001D287E" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="16" w:name="_Toc166409705"/>  
+      <w:bookmarkStart w:id="17" w:name="_Toc166601368"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>Spring Boot</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="16"/>  
+      <w:bookmarkEnd w:id="17"/> 
+    </w:p>  
+    <w:p w14:paraId="30D74AF2" w14:textId="569F11CF" w:rsidR="001D287E" w:rsidRPr="001D287E" w:rsidRDefault="00C553A0" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="18" w:name="_Toc166409706"/>  
+      <w:bookmarkStart w:id="19" w:name="_Toc166601369"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>MySql</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>与</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>Mybatis</w:t> 
+      </w:r>  
+      <w:r w:rsidR="000F6712"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>Plus</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="18"/>  
+      <w:bookmarkEnd w:id="19"/> 
+    </w:p>  
+    <w:p w14:paraId="7B3006E2" w14:textId="35C4233A" w:rsidR="00F46B54" w:rsidRDefault="00C553A0"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="20" w:name="_Toc166601370"/>  
+      <w:bookmarkEnd w:id="12"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>需求分析</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="20"/> 
+    </w:p>  
+    <w:p w14:paraId="47BBFDB5" w14:textId="273F8C75" w:rsidR="00746DBB" w:rsidRDefault="00746DBB" w:rsidP="00746DBB"> 
+      <w:pPr> 
+        <w:pStyle w:val="a4"/>  
+        <w:keepNext/>  
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="21"/> 
+        </w:rPr>  
+        <w:jc w:val="center"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t>表</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="begin"/> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:instrText>STYLEREF 1 \s</w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="separate"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/> 
+        </w:rPr>  
+        <w:t>3</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="end"/> 
+      </w:r>  
+      <w:r> 
+        <w:noBreakHyphen/> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="begin"/> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:instrText xml:space="preserve">SEQ </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:instrText>表</w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:instrText xml:space="preserve"> \* ARABIC \s 1</w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="separate"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/> 
+        </w:rPr>  
+        <w:t>1</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="end"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t>用户需求</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:tbl> 
+      <w:tblPr> 
+        <w:tblW w:w="8988" w:type="dxa"/>  
+        <w:jc w:val="center"/>  
+        <w:tblBorders> 
+          <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+          <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+          <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+          <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+          <w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+          <w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/> 
+        </w:tblBorders>  
+        <w:tblLayout w:type="fixed"/>  
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/> 
+      </w:tblPr>  
+      <w:tblGrid> 
+        <w:gridCol w:w="2086"/>  
+        <w:gridCol w:w="6902"/> 
+      </w:tblGrid>  
+      <w:tr w:rsidR="00C553A0" w:rsidRPr="00C553A0" w14:paraId="41BB0E22" w14:textId="77777777"> 
+        <w:trPr> 
+          <w:trHeight w:val="303"/>  
+          <w:jc w:val="center"/> 
+        </w:trPr>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="2086" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="single" w:sz="12" w:space="0" w:color="auto"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="0808235A" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0"> 
+            <w:pPr> 
+              <w:snapToGrid w:val="0"/>  
+              <w:rPr> 
+                <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:cs="黑体"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:cs="黑体" w:hint="eastAsia"/>  
+                <w:bCs/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>用户类型</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="6902" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="single" w:sz="12" w:space="0" w:color="auto"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="3B40D869" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0"> 
+            <w:pPr> 
+              <w:snapToGrid w:val="0"/>  
+              <w:rPr> 
+                <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:cs="黑体"/>  
+                <w:bCs/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:ascii="黑体" w:eastAsia="黑体" w:hAnsi="黑体" w:cs="黑体" w:hint="eastAsia"/>  
+                <w:bCs/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>功能需求</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc> 
+      </w:tr>  
+      <w:tr w:rsidR="00C553A0" w:rsidRPr="00C553A0" w14:paraId="776CCC2B" w14:textId="77777777"> 
+        <w:trPr> 
+          <w:trHeight w:val="1052"/>  
+          <w:jc w:val="center"/> 
+        </w:trPr>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="2086" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="nil"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="401A0DF6" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0" w:rsidP="00C553A0"> 
+            <w:pPr> 
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>普通用户</w:t> 
+            </w:r> 
+          </w:p>  
+          <w:p w14:paraId="42966784" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0" w:rsidP="00C553A0"> 
+            <w:pPr> 
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>（学生）</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="6902" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="nil"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="1F0E01EE" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0"> 
+            <w:pPr> 
+              <w:snapToGrid w:val="0"/>  
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>用户登录功能、查看论文模版规范、修改个人信息、绑定指导老师、上传论文、论文格式检测、提交论文给导师、下载检测报告、查看检测历史。</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc> 
+      </w:tr>  
+      <w:tr w:rsidR="00C553A0" w:rsidRPr="00C553A0" w14:paraId="67B870EC" w14:textId="77777777"> 
+        <w:trPr> 
+          <w:trHeight w:val="395"/>  
+          <w:jc w:val="center"/> 
+        </w:trPr>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="2086" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="nil"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="nil"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="23E17D1E" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0" w:rsidP="00C553A0"> 
+            <w:pPr> 
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>指导老师用户</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="6902" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="nil"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="nil"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="1C89A62B" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0"> 
+            <w:pPr> 
+              <w:snapToGrid w:val="0"/>  
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>管理论文检测模版（可创建、修改、下线、删除论文检测模版）、查看学生提交的论文检测结果、下载学生检测报告或论文原文。同时具备普通用户的登录、查看规范与论文检测功能。</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc> 
+      </w:tr>  
+      <w:tr w:rsidR="00C553A0" w:rsidRPr="00C553A0" w14:paraId="20A8ED36" w14:textId="77777777"> 
+        <w:trPr> 
+          <w:trHeight w:val="464"/>  
+          <w:jc w:val="center"/> 
+        </w:trPr>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="2086" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="nil"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="single" w:sz="12" w:space="0" w:color="auto"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="29D0FB82" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0" w:rsidP="00C553A0"> 
+            <w:pPr> 
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>管理员用户</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc>  
+        <w:tc> 
+          <w:tcPr> 
+            <w:tcW w:w="6902" w:type="dxa"/>  
+            <w:tcBorders> 
+              <w:top w:val="nil"/>  
+              <w:left w:val="nil"/>  
+              <w:bottom w:val="single" w:sz="12" w:space="0" w:color="auto"/>  
+              <w:right w:val="nil"/> 
+            </w:tcBorders>  
+            <w:shd w:val="clear" w:color="auto" w:fill="auto"/>  
+            <w:vAlign w:val="center"/> 
+          </w:tcPr>  
+          <w:p w14:paraId="514D61AC" w14:textId="77777777" w:rsidR="00C553A0" w:rsidRPr="00C553A0" w:rsidRDefault="00C553A0"> 
+            <w:pPr> 
+              <w:snapToGrid w:val="0"/>  
+              <w:rPr> 
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr> 
+            </w:pPr>  
+            <w:r w:rsidRPr="00C553A0"> 
+              <w:rPr> 
+                <w:rFonts w:hint="eastAsia"/>  
+                <w:sz w:val="24"/>  
+                <w:szCs w:val="24"/> 
+              </w:rPr>  
+              <w:t>管理系统账号、能批量导入账号、生成学生老师指导关系。</w:t> 
+            </w:r> 
+          </w:p> 
+        </w:tc> 
+      </w:tr> 
+    </w:tbl>  
+    <w:p w14:paraId="4C8911E9" w14:textId="77777777" w:rsidR="001D287E" w:rsidRDefault="00001BFA" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:jc w:val="center"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:pict w14:anchorId="6E1ACF4E"> 
+          <v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f"> 
+            <v:stroke joinstyle="miter"/>  
+            <v:formulas> 
+              <v:f eqn="if lineDrawn pixelLineWidth 0"/>  
+              <v:f eqn="sum @0 1 0"/>  
+              <v:f eqn="sum 0 0 @1"/>  
+              <v:f eqn="prod @2 1 2"/>  
+              <v:f eqn="prod @3 21600 pixelWidth"/>  
+              <v:f eqn="prod @3 21600 pixelHeight"/>  
+              <v:f eqn="sum @0 0 1"/>  
+              <v:f eqn="prod @6 1 2"/>  
+              <v:f eqn="prod @7 21600 pixelWidth"/>  
+              <v:f eqn="sum @8 21600 0"/>  
+              <v:f eqn="prod @7 21600 pixelHeight"/>  
+              <v:f eqn="sum @10 21600 0"/> 
+            </v:formulas>  
+            <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>  
+            <o:lock v:ext="edit" aspectratio="t"/> 
+          </v:shapetype>  
+          <v:shape id="_x0000_i1025" type="#_x0000_t75" style="width:324.55pt;height:280.8pt" o:allowoverlap="f"> 
+            <v:imagedata r:id="rId9" o:title=""/> 
+          </v:shape> 
+        </w:pict> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="4180F7B4" w14:textId="77777777" w:rsidR="001D287E" w:rsidRDefault="001D287E" w:rsidP="001D287E"> 
+      <w:pPr> 
+        <w:pStyle w:val="a4"/>  
+        <w:rPr> 
+          <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体"/>  
+          <w:sz w:val="21"/>  
+          <w:szCs w:val="21"/> 
+        </w:rPr>  
+        <w:jc w:val="center"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t>图</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="begin"/> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> STYLEREF 1 \s </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="separate"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/> 
+        </w:rPr>  
+        <w:t>2</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/> 
+        </w:rPr>  
+        <w:fldChar w:fldCharType="end"/> 
+      </w:r>  
+      <w:r> 
+        <w:noBreakHyphen/> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="begin"/> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> SEQ </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:instrText>图</w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:instrText xml:space="preserve"> \* ARABIC \s 1</w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="separate"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/> 
+        </w:rPr>  
+        <w:t>1</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="end"/> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t xml:space="preserve"> </w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr/>  
+        <w:t>注水压力对驱油效率的影响</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="4BDE4C37" w14:textId="3A0DFF3E" w:rsidR="00D6096D" w:rsidRDefault="00D6096D" w:rsidP="00D6096D"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="21" w:name="_Toc166601371"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>系统设计</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="21"/> 
+    </w:p>  
+    <w:p w14:paraId="45FBF6B4" w14:textId="77777777" w:rsidR="003C5335" w:rsidRDefault="003C5335" w:rsidP="003C5335"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>参考文献引用格式。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="758CD2DB" w14:textId="7E3B5A16" w:rsidR="003C5335" w:rsidRDefault="003C5335" w:rsidP="003C5335"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本章会先介绍整个系统的总体结构和数据库设计，然后将系统的功能设计拆分成平台交互功能设计、内容无关格式检测功能设计、内容相关格式检测功能设计和报告生成与自动校正功能设计。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="15D5D133" w14:textId="77777777" w:rsidR="003C5335" w:rsidRDefault="003C5335" w:rsidP="003C5335"> 
+      <w:pPr> 
+        <w:pStyle w:val="20"/>  
+        <w:spacing w:lineRule="auto" w:line="360" w:afterLines="30" w:beforeLines="30"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="22" w:name="_Toc166409733"/>  
+      <w:bookmarkStart w:id="23" w:name="_Toc166601372"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>系统总体结构</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="22"/>  
+      <w:bookmarkEnd w:id="23"/> 
+    </w:p>  
+    <w:p w14:paraId="663CB246" w14:textId="508A7E65" w:rsidR="00D6096D" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>结合第三章对本系统需求进行的整理和分析，第四章对</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>DOCX</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>底层的文件组织方式和内容组织方式的整理，本系统将会采用</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>B/S</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>结构构建</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Web</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>应用程序。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="2A6E6565" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:pStyle w:val="20"/>  
+        <w:spacing w:lineRule="auto" w:line="360" w:afterLines="30" w:beforeLines="30"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="24" w:name="_Toc166409734"/>  
+      <w:bookmarkStart w:id="25" w:name="_Toc166601373"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>数据库设计</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="24"/>  
+      <w:bookmarkEnd w:id="25"/> 
+    </w:p>  
+    <w:p w14:paraId="2BEAF2F0" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>数据库设计是系统设计的重要部分，它负责存储和管理系统所需的各种数据。对于本论文检测系统，主要设计有以下六个表。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="247760EF" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="26" w:name="_Toc166409736"/>  
+      <w:bookmarkStart w:id="27" w:name="_Toc166601374"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>普通用户端</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="26"/>  
+      <w:bookmarkEnd w:id="27"/> 
+    </w:p>  
+    <w:p w14:paraId="12CE72FD" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>普通用户是系统人数最多的用户，因而普通用户端承载着系统最基础和最常用的功能。主要有以下四个部分，其中账号管理与论文检测是普通用户端和教师端共有的功能模块，后两个功能是普通用户独有的功能。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="151E164D" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="77"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>账号管理</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="3E4A38E7" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本模块为用户提供登录、注册、修改个人信息（包括修改密码）的功能，用户必须先登录系统，才能进行相关操作。在登录时，用户不仅需要输入正确的账号密码，还必须选择正确的账号类型。登录后，可以修改自</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>己的个人信息，包括姓名、学号、年级、专业、所属学院以及账号密码，修改密码后需要重新登录系统。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="4075C0D9" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="77"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>论文检测</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="007410E3" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本模块是整个系统的核心功能，主要包括查看论文检测模版、论文上传、论文检测、查看检测结果、下载检测报告和查看检测历史记录的功能。具体使用流程设计如下</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="begin"/>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:instrText>REF _Ref166436392 \h</w:instrText> 
+      </w:r>  
+      <w:r> 
+        <w:instrText xml:space="preserve"> </w:instrText>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="separate"/>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:t>图</w:t>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:t xml:space="preserve"> </w:t>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/>  
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体" w:hint="eastAsia"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>5</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:noBreakHyphen/>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:noProof/>  
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体" w:hint="eastAsia"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>3</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:fldChar w:fldCharType="end"/>  
+        <w:rPr w:hint="eastAsia" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="宋体"> 
+          <w:sz w:val="28"/>  
+          <w:szCs w:val="28"/> 
+        </w:rPr> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>所示。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="38AFE808" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:pStyle w:val="30"/>  
+        <w:spacing w:lineRule="auto" w:line="240" w:afterLines="0" w:beforeLines="0"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="28" w:name="_Toc166409737"/>  
+      <w:bookmarkStart w:id="29" w:name="_Toc166601375"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:t>教师端</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="28"/>  
+      <w:bookmarkEnd w:id="29"/> 
+    </w:p>  
+    <w:p w14:paraId="4F655E69" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>教师端主要用于管理论文检测模版，同时能够查看学生提交的论文，下载学生论文和检测报告。此外，与普通用户端相同，教师端同样有账号管理功能和论文检测功能。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="7EE3C45F" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="78"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>论文检测模版管理</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="02F175BD" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>对于检测论文模版，每个老师可以登录教师端创建、修改、删除自己的论文检测模版。创建模版时会自动为模版生成唯一的模版</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>id</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>，教师用户需要输入论文模版的模版名称和模版的描述信息，并且逐一设置论文各个部分的格式要求，系统要提供默认的格式要求。修改和删除模版时只能修改和删除自己创建的模版，对其他教师创建模版，只能查看具体的模版信息，不能进行修改和删除。每个论文检测模版有两个状态，已上线和未上线，只有上线的论文模版才可以用于格式检测，未上线的模版普通用户无法查看。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="043E85A4" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="78"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>查看学生提交论文和下载学生论文及其检测报告</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="6D999DF9" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>教师可以查看学生提交的论文。可以按名字、日期、学号等信息筛选</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>学生提交的论文。可以下载查看学生的检测报告（可能会有一些系统建议修改的内容），也可以下载学生论文的原件，还可以下载</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>PDF</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文件。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="394E4F89" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="78"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>账号管理</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="0C4E0FAB" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>与普通用户端相同，教师端也提供账号管理功能，包括登录、注册、修改个人信息等功能。教师登录后，可以查看和管理自己的个人信息，包括姓名、教师编号、所属学院、描述信息等。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="6450E250" w14:textId="77777777" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="78"/> 
+        </w:numPr>  
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>论文检测</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="0E070656" w14:textId="18108650" w:rsidR="005916F3" w:rsidRDefault="005916F3" w:rsidP="005916F3"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>与普通用户端相同</w:t> 
+      </w:r>  
+      <w:r w:rsidR="00001BFA" w:rsidRPr="00AF4B00"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:vertAlign w:val="superscript"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[1]</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>，教师端</w:t> 
+      </w:r>  
+      <w:r w:rsidR="00001BFA" w:rsidRPr="00AF4B00"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:vertAlign w:val="superscript"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[2]</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>也可以进</w:t> 
+      </w:r>  
+      <w:r w:rsidR="00001BFA" w:rsidRPr="00AF4B00"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:vertAlign w:val="superscript"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[3]</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>行论</w:t> 
+      </w:r>  
+      <w:r w:rsidR="00001BFA" w:rsidRPr="00AF4B00"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:vertAlign w:val="superscript"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[4]</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文检测，仅仅</w:t> 
+      </w:r>  
+      <w:r w:rsidR="00001BFA" w:rsidRPr="00AF4B00"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:vertAlign w:val="superscript"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[5]</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>只是在进</w:t> 
+      </w:r>  
+      <w:r w:rsidR="00001BFA" w:rsidRPr="00AF4B00"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:vertAlign w:val="superscript"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[6]</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>行论文检测的时候教师用户不用选择是否发送导师，其余功能包括查看历史记录、下载检测报告等都与普通用户相同。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="7C84F78C" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="0"/> 
+        </w:numPr>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:jc w:val="left"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="30" w:name="_Toc153297502"/>  
+      <w:bookmarkStart w:id="31" w:name="_Toc153297723"/>  
+      <w:bookmarkStart w:id="32" w:name="_Toc166601376"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>结论</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="30"/>  
+      <w:bookmarkEnd w:id="31"/>  
+      <w:bookmarkEnd w:id="32"/> 
+    </w:p>  
+    <w:p w14:paraId="33A28FE8" w14:textId="16D22CE2" w:rsidR="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本文针对各大高校学生撰写毕业论文的实际需求，分析了</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Word</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文档的底层组织逻辑，设计与实现了基于</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>OOXML</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>的毕业论文格式检测和校正系统。系统基于</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>SpringBoot3</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>和</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Vue3</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>框架搭建，采用前后端分离方式开发，采用</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>DOM4J</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>开源工具处理</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Word</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文档底层</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>xml</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文件，能够自定义检测模版，实现对论文各种内容无关格式与内容相关格式的检测，并以批注形式给出检测报告。本文在</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>OOXML</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>规范、系统需求分析、设计、实现和测试等方面做了详细的介绍。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="7E778641" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>系统的创新点和优势在于使用了直接操作文档底层</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>xml</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文件方式对论文格式进行检测，相比使用</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>Word</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>对象模型操作文档的方式处理速度更快，并且实现了在格式检测过程中自动校正格式，减轻学生和老师工作量。同时，系统检测完成后并非给出一个单独的文档报告，而是以批注形式给出检测报告，用户可以根据批注对照修改格式，修改效率更高。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="3E7D3B13" w14:textId="60C19680" w:rsidR="00F46B54" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>虽然系统已经实现了论文检测的核心功能，但在系统实际运行和测试中，也发现有一些有待完善的地方。主要是在检测功能和用户交互功能上两方面。一方面在检测功能中论文对于表格样式的检测、公式样式的检测和目录检测样式的检测等功能还有待完善。例如控制表格为三线表、公式内容识别和编号引用正误等。另一方面在用户交互上，前端的用户界面还可以做得更美观，对于论文模版管理的页面还可以进行优化。此外，系统的安全性和可靠性方面仍可进一步完善和优化。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="65500E42" w14:textId="77777777" w:rsidR="00F46B54" w:rsidRDefault="00000000"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="0"/> 
+        </w:numPr>  
+        <w:jc w:val="center"/>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="33" w:name="_Toc153297503"/>  
+      <w:bookmarkStart w:id="34" w:name="_Toc153297724"/>  
+      <w:bookmarkStart w:id="35" w:name="_Toc166601377"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>致谢</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="33"/>  
+      <w:bookmarkEnd w:id="34"/>  
+      <w:bookmarkEnd w:id="35"/> 
+    </w:p>  
+    <w:p w14:paraId="217E16CD" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>“</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>言忠信</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>，</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>根在中华</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>；</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>行笃敬</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>，</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>走遍万邦</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>。”转眼间已过去四年时光，新生训练营时合唱的暨大学府校歌仿佛还</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:hint="eastAsia"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>萦绕耳畔</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>。停下指尖敲击的键盘，回首过往，我过去的每一步路、每一次成长和这次论文的完成，都离不开身边人的支持与帮助。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="7D3D881B" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>首先，我要感谢党和国家，创造了和平的国家和稳定的社会环境，让我一名“小镇做题家”可以凭自己的努力去接受良好的教育。党的理念和宗旨，将始终引领我今后的人生。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="3C9B5CE5" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>感谢我的导师张晓刚，在我系统设计、实现和论文撰写过程中给予耐心地指导，指出了我很多考虑不到的点。他丰富的经验和严谨的治学态度，让我得以站在更高的视角把握论文课题，攻克一个又一个困难。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="2F47A0C6" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>感谢我的父母，感谢你们二十多年无私的爱与支持，你们是我最坚实的后盾和最温暖的港湾，有了你们我才得以无畏困难，自信前行。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="69EF8EC3" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>感谢我求学路上的所有朋友们，我会珍惜与你们共度的时光，这些宝贵的经历和回忆将伴随我一生。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="2644CFF1" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>最后，我感谢我自己长期以来的努力和坚持，今后也要始终坚守本心、满怀热情、勤学笃行、善始善终、做一个问心无愧、对社会有价值的人。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="38EA291E" w14:textId="77777777" w:rsidR="00833C1A" w:rsidRPr="00833C1A" w:rsidRDefault="00833C1A" w:rsidP="00833C1A"> 
+      <w:pPr> 
+        <w:ind w:firstLineChars="200" w:firstLine="560"/>  
+        <w:rPr> 
+          <w:rFonts w:cs="宋体"/>  
+          <w:lang w:bidi="ar"/> 
+        </w:rPr>  
+        <w:spacing w:line="240" w:lineRule="auto"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:r w:rsidRPr="00833C1A"> 
+        <w:rPr> 
+          <w:rFonts w:cs="宋体" w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:lang w:bidi="ar"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>未来的路还很长，我将带着这份感激，勇往直前，不断探索和追求。在即将告别大学校园之际，我衷心祝愿暨南大学越办越好，祝愿我的老师和同学们前程似锦、万事如意！</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p w14:paraId="052B7C55" w14:textId="70F42C54" w:rsidR="00693E2A" w:rsidRDefault="00000000" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:pStyle w:val="10"/>  
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="0"/> 
+        </w:numPr>  
+        <w:jc w:val="center"/>  
+        <w:spacing w:lineRule="auto" w:line="480" w:afterLines="50" w:beforeLines="50"/>  
+        <w:ind w:firstLineChars="0"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="36" w:name="_Toc153297725"/>  
+      <w:bookmarkStart w:id="37" w:name="_Toc153297504"/>  
+      <w:bookmarkStart w:id="38" w:name="_Toc153297726"/>  
+      <w:bookmarkStart w:id="39" w:name="_Toc166601378"/>  
+      <w:bookmarkEnd w:id="36"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="36"/>  
+          <w:b/> 
+        </w:rPr>  
+        <w:lastRenderedPageBreak/>  
+        <w:t>参考文献</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="37"/>  
+      <w:bookmarkEnd w:id="38"/>  
+      <w:bookmarkEnd w:id="39"/>  
+      <w:r></w:r> 
+    </w:p>  
+    <w:p w14:paraId="201BC1FB" w14:textId="77777777" w:rsidR="00EA3472" w:rsidRDefault="00EA3472" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="76"/> 
+        </w:numPr>  
+        <w:wordWrap w:val="0"/>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="0"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="40" w:name="_Ref28579"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>吴海波</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>陈拾菊</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>.</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>本科毕业论文质量评价标准研究</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[J].</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>绍兴文理学院学报</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,2023,43(01):105-112+121.</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="40"/> 
+    </w:p>  
+    <w:p w14:paraId="63ED7680" w14:textId="77777777" w:rsidR="00EA3472" w:rsidRDefault="00EA3472" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="76"/> 
+        </w:numPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="0"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="41" w:name="_Ref163304819"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>祝艳</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>.</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>试析学位论文质量的内涵与标准</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[J].</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>文教资料</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,2018,(07):138-139.</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="41"/> 
+    </w:p>  
+    <w:p w14:paraId="27E7EECF" w14:textId="77777777" w:rsidR="00EA3472" w:rsidRDefault="00EA3472" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="76"/> 
+        </w:numPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="0"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="42" w:name="_Ref166410339"/>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>俞依玲</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>张林琳</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>.LaTeX</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>软件在学术论文排版中的应用</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[J].</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>价值工程</w:t> 
+      </w:r>  
+      <w:r w:rsidRPr="000E3252"> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,2012,31(35):209-210.</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="42"/> 
+    </w:p>  
+    <w:p w14:paraId="07C13AAB" w14:textId="77777777" w:rsidR="00EA3472" w:rsidRDefault="00EA3472" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="76"/> 
+        </w:numPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="0"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="43" w:name="_Ref163311835"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>刘树林</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>.</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>高校本科毕业生学位论文格式存在的问题与解决路径</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[J].</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>中国教育技术装备</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,2023,(12):121-124.</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="43"/> 
+    </w:p>  
+    <w:p w14:paraId="1AF45FD4" w14:textId="77777777" w:rsidR="00EA3472" w:rsidRDefault="00EA3472" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="76"/> 
+        </w:numPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:hanging="527" w:firstLineChars="0"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="44" w:name="_Ref163312714"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>常兴治</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>虞菊花</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>阚琦</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>.</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>高职毕业论文文档格式规范化的探究与实践</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[J].</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>常州信息职业技术学院学报</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,2020,19(05):51-53.</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="44"/> 
+    </w:p>  
+    <w:p w14:paraId="439E0467" w14:textId="3B59B295" w:rsidR="00EA3472" w:rsidRPr="00EA3472" w:rsidRDefault="00EA3472" w:rsidP="00EA3472"> 
+      <w:pPr> 
+        <w:numPr> 
+          <w:ilvl w:val="0"/>  
+          <w:numId w:val="76"/> 
+        </w:numPr>  
+        <w:spacing w:line="360" w:lineRule="auto"/>  
+        <w:ind w:firstLineChars="0"/>  
+        <w:jc w:val="both"/> 
+      </w:pPr>  
+      <w:bookmarkStart w:id="45" w:name="_Ref15777"/>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>张印</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>.</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>基于</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>VSTO</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>的高校毕业论文格式化处理软件的设计与实现</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>[D].</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>北京邮电大学</w:t> 
+      </w:r>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hint="eastAsia" w:eastAsia="宋体" w:ascii="Times New Roman" w:hAnsi="Times New Roman"/>  
+          <w:sz w:val="28"/>  
+          <w:b w:val="0"/> 
+        </w:rPr>  
+        <w:t>,2012.</w:t> 
+      </w:r>  
+      <w:bookmarkEnd w:id="45"/> 
+    </w:p>  
+    <w:p> 
+      <w:pPr> 
+        <w:widowControl/>  
+        <w:jc w:val="left"/> 
+      </w:pPr>  
+      <w:r> 
+        <w:rPr> 
+          <w:rFonts w:hAnsi="eastAsia"/>  
+          <w:sz w:val="36"/>  
+          <w:szCs w:val="36"/>  
+          <w:color w:val="FF0000"/> 
+        </w:rPr>  
+        <w:br/>  
+        <w:t>-------建议修改批注-------：</w:t>  
+        <w:br/>  
+        <w:t>论文全篇的图片和表格数量为2，为了提高论文的可读性，建议论文的图片和表格数量不少于2。</w:t>  
+        <w:br/> 
+      </w:r> 
+    </w:p>  
+    <w:sectPr w:rsidR="00EA3472" w:rsidRPr="00EA3472"> 
+      <w:headerReference w:type="even" r:id="rId10"/>  
+      <w:headerReference w:type="odd" r:id="rId10"/>  
+      <w:footerReference w:type="even" r:id="rId15"/>  
+      <w:footerReference w:type="odd" r:id="rId11"/>  
+      <w:pgSz w:w="11906" w:h="16838"/>  
+      <w:pgMar w:top="1418" w:right="1134" w:bottom="1418" w:left="1701" w:header="851" w:footer="992" w:gutter="0"/>  
+      <w:pgNumType w:start="1"/>  
+      <w:cols w:space="425"/>  
+      <w:docGrid w:type="lines" w:linePitch="312"/> 
+    </w:sectPr> 
+  </w:body> 
+</w:document>

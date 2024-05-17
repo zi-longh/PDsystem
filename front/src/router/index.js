@@ -21,6 +21,8 @@ const router = createRouter({
         {path:'papersOfStu', name:'PapersOfStu', component:()=>import('@/views/manager/PapersOfStu.vue')},
         {path:'createTemplate', name:'CreateTemplate', component:()=>import('@/views/manager/CreateTemplate.vue')},
         {path:'modifyTemplate', name:'ModifyTemplate', component:()=>import('@/views/manager/ModifyTemplate.vue')},
+        {path: 'accountManage', name: 'AccountManage', component: () => import('@/views/manager/AccountManage.vue')},
+        {path:'importAccount', name:'ImportAccount', component:()=>import('@/views/manager/ImportAccount.vue')},
       ]
     },
     { path: '/login', name: 'Login', component: () => import('@/views/Login.vue'),},

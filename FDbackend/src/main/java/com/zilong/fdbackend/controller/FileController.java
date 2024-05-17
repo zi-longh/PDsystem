@@ -41,9 +41,7 @@ public class FileController {
         String fileName = file.getOriginalFilename();  // 获取到原始的文件名 docx, doc
         // 检查是否存在同名文件，若存在则删除源文件
         File file1 = new File(ROOT_PATH + "/paperFile/" + fileName);
-        if (file1.exists()) {
-            file1.delete();
-        }
+        if (file1.exists()) file1.delete();
         // 检查文件类型，如果不是docx或doc则返回错误
         if (!fileName.endsWith(".docx") && !fileName.endsWith(".doc")) {
             return Result.error("文件类型错误，目前支持传入docx或doc文件");
@@ -59,7 +57,6 @@ public class FileController {
         HashMap<String, String> stringStringHashMap = new HashMap<>();
         stringStringHashMap.put("url", url);
         stringStringHashMap.put("filePath", finalFilePath.toString());
-
         return Result.success(stringStringHashMap);
     }
 
@@ -67,7 +64,7 @@ public class FileController {
      * 文件下载，下载docx文件
      */
     @GetMapping("/download")
-    public void download(String fileName, HttpServletResponse response) throws IOException {
+    public void download(String fileName, HttpServletResponse response)throws IOException {
         File file = new File(ROOT_PATH + "/outputFileRecord/" + fileName);  // 文件在存盘存储的对象
         ServletOutputStream os = response.getOutputStream();
         response.setHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(fileName, "UTF-8"));

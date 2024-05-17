@@ -25,7 +25,7 @@
             <el-icon><HomeFilled /></el-icon>
             <span>系统首页</span>
           </el-menu-item>
-          <el-sub-menu index="2">
+          <el-sub-menu index="2" v-if="user.role === 'STUDENT' || user.role === 'TEACHER'">
             <template #title>
               <el-icon><Memo /></el-icon>
               <span>查看论文模板</span>
@@ -57,7 +57,7 @@
 
           </el-sub-menu>
 
-          <el-sub-menu index="3">
+          <el-sub-menu index="3" v-if="user.role === 'STUDENT' || user.role === 'TEACHER'">
             <template #title>
               <el-icon><Memo /></el-icon>
               <span>论文检测</span>
@@ -72,16 +72,6 @@
             </el-menu-item>
           </el-sub-menu>
 
-          <el-sub-menu index="4" v-if="user.role === 'ADMIN'">
-            <template #title>
-              <el-icon><User /></el-icon>
-              <span>用户管理</span>
-            </template>
-            <el-menu-item index="/student">
-              <el-icon><UserFilled /></el-icon>
-              <span>学生信息</span>
-            </el-menu-item>
-          </el-sub-menu>
           <el-menu-item index="/personInfoForStu" v-if="user.role === 'STUDENT'">
             <el-icon><User /></el-icon>
             <span>个人资料</span>
@@ -94,6 +84,16 @@
           <el-menu-item index="/personInfoForTea" v-if="user.role === 'TEACHER'">
             <el-icon><User /></el-icon>
             <span>个人资料</span>
+          </el-menu-item>
+
+          <el-menu-item index="/accountManage" v-if="user.role === 'ADMIN'">
+            <el-icon><User /></el-icon>
+            <span>账号管理</span>
+          </el-menu-item>
+
+          <el-menu-item index="/importAccount" v-if="user.role === 'ADMIN'">
+            <el-icon><User /></el-icon>
+            <span>导入账号</span>
           </el-menu-item>
 
 

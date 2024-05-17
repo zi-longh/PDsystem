@@ -272,6 +272,7 @@ public class PreProcess {
             String defaultStyleOfNumberingPath = ROOT_PATH+"/defaultXmlFiles/numbering.txt";
             String fileContent = new String(Files.readAllBytes(Paths.get(defaultStyleOfNumberingPath))); // 读取文件内容到字符串
             Document documentNumbering = saxReader.read(xmlDirectory + "/word/numbering.xml");
+
             // 把默认的编号样式添加到numbering.xml文件中
             Element rootElementNumbering = documentNumbering.getRootElement();
             CDATA cdata = DocumentHelper.createCDATA(fileContent); // 创建CDATA, 用于存放xml格式的字符串
@@ -426,4 +427,5 @@ public class PreProcess {
         xmlwriter.write(document);
         xmlwriter.close();
     }
+
 }

@@ -25,6 +25,8 @@ public class Utils {
         pElement.selectNodes("descendant::w:sz").forEach(Node::detach);
         pElement.selectNodes("descendant::w:szCs").forEach(Node::detach);
         pElement.selectNodes("descendant::w:b").forEach(Node::detach);
+        pElement.selectNodes("descendant::w:i").forEach(Node::detach);
+        pElement.selectNodes("descendant::w:iCs").forEach(Node::detach);
 
         // 添加标准的字体属性
         Element rprElement = pElement.element("pPr").element("rPr");
@@ -34,6 +36,18 @@ public class Utils {
         rprElement.addElement("w:rFonts").addAttribute("w:ascii", req.getFontEnglishName()).addAttribute("w:eastAsia", req.getFontName());
         rprElement.addElement("w:sz").addAttribute("w:val", req.getFontSize());
         rprElement.addElement("w:szCs").addAttribute("w:val", req.getFontSize());
+
+        Element pPrElement = pElement.element("pPr");
+        if (pPrElement == null) {
+            pPrElement = pElement.addElement("pPr");
+        }
+        if (pPrElement.element("jc") == null) {
+            pPrElement.addElement("w:jc").addAttribute("w:val", "center");
+        }else{
+            Attribute jcAttr = pPrElement.element("jc").attribute("val");
+            jcAttr.setValue("center");
+        }
+
     }
 
     /**

@@ -3,6 +3,7 @@
     <div class="card" style="margin-bottom: 10px">
       <p style="margin: 5px;">
         <span style="font-size: 24px; font-weight: bold">查看模板要求详情 </span>
+        <span style="margin-left: 15px">当前查看的模板名称：{{ newValue }}</span>
       </p>
       <p style="margin-left: 4px">
         <el-select
@@ -19,8 +20,7 @@
           />
         </el-select>
         <el-button type="primary" style="margin-left: 10px" @click="loadTemplateData">查看</el-button>
-
-        <span style="margin-left: 15px">当前查看的模板名称：{{ newValue }}</span>
+        <el-button type="primary" style="margin-left: 10px" @click="preview">模版预览</el-button>
       </p>
     </div>
 
@@ -408,6 +408,7 @@
 <script setup lang="ts">
 import {reactive, ref} from "vue";
 import request from "@/utils/request";
+import {ElMessage} from "element-plus";
 
 interface Template {
   templateId: string;
@@ -645,6 +646,14 @@ const init = () => {
 
 };
 init();
+const preview = () => {
+  if (value.value === "") {
+    ElMessage.error('请选择模板')
+    return;
+  }
 
+//   用vue打开本地的pdf文件
+  window.open('src/assets/template/preview.pdf', '_blank');
+};
 
 </script>

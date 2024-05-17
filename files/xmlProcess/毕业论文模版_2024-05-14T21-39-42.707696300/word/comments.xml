@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<w:comments xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh wp14">  
+  <w:comment w:id="1" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“诚信声明”的字体大小不符合要求，应为“小三”，但实际为“一号”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="2" w:author="待修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>请仔细检查“诚信声明”的正文部分，疑似与模板不符。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="3" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“中文摘要”的字体样式不符合要求，应为加粗，但实际为不加粗。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="4" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“中文摘要”的字体样式不符合要求，应为宋体，但实际为微软雅黑。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="5" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“中文摘要”的字体样式不符合要求，应为加粗，但实际为不加粗。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="6" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“中文摘要”的字体样式不符合要求，应为宋体，但实际为微软雅黑。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="7" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>摘要正文内容已自动修正为标准格式。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="8" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“中文摘要”的行距不符合要求，应为“1倍行距”，但实际为“2.5倍行距”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="9" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>关键词内容已自动修正为标准格式。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="10" w:author="待修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>论文疑似缺乏“英文摘要”，或已有的“英文摘要”部分不完整，请补全。</w:t> 
+      </w:r> 
+    </w:p>  
+    <w:p> 
+      <w:r> 
+        <w:t>注意: 英文摘要部分应该在中文摘要和目录之间。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="11" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“结论”的对齐方式不符合要求，应为“左对齐”，但实际为“右对齐”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="12" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“结论”的字体大小不符合要求，应为“四号”，但实际为“19磅”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="13" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“结论”的字体大小不符合要求，应为“四号”，但实际为“19磅”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="14" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“结论”的字体大小不符合要求，应为“四号”，但实际为“19磅”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="15" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“结论”的字体大小不符合要求，应为“四号”，但实际为“19磅”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="16" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“结论”的字体大小不符合要求，应为“四号”，但实际为“19磅”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="17" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“结论”的字体大小不符合要求，应为“四号”，但实际为“19磅”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="18" w:author="建议修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>结论内容字数已经达到1290字，超过了推荐字数：630字, 建议适当删减。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="19" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“致谢”的字体样式不符合要求，应为宋体，但实际为仿宋_GB2312。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="20" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“绪论和正文”的字体大小不符合要求，应为“四号”，但实际为“小一”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="21" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处标题“绪论和正文”的字体样式不符合要求，应为宋体，但实际为微软雅黑。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="22" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的缩进不符合要求，应为“2字符”，但实际为“9.0字符”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="23" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”字体不应该加粗，已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="24" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的字体样式不符合要求，应为宋体，但实际为微软雅黑。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="25" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的字体大小不符合要求，应为“四号”，但实际为“小一”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="26" w:author="自动修改批注" w:date="2024-05-14T21:39:42Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的字体不应斜体，已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="27" w:author="自动修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的字体大小不符合要求，应为“四号”，但实际为“小六”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="28" w:author="自动修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的缩进不符合要求，应为“2字符”，但实际为“0.0字符”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="29" w:author="自动修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的缩进不符合要求，应为“2字符”，但实际为“0.0字符”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="30" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>标题不应有手打前缀编号，请删除！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="31" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>标题不应有手打汉字前缀编号，请删除！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="32" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>标题不应有手打汉字前缀编号，请删除！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="33" w:author="自动修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“绪论和正文”的字体大小不符合要求，应为“四号”，但实际为“二号”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="34" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>图片应当有图注，该图片下方没有图注，请检查！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="35" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>图注应当放置于对应图片的下方，该图注上方没有图，请检查！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="36" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>图片应当有图注，该图片下方没有图注，请检查！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="37" w:author="建议修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>图片大小小于规定的范围，建议图片宽度不小于1.0cm，高度不小于1.0cm，以保证图片的清晰度。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="38" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>图片应当有图注，该图片下方没有图注，请检查！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="39" w:author="建议修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>图片大小超出了规定的范围，建议图片宽度不超过17.0cm，高度不超过26.0cm。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="40" w:author="自动修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>此处段落“参考文献”的字体大小不符合要求，应为“四号”，但实际为“二号”。已自动修改。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="41" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>参考文献内容中不应包含中文标点符号[，。；：、]请修改！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="42" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>该条期刊文献(包括期刊中析出的文献)格式无法匹配GB/T 7714-2015标准，请修改！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="43" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>该条期刊文献(包括期刊中析出的文献)格式无法匹配GB/T 7714-2015标准，请修改！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="44" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>该条学位论文格式无法匹配GB/T 7714-2015标准，请修改！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="45" w:author="建议修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>当前论文参考文献只有6条，少于了推荐条数：8条, 建议增加参考文献数量，提高论文的可信度。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="46" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>不合规的引用，存在没有右上角标的引用，请修改！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="47" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>不合规的引用，同一个引用框，应从小到大进行引用！</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="48" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>无效的引用，只有6条参考文献，但出现了[7]。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="49" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>无效的引用，只有6条参考文献，但出现了[9]。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="50" w:author="待修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>从未引用过的文献[5]。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="51" w:author="建议修改批注" w:date="2024-05-14T21:39:43Z" w:initials="default"> 
+    <w:p> 
+      <w:r> 
+        <w:t>正文中对参考文献的引用并未按照从小到大的顺序进行，建议将先引用的文献放在前面，后引用的文献放在后面，即将当前引用顺序调整为[1, 2, 4, 3, 6]。</w:t> 
+      </w:r> 
+    </w:p> 
+  </w:comment>  
+  <w:comment w:id="53" w:author="概述批注" w:date="2024-05-14T21:39:43Z" w:initials="default">
+    <w:p>
+      <w:r>
+        <w:t>本次检测共生成批注52处，其中：</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>1. 待修改批注：18处。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>2. 自动修改批注：29处。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>3. 建议修改批注：5处。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>另外有1处文档末尾的批注。</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>请作者根据批注内容进行修改。</w:t>
+      </w:r>
+    </w:p>
+  </w:comment>
+</w:comments>

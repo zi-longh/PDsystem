@@ -11,7 +11,6 @@ import java.util.List;
 
 public class ElementCreator {
 
-
     private static void initElement(Element pElement, ParagraphRep pRep, boolean isPrefixBold, String prefixFont, String prefixStr, String contentStr) {
         Element pPrElement = pElement.element("pPr");
         // 删除该段落下的所有的w:r
@@ -24,6 +23,8 @@ public class ElementCreator {
         pPrElement.selectNodes("descendant::w:jc").forEach(Node::detach);
         pPrElement.selectNodes("descendant::w:sz").forEach(Node::detach);
         pPrElement.selectNodes("descendant::w:szCs").forEach(Node::detach);
+        pPrElement.selectNodes("descendant::w:i").forEach(Node::detach);
+        pPrElement.selectNodes("descendant::w:iCs").forEach(Node::detach);
 
         // 设置w:pPr
         /* w:spacing，w:ind，w:jc, w:b */
@@ -104,7 +105,7 @@ public class ElementCreator {
      * 转化为标准中文摘要正文段落，返回摘要正文字数
      * */
     static int convertToStdAbstract(Element pElement, ParagraphRep pRep, boolean isPrefixBold, String prefixFont, int maxContentLength) {
-        String prefixStr = "[摘  要]";
+        String prefixStr = "[摘 要]";
         StringBuilder content = new StringBuilder();
         List<Node> wtNodes = pElement.selectNodes("descendant::w:t");
         for (Node wtNode : wtNodes) {
